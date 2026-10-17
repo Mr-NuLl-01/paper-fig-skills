@@ -1,0 +1,29 @@
+# OS / editor metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Python runtime and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local secrets and private input material
+.env
+.env.*
+!.env.example
+private/
+local-data/
+
+# Regenerated output and application backups
+/outputs/
+/tmp/
+*.blend1
+*.blend2
+*.log

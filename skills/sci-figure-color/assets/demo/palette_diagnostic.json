@@ -1,0 +1,283 @@
+{
+  "method": "sRGB D65, CIELAB delta-E76; Machado2009 severity=1, linear RGB; gamut clipped",
+  "scope": "Finite diagnostic only. Not a universal accessibility pass; inspect actual figures at final size. Grayscale alone need not distinguish all categories.",
+  "source": "https://doi.org/10.1109/TVCG.2009.113",
+  "cases": {
+    "original": {
+      "colors": [
+        "#334E8C",
+        "#C77945",
+        "#759891",
+        "#90648C",
+        "#48515D"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        34.077,
+        58.273,
+        60.142,
+        48.182,
+        34.092
+      ],
+      "contrast_to_background": [
+        8.048,
+        3.36,
+        3.155,
+        4.786,
+        8.044
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 29.675
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 30.146
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 30.174
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 31.415
+        }
+      ]
+    },
+    "protanopia": {
+      "colors": [
+        "#32548E",
+        "#8F8240",
+        "#959491",
+        "#626F8E",
+        "#4D515E"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        35.928,
+        54.213,
+        61.32,
+        46.867,
+        34.54
+      ],
+      "contrast_to_background": [
+        7.515,
+        3.864,
+        3.033,
+        5.019,
+        7.912
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 16.202
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 20.921
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 25.063
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 28.336
+        }
+      ]
+    },
+    "deuteranopia": {
+      "colors": [
+        "#244C8B",
+        "#A29345",
+        "#8E8F92",
+        "#6D748B",
+        "#4B4F5D"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        32.716,
+        60.764,
+        59.408,
+        49.014,
+        33.728
+      ],
+      "contrast_to_background": [
+        8.462,
+        3.09,
+        3.234,
+        4.645,
+        8.153
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 15.837
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 16.018
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 26.661
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 31.106
+        }
+      ]
+    },
+    "tritanopia": {
+      "colors": [
+        "#005C66",
+        "#D9696D",
+        "#6C9996",
+        "#936772",
+        "#435455"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        35.228,
+        58.002,
+        60.043,
+        48.41,
+        34.375
+      ],
+      "contrast_to_background": [
+        7.713,
+        3.392,
+        3.165,
+        4.747,
+        7.961
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 16.157
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "delta_e76": 26.639
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 27.384
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 29.504
+        }
+      ]
+    },
+    "grayscale": {
+      "colors": [
+        "#505050",
+        "#8C8C8C",
+        "#919191",
+        "#727272",
+        "#505050"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        34.029,
+        58.25,
+        60.172,
+        48.041,
+        34.029
+      ],
+      "contrast_to_background": [
+        8.063,
+        3.363,
+        3.152,
+        4.811,
+        8.063
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 0.0
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 1.922
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 10.209
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 12.131
+        }
+      ]
+    }
+  },
+  "name": "indigo-copper"
+}

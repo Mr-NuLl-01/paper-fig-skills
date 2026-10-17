@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mechanism and Energy Diagrams"
+  short_description: "Draw precise mechanisms with explicit evidence and direction"
+  default_prompt: "Use $sci-figure-mechanism to prepare this scientific figure."

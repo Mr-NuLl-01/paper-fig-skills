@@ -1,0 +1,23 @@
+{
+  "provenance": "Original colour combinations designed for this task, not sampled or reverse-engineered from the reviewed papers. Starting points, not universal CVD-safe certificates.",
+  "palettes": {
+    "indigo-copper": {"label": "靛蓝与铜", "colors": ["#334E8C", "#C77945", "#759891", "#90648C", "#48515D"], "use": "层状器件、界面与离散条件"},
+    "plum-celadon": {"label": "梅紫与青瓷", "colors": ["#6F496C", "#4A8C83", "#BF9A50", "#566A8A", "#BB6974"], "use": "反应路径与多组分身份"},
+    "forest-rose": {"label": "森林与玫瑰", "colors": ["#34715D", "#B85F79", "#8C742E", "#5B7598", "#6F617A"], "use": "生长调控、柔性材料"},
+    "cobalt-vermillion": {"label": "钴蓝与朱红", "colors": ["#255FB1", "#C6513D", "#358E91", "#9069A4", "#8C784B"], "use": "紧凑曲线、关键条件和机理对照"},
+    "ochre-lagoon": {"label": "赭石与湖蓝", "colors": ["#A9792A", "#2D7F99", "#8A4C69", "#4D7B57", "#786CA0"], "use": "晶体组分、条件矩阵"},
+    "berry-olive": {"label": "浆果与橄榄", "colors": ["#A03E68", "#6F823D", "#517DA4", "#C07B53", "#5B596A"], "use": "类别状态、组装与过程分支"},
+    "navy-mint": {"label": "海军蓝与薄荷", "colors": ["#263E66", "#3A9589", "#BC728F", "#A88640", "#817C9F"], "use": "结构总览与多个实验条件"},
+    "terracotta-cyan": {"label": "陶土与青蓝", "colors": ["#AD5A4E", "#338D9D", "#58669A", "#829252", "#98638B"], "use": "材料分区、显微量化配对"},
+    "violet-chartreuse": {"label": "紫罗兰与黄绿", "colors": ["#7557A3", "#82933B", "#B96659", "#307D8C", "#785F4F"], "use": "不同组成与工艺分支"},
+    "graphite-saffron": {"label": "石墨与藏红", "colors": ["#404B58", "#BA8530", "#348780", "#9C587B", "#536DA0"], "use": "中性硬件、多个功能层"},
+    "marine-burgundy": {"label": "海蓝与酒红", "colors": ["#2D7192", "#853E59", "#85884A", "#BD7658", "#626698"], "use": "定量比较与局部结构"},
+    "sage-iris": {"label": "鼠尾草与鸢尾", "colors": ["#627C60", "#776397", "#B46C55", "#3F8495", "#A27685"], "use": "软材料、组织结构、分阶段过程"}
+  },
+  "continuous_candidates": {
+    "sequential": ["viridis", "cividis", "magma", "inferno", "Blues", "Purples", "YlGnBu", "YlOrBr"],
+    "diverging": ["RdBu_r", "BrBG", "PuOr", "PRGn"],
+    "cyclic": ["twilight", "twilight_shifted"]
+  },
+  "notes": "Discrete combinations are candidates; distinguish categories with labels/markers as necessary. Continuous map names refer to Matplotlib and must be checked in the installed version; do not interpolate these categorical swatches into scalar maps. Never encode missing as zero."
+}

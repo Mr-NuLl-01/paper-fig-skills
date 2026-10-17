@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600">
+<title>DEMO illustrative layered structure — not measured</title>
+<g id="labels" fill="#22313c" font-family="Arial, sans-serif">
+<text x="55" y="48" font-size="28">DEMO · editable side section</text>
+<text x="55" y="80" font-size="17">Illustrative geometry; thickness exaggerated; no physical scale</text></g>
+<g id="layer_substrate"><rect x="55.00" y="373.90" width="450.00" height="56.10" fill="#c2ccd5" stroke="#33424c" stroke-width="1"/></g>
+<g id="annotation_substrate" fill="none" stroke="#546674"><path d="M505.00,401.95 H560 L610,362"/></g>
+<g id="text_substrate" font-family="Arial, sans-serif" font-size="20" fill="#22313c"><text x="625" y="368">substrate</text></g>
+<g id="layer_bottom_electrode"><rect x="70.00" y="355.75" width="420.00" height="18.15" fill="#b56b43" stroke="#33424c" stroke-width="1"/></g>
+<g id="annotation_bottom_electrode" fill="none" stroke="#546674"><path d="M490.00,364.82 H560 L610,315"/></g>
+<g id="text_bottom_electrode" font-family="Arial, sans-serif" font-size="20" fill="#22313c"><text x="625" y="321">bottom electrode</text></g>
+<g id="layer_active_DEMO"><rect x="85.00" y="293.05" width="390.00" height="62.70" fill="#34a6b1" stroke="#33424c" stroke-width="1"/></g>
+<g id="annotation_active_DEMO" fill="none" stroke="#546674"><path d="M475.00,324.40 H560 L610,268"/></g>
+<g id="text_active_DEMO" font-family="Arial, sans-serif" font-size="20" fill="#22313c"><text x="625" y="274">active DEMO</text></g>
+<g id="layer_top_electrode"><rect x="100.00" y="271.60" width="360.00" height="21.45" fill="#c7a255" stroke="#33424c" stroke-width="1"/></g>
+<g id="annotation_top_electrode" fill="none" stroke="#546674"><path d="M460.00,282.33 H560 L610,221"/></g>
+<g id="text_top_electrode" font-family="Arial, sans-serif" font-size="20" fill="#22313c"><text x="625" y="227">top electrode</text></g>
+<g id="layer_cover_DEMO"><rect x="55.00" y="233.65" width="450.00" height="37.95" fill="#dfe9f4" stroke="#33424c" stroke-width="1"/></g>
+<g id="annotation_cover_DEMO" fill="none" stroke="#546674"><path d="M505.00,252.63 H560 L610,174"/></g>
+<g id="text_cover_DEMO" font-family="Arial, sans-serif" font-size="20" fill="#22313c"><text x="625" y="180">cover DEMO</text></g>
+<g id="note" font-family="Arial, sans-serif" fill="#546674" font-size="16"><text x="55" y="535">Source assets: device_demo.blend · separate assembled / exploded / section collections</text><text x="55" y="565">Material colors identify parts; they do not encode composition, thickness or performance.</text></g></svg>

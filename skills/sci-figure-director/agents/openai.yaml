@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Figure Director"
+  short_description: "Choose visual forms from evidence and reference figures"
+  default_prompt: "Use $sci-figure-director to prepare this scientific figure."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Image Plates"
+  short_description: "Compose microscopy and field plates while preserving evidence"
+  default_prompt: "Use $sci-figure-image to compose this scientific image plate."

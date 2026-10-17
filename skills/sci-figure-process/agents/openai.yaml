@@ -1,0 +1,4 @@
+interface:
+  display_name: "Growth and Experimental Processes"
+  short_description: "Show growth, fabrication and experiments across time and scale"
+  default_prompt: "Use $sci-figure-process to prepare this scientific figure."

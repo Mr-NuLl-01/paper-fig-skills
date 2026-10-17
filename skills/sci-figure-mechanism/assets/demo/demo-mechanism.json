@@ -1,0 +1,26 @@
+{
+  "status": "SYNTHETIC_DEMO_NOT_A_REAL_DEVICE",
+  "spatial_model": "Drift-only homogeneous medium with positive mobilities; no diffusion or ions.",
+  "direction_basis": {
+    "E": "right",
+    "electron_flux": "left",
+    "hole_flux": "right",
+    "conventional_drift_current": "right"
+  },
+  "energy_values_eV": {
+    "State set A": {
+      "x": 0.7,
+      "CB": -2.8,
+      "VB": -5.2
+    },
+    "State set B": {
+      "x": 2.6,
+      "CB": -3.3,
+      "VB": -5.0
+    }
+  },
+  "energy_reference": "vacuum",
+  "energy_horizontal_axis": "categorical, not spatial",
+  "process_evidence": "proposed synthetic demonstration only",
+  "purpose": "Verify coordinate and arrow grammar, not assert a material mechanism."
+}

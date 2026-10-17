@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Colour Systems"
+  short_description: "Choose semantic palettes and inspect perceptual limitations"
+  default_prompt: "Use $sci-figure-color to prepare this scientific figure."

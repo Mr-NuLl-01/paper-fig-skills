@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="407.52pt" height="252.850375pt" viewBox="0 0 407.52 252.850375" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T17:06:02.629629</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 252.850375 
+L 407.52 252.850375 
+L 407.52 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 9.72 198.626625 
+L 400.32 198.626625 
+L 400.32 22.370625 
+L 9.72 22.370625 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 25.995 174.08465 
+L 384.045 174.08465 
+L 384.045 44.681511 
+L 25.995 44.681511 
+z
+" clip-path="url(#p36e6b3492e)" style="fill: #f2f4f5; stroke: #a8adb0; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="text_1">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="205.02" y="210.225062" transform="rotate(-0 205.02 210.225062)">Position x (qualitative spatial axis)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_4">
+    <path d="M 9.72 198.626625 
+L 400.32 198.626625 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #606060" x="205.02" y="54.944519" transform="rotate(-0 205.02 54.944519)">DEMO homogeneous medium | drift only</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 76.818615 75.916752 
+Q 205.019784 75.916752 331.208492 75.916752 
+" style="fill: none; stroke: #606060; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 327.208492 73.916752 
+L 331.208492 75.916752 
+L 327.208492 77.916752 
+z
+" style="fill: #606060; stroke: #606060; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #606060" x="205.02" y="68.482451" transform="rotate(-0 205.02 68.482451)">E points right</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 313.687213 104.920903 
+Q 205.017633 104.920903 98.360513 104.920903 
+" style="fill: none; stroke: #216487; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 102.360513 106.920903 
+L 98.360513 104.920903 
+L 102.360513 102.920903 
+z
+" style="fill: #216487; stroke: #216487; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #216487" x="205.02" y="97.486603" transform="rotate(-0 205.02 97.486603)">electron particle flux: left</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 96.352787 136.156144 
+Q 205.022367 136.156144 311.679487 136.156144 
+" style="fill: none; stroke: #b74c46; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 307.679487 134.156144 
+L 311.679487 136.156144 
+L 307.679487 138.156144 
+z
+" style="fill: #b74c46; stroke: #b74c46; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #b74c46" x="205.02" y="128.721844" transform="rotate(-0 205.02 128.721844)">hole particle flux: right</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 96.352787 163.821643 
+Q 205.022367 163.821643 311.679487 163.821643 
+" style="fill: none; stroke: #33836b; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 307.679487 161.821643 
+L 311.679487 163.821643 
+L 307.679487 165.821643 
+z
+" style="fill: #33836b; stroke: #33836b; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #33836b" x="205.02" y="157.279778" transform="rotate(-0 205.02 157.279778)">conventional drift current: right</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="205.02" y="16.370625" transform="rotate(-0 205.02 16.370625)">DEMO | Spatial directions require an explicit model</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="7.2" y="243.986625" transform="rotate(-0 7.2 243.986625)">Synthetic concept. Assumes positive mobilities and no diffusion or ionic current.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p36e6b3492e">
+   <rect x="9.72" y="22.370625" width="390.6" height="176.256"/>
+  </clipPath>
+ </defs>
+</svg>

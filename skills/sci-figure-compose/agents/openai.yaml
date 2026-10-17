@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Figure Composition"
+  short_description: "Assemble figures for the intended reading order and final size"
+  default_prompt: "Use $sci-figure-compose to prepare this scientific figure."

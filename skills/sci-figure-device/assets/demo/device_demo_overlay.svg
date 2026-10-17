@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="750" viewBox="0 0 1100 750">
+<title>Editable overlay for DEMO renders</title>
+<g id="demo-label" font-family="Arial, sans-serif" fill="#20353f">
+<text x="38" y="45" font-size="28">DEMO · illustrative geometry</text>
+<text x="38" y="74" font-size="17">Not measured · not a reconstruction of a published figure</text>
+<text x="38" y="713" font-size="17">Material labels and section references remain editable in the side-section SVG.</text>
+</g></svg>

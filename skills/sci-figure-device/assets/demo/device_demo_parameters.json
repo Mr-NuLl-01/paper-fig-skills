@@ -1,0 +1,92 @@
+{
+  "evidence": "DEMO / illustrative / not to physical scale",
+  "layers": [
+    {
+      "name": "substrate",
+      "dimensions": [
+        6.0,
+        4.0,
+        0.34
+      ]
+    },
+    {
+      "name": "bottom_electrode",
+      "dimensions": [
+        5.6,
+        3.6,
+        0.11
+      ]
+    },
+    {
+      "name": "active_DEMO",
+      "dimensions": [
+        5.2,
+        3.2,
+        0.38
+      ]
+    },
+    {
+      "name": "top_electrode",
+      "dimensions": [
+        4.8,
+        2.8,
+        0.13
+      ]
+    },
+    {
+      "name": "cover_DEMO",
+      "dimensions": [
+        6.0,
+        4.0,
+        0.23
+      ]
+    }
+  ],
+  "views": {
+    "assembled": {
+      "camera": [
+        9,
+        -11,
+        8
+      ],
+      "target": [
+        0,
+        0,
+        0.7
+      ],
+      "scale": 8.3
+    },
+    "exploded": {
+      "camera": [
+        9,
+        -11,
+        9
+      ],
+      "target": [
+        0,
+        0,
+        1.65
+      ],
+      "scale": 9.2
+    },
+    "section": {
+      "camera": [
+        7,
+        -12,
+        5.6
+      ],
+      "target": [
+        0,
+        0.6,
+        0.65
+      ],
+      "scale": 7.8
+    }
+  },
+  "collections": [
+    "assembled",
+    "exploded",
+    "section"
+  ],
+  "render_note": "Denoising applies only to generated illustration; never apply to experimental pixels."
+}

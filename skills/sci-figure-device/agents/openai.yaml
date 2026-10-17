@@ -1,0 +1,4 @@
+interface:
+  display_name: "Device and Material Structures"
+  short_description: "Create editable sections, cutaways and spatial device views"
+  default_prompt: "Use $sci-figure-device to prepare this scientific figure."

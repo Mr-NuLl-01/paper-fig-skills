@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Figure Review"
+  short_description: "Check scientific meaning, visibility and editable deliverables"
+  default_prompt: "Use $sci-figure-review to prepare this scientific figure."

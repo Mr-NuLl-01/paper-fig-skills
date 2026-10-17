@@ -1,0 +1,208 @@
+{
+  "status": "SYNTHETIC_DEMO_NOT_RESEARCH_DATA",
+  "purpose": "Demonstrate task-dependent representation; not a universal layout.",
+  "paired_data": [
+    {
+      "sample_id": "B1-S1",
+      "batch_id": 1,
+      "condition": "Before",
+      "value": 3.4
+    },
+    {
+      "sample_id": "B1-S1",
+      "batch_id": 1,
+      "condition": "After",
+      "value": 3.88
+    },
+    {
+      "sample_id": "B1-S2",
+      "batch_id": 1,
+      "condition": "Before",
+      "value": 3.7309765181769476
+    },
+    {
+      "sample_id": "B1-S2",
+      "batch_id": 1,
+      "condition": "After",
+      "value": 4.810976518176948
+    },
+    {
+      "sample_id": "B1-S3",
+      "batch_id": 1,
+      "condition": "Before",
+      "value": 3.9691156912190815
+    },
+    {
+      "sample_id": "B1-S3",
+      "batch_id": 1,
+      "condition": "After",
+      "value": 3.8191156912190816
+    },
+    {
+      "sample_id": "B1-S4",
+      "batch_id": 1,
+      "condition": "Before",
+      "value": 4.106934400967184
+    },
+    {
+      "sample_id": "B1-S4",
+      "batch_id": 1,
+      "condition": "After",
+      "value": 4.8269344009671835
+    },
+    {
+      "sample_id": "B2-S1",
+      "batch_id": 2,
+      "condition": "Before",
+      "value": 4.150976518176948
+    },
+    {
+      "sample_id": "B2-S1",
+      "batch_id": 2,
+      "condition": "After",
+      "value": 4.750976518176947
+    },
+    {
+      "sample_id": "B2-S2",
+      "batch_id": 2,
+      "condition": "Before",
+      "value": 4.389115691219082
+    },
+    {
+      "sample_id": "B2-S2",
+      "batch_id": 2,
+      "condition": "After",
+      "value": 5.5891156912190825
+    },
+    {
+      "sample_id": "B2-S3",
+      "batch_id": 2,
+      "condition": "Before",
+      "value": 4.526934400967184
+    },
+    {
+      "sample_id": "B2-S3",
+      "batch_id": 2,
+      "condition": "After",
+      "value": 4.496934400967183
+    },
+    {
+      "sample_id": "B2-S4",
+      "batch_id": 2,
+      "condition": "Before",
+      "value": 4.649183700563049
+    },
+    {
+      "sample_id": "B2-S4",
+      "batch_id": 2,
+      "condition": "After",
+      "value": 5.489183700563049
+    },
+    {
+      "sample_id": "B3-S1",
+      "batch_id": 3,
+      "condition": "Before",
+      "value": 4.809115691219082
+    },
+    {
+      "sample_id": "B3-S1",
+      "batch_id": 3,
+      "condition": "After",
+      "value": 5.529115691219083
+    },
+    {
+      "sample_id": "B3-S2",
+      "batch_id": 3,
+      "condition": "Before",
+      "value": 4.9469344009671845
+    },
+    {
+      "sample_id": "B3-S2",
+      "batch_id": 3,
+      "condition": "After",
+      "value": 6.266934400967185
+    },
+    {
+      "sample_id": "B3-S3",
+      "batch_id": 3,
+      "condition": "Before",
+      "value": 5.069183700563049
+    },
+    {
+      "sample_id": "B3-S3",
+      "batch_id": 3,
+      "condition": "After",
+      "value": 5.159183700563049
+    },
+    {
+      "sample_id": "B3-S4",
+      "batch_id": 3,
+      "condition": "Before",
+      "value": 5.274929087040424
+    },
+    {
+      "sample_id": "B3-S4",
+      "batch_id": 3,
+      "condition": "After",
+      "value": 6.234929087040424
+    }
+  ],
+  "tradeoff": [
+    {
+      "setting": 0,
+      "delay_ms": 1.2,
+      "quality_percent": 71,
+      "non_dominated": true
+    },
+    {
+      "setting": 1,
+      "delay_ms": 1.7,
+      "quality_percent": 77,
+      "non_dominated": true
+    },
+    {
+      "setting": 2,
+      "delay_ms": 2.3,
+      "quality_percent": 80,
+      "non_dominated": true
+    },
+    {
+      "setting": 3,
+      "delay_ms": 2.8,
+      "quality_percent": 78,
+      "non_dominated": false
+    },
+    {
+      "setting": 4,
+      "delay_ms": 3.4,
+      "quality_percent": 85,
+      "non_dominated": true
+    },
+    {
+      "setting": 5,
+      "delay_ms": 4.0,
+      "quality_percent": 84,
+      "non_dominated": false
+    },
+    {
+      "setting": 6,
+      "delay_ms": 4.8,
+      "quality_percent": 88,
+      "non_dominated": true
+    },
+    {
+      "setting": 7,
+      "delay_ms": 5.5,
+      "quality_percent": 87,
+      "non_dominated": false
+    },
+    {
+      "setting": 8,
+      "delay_ms": 6.3,
+      "quality_percent": 89,
+      "non_dominated": true
+    }
+  ],
+  "evidence_type": "synthetic demonstration",
+  "statistical_inference": false
+}

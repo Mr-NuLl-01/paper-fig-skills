@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Data Figures"
+  short_description: "Build quantitative figures matched to scientific questions"
+  default_prompt: "Use $sci-figure-data to prepare this scientific figure."
