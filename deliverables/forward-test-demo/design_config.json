@@ -1,0 +1,74 @@
+{
+  "status": "DEMO — NOT RESEARCH RESULTS",
+  "claim": "Demonstrate how batch-resolved paired data expose performance–bandwidth tradeoffs.",
+  "canvas_mm": [
+    180,
+    104
+  ],
+  "layout": "compact layer context plus three equal-scale batch facets",
+  "independent_devices": 15,
+  "batches": 3,
+  "devices_per_batch": 5,
+  "numeric_source": "deterministic invented endpoints, random seed 2601017",
+  "pairing": "before/after on same device, assumed for DEMO",
+  "statistical_operations": "none; no fit, mean, error bar, p value, or pooled test",
+  "display_transforms": "linear axes; source endpoints rounded to 3 decimals; no values removed",
+  "unknown": [
+    "physical performance metric",
+    "actual numeric values",
+    "measurement conditions",
+    "bandwidth cutoff definition",
+    "all physical layer thicknesses",
+    "carrier-transfer rate"
+  ],
+  "qualitative_user_evidence": [
+    "steady-state spectrum changes",
+    "stability improves"
+  ],
+  "mechanism_route": "No carrier-transfer arrows or rate claim; state unmeasured boundary explicitly.",
+  "layers_bottom_to_top": [
+    "glass",
+    "ITO",
+    "active film",
+    "Au"
+  ],
+  "schematic_scale": "not to scale; display thicknesses arbitrary; physical thicknesses unknown",
+  "color_scopes": {
+    "conditions": {
+      "before": {
+        "color": "#697680",
+        "shape": "open circle"
+      },
+      "after": {
+        "color": "#176B7B",
+        "shape": "filled diamond"
+      }
+    },
+    "material_identity_only": {
+      "glass": "#E7EDF0",
+      "ITO": "#B8CED3",
+      "active_film": "#E5C58D",
+      "Au": "#BA9461"
+    },
+    "pairing": {
+      "color": "#9BA9AD",
+      "meaning": "within-device condition order, not physical transport"
+    }
+  },
+  "font_family": "DejaVu Sans, sans-serif",
+  "font_sizes_viewbox_units": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    35,
+    36
+  ],
+  "main_file": "demo_performance_bandwidth.svg",
+  "source_data": "demo_data.csv",
+  "generator": "make_figure.py",
+  "external_assets": [],
+  "author_software": "unknown; this original draft uses Python stdlib + Inkscape"
+}

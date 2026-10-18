@@ -1,0 +1,20 @@
+const {chromium}=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright');
+const fs=require('fs');
+(async()=>{
+ const root='/workspace/scratch/bff0697374b8/figure-atlas';
+ const browser=await chromium.launch({headless:true,executablePath:root+'/tools/playwright-browsers/chromium-headless-shell-1234/chrome-headless-shell-linux64/chrome-headless-shell',args:['--no-sandbox']});
+ const page=await browser.newPage({viewport:{width:1280,height:1000}});let errors=[],external=[];
+ page.on('pageerror',e=>errors.push(String(e)));
+ await page.route('**/*',async route=>{const u=route.request().url();if(u.startsWith('file:')||u.startsWith('data:'))await route.continue();else {external.push(u);await route.abort();}});
+ await page.goto('file://'+root+'/deliverables/color-atlas.html');await page.evaluate(()=>document.fonts.ready);
+ const desktop=await page.evaluate(()=>({details:document.querySelectorAll('details').length,fonts:document.fonts.check('16px "Figure Atlas CJK"'),overflow:document.documentElement.scrollWidth>innerWidth}));
+ await page.locator('details').first().locator('summary').click();
+ await page.locator('details').first().scrollIntoViewIfNeeded();
+ await page.screenshot({path:root+'/review/color-desktop.png'});
+ await page.setViewportSize({width:390,height:844});await page.evaluate(()=>scrollTo(0,0));
+ const mobile=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth,details:document.querySelectorAll('details').length}));
+ await page.screenshot({path:root+'/review/color-mobile.png'});
+ const result={desktop,mobile,errors,external_requests:external};
+ fs.writeFileSync(root+'/review/color-html-check.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+ await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

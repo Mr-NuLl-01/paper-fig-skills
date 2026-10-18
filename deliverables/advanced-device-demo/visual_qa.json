@@ -1,0 +1,26 @@
+{
+  "evidence": "DEMO / original illustration / no experimental data",
+  "actually_viewed": [
+    "advanced_device_overview.png",
+    "advanced_device_interface.png",
+    "advanced_device_preview.png",
+    "advanced_device_reopened_check.png"
+  ],
+  "visual_findings": [
+    "Eight alternating fingers resolve cleanly; both networks retain independent round terminals.",
+    "Shared front notch reveals all three layers without cutting the contact pattern.",
+    "Matte pale metal does not obscure gap boundaries.",
+    "Vector leaders were adjusted after rendered inspection to avoid crossing text."
+  ],
+  "parameter_roundtrip": "Current generation script successfully rebuilt the native scene from exported parameter JSON; projection anchors unchanged.",
+  "native_reopen": "Passed; five single-component manifold meshes, two retained orthographic cameras; actual re-render viewed.",
+  "unknown": [
+    "material chemistry",
+    "fabricated dimensions",
+    "contact barriers",
+    "electric field",
+    "photocurrent",
+    "process feasibility"
+  ],
+  "unchanged_scope": "Existing simple demo and all nine skills untouched."
+}

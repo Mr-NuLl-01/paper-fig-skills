@@ -1,0 +1,581 @@
+{
+  "audit_date": "2026-10-17",
+  "auditor": "independent evidence_audit sub-agent",
+  "scope": {
+    "design": "purposeful spot check, three papers per group",
+    "reported_corpus_papers": 89,
+    "reported_corpus_figures": 178,
+    "papers_checked": 12,
+    "figures_actually_opened": 24,
+    "skills_read": 9,
+    "not_a_pass_rate": true,
+    "record_and_skill_mutations": false,
+    "statements_about_full_corpus_reading": "Corpus-wide 66/23 reading levels are declarations carried by producer records; this audit does not independently certify that all 89 were read."
+  },
+  "conclusion": {
+    "blocking_findings_detected_in_sample": 0,
+    "major_findings_detected_in_sample": 0,
+    "minor_findings": 4,
+    "minor_recommendations": 1,
+    "text": "抽查范围内未发现图号/图像重大错配或作者最终作图软件虚假归属；有限问题见findings，不把此结论推广为89篇全部通过。"
+  },
+  "sample": [
+    {
+      "id": "A01",
+      "doi": "10.1038/s41467-024-47891-4",
+      "year": 2024,
+      "primary_url": "https://www.nature.com/articles/s41467-024-47891-4",
+      "figures_actually_opened": [
+        {
+          "number": 1,
+          "path": "corpus/a/s41467-024-47891-4/fig1.png",
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-47891-4/MediaObjects/41467_2024_47891_Fig1_HTML.png"
+        },
+        {
+          "number": 4,
+          "path": "corpus/a/s41467-024-47891-4/fig4.png",
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-47891-4/MediaObjects/41467_2024_47891_Fig4_HTML.png"
+        }
+      ],
+      "primary_text_examined": [
+        "corpus/a/s41467-024-47891-4/article.html:Fig1/Fig4 container and referring paragraphs"
+      ],
+      "checks": {
+        "figure_identity": "supported_in_selected_source_version",
+        "composition_and_color": "supported_in_audited_figures",
+        "software_attribution": "unknown_kept_separate_from_reconstruction_suggestion"
+      },
+      "observation": "Fig1堆叠/电路/光学模型、静态与动态成膜、红蓝紫器件曲线、正负偏压照片及Fig4串联/照片栏/相位波形均支持记录；原图Fig1i实为EQE-J、j为J-V-L，而caption i/j相反，记录已主动保留此来源矛盾。",
+      "finding_ids": []
+    },
+    {
+      "id": "A14",
+      "doi": "10.1038/s41586-024-07460-7",
+      "year": 2024,
+      "primary_url": "https://www.nature.com/articles/s41586-024-07460-7",
+      "figures_actually_opened": [
+        {
+          "number": 2,
+          "path": "corpus/a/s41586-024-07460-7/fig3.jpg",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a64a/11186751/1563b0737ac6/41586_2024_7460_Fig2_HTML.jpg"
+        },
+        {
+          "number": 4,
+          "path": "corpus/a/s41586-024-07460-7/fig9.jpg",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a64a/11186751/c9548c5d13d1/41586_2024_7460_Fig4_HTML.jpg"
+        }
+      ],
+      "primary_text_examined": [
+        "corpus/a/s41586-024-07460-7/article.xml:Main, Fig2/Fig4"
+      ],
+      "checks": {
+        "figure_identity": "supported_in_selected_source_version",
+        "composition_and_color": "supported_in_audited_figures",
+        "software_attribution": "unknown_kept_separate_from_reconstruction_suggestion"
+      },
+      "observation": "Fig2（本地fig3）为2×3器件/性能/70器件统计/寿命；Fig4（本地fig9）为GIWAXS、角度分峰与相强度，红立方/蓝四方。主文明确双添加剂17h与control19h相近，支持不得写寿命同步提升。XML第2个是Extended Data Fig1，record未误把序号当图号。",
+      "finding_ids": []
+    },
+    {
+      "id": "A23",
+      "doi": "10.1038/s41928-023-00950-y",
+      "year": 2023,
+      "primary_url": "https://www.nature.com/articles/s41928-023-00950-y",
+      "figures_actually_opened": [
+        {
+          "number": 1,
+          "path": "corpus/a/s41928-023-00950-y/page3.png",
+          "url": "https://www.nature.com/articles/s41928-023-00950-y/figures/1"
+        },
+        {
+          "number": 4,
+          "path": "corpus/a/s41928-023-00950-y/page7.png",
+          "url": "https://www.nature.com/articles/s41928-023-00950-y/figures/4"
+        }
+      ],
+      "primary_text_examined": [
+        "corpus/a/s41928-023-00950-y/pdftext.txt:Design and Fig1/Fig4 captions",
+        "corpus/a/s41928-023-00950-y/article.pdf:pages1/3/7"
+      ],
+      "checks": {
+        "figure_identity": "supported_in_selected_source_version",
+        "composition_and_color": "supported_in_audited_figures",
+        "software_attribution": "unknown_kept_separate_from_reconstruction_suggestion"
+      },
+      "observation": "本地期刊排版PDF页3为Fig1九面板，页7为Fig4；State of ions横轴、LGP/HGP蓝/粉紫及真实阵列/模拟识别边界支持记录。正文开头明确诊断探索经由simulations；caption4e明确Simulated。PDF来源URL待补。",
+      "finding_ids": [
+        "EA-03"
+      ]
+    },
+    {
+      "id": "B01",
+      "doi": "10.1038/ncomms15688",
+      "year": 2017,
+      "primary_url": "https://doi.org/10.1038/ncomms15688",
+      "figures_actually_opened": [
+        {
+          "number": 3,
+          "path": "corpus/b/B01/figure_3.jpg",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/da9d/5482054/0036375e2771/ncomms15688-f3.jpg"
+        },
+        {
+          "number": 5,
+          "path": "corpus/b/B01/figure_5.jpg",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/da9d/5482054/f7f842aece4a/ncomms15688-f5.jpg"
+        }
+      ],
+      "primary_text_examined": [
+        "corpus/b/B01/fulltext.xml:Fig3/Fig5 captions and corresponding Results paragraphs"
+      ],
+      "checks": {
+        "figure_identity": "supported_in_selected_source_version",
+        "composition_and_color": "supported_in_audited_figures",
+        "software_attribution": "unknown_kept_separate_from_reconstruction_suggestion"
+      },
+      "observation": "Fig3上层状态链分RT/annealing，下层离子笼到晶体；Fig5四帧绿褐显微像、虚圈、截面与蓝灰红概念浓度曲线。主文及图注明称schematically，支持不是实测浓度。",
+      "finding_ids": []
+    },
+    {
+      "id": "B05",
+      "doi": "10.1038/ncomms6598",
+      "year": 2014,
+      "primary_url": "https://doi.org/10.1038/ncomms6598",
+      "figures_actually_opened": [
+        {
+          "number": 2,
+          "path": "corpus/b/B05/figure_2.jpg",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f800/4268696/bc4aa996b53f/ncomms6598-f2.jpg"
+        },
+        {
+          "number": 5,
+          "path": "corpus/b/B05/figure_5.jpg",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f800/4268696/137f92b85bd9/ncomms6598-f5.jpg"
+        }
+      ],
+      "primary_text_examined": [
+        "corpus/b/B05/fulltext.xml:Fig2/Fig5 captions and corresponding Results paragraphs"
+      ],
+      "checks": {
+        "figure_identity": "supported_in_selected_source_version",
+        "composition_and_color": "supported_with_specific_notes",
+        "software_attribution": "unknown_kept_separate_from_reconstruction_suggestion"
+      },
+      "observation": "Fig2为AFM孪晶/空位/晶界/塑晶四区；Fig5六帧0、5、14、25、37、82min追踪I–IV与并合；caption明确向上扫描、并合超出CNT。构图和限制支持，标记概括有EA-01。",
+      "finding_ids": [
+        "EA-01"
+      ]
+    },
+    {
+      "id": "B17",
+      "doi": "10.1038/s41929-023-01070-8",
+      "year": 2024,
+      "primary_url": "https://www.nature.com/articles/s41929-023-01070-8",
+      "figures_actually_opened": [
+        {
+          "number": 2,
+          "path": "corpus/b/B17/figure_page_6.png",
+          "url": "https://recercat.cat/bitstream/2072/537196/1/NatCatal_2024_solution_based_cu_transient_species_mediate_the_reconstruction_of_copper_electrocatalysts_for_co2_reduction.pdf#page=6"
+        },
+        {
+          "number": 6,
+          "path": "corpus/b/B17/figure_page_14.png",
+          "url": "https://recercat.cat/bitstream/2072/537196/1/NatCatal_2024_solution_based_cu_transient_species_mediate_the_reconstruction_of_copper_electrocatalysts_for_co2_reduction.pdf#page=14"
+        }
+      ],
+      "primary_text_examined": [
+        "corpus/b/B17/author_manuscript.pdf:pages6/14",
+        "corpus/b/B17/manuscript_text.txt:ICP-MS,Discussion,Conclusions"
+      ],
+      "checks": {
+        "figure_identity": "supported_in_selected_source_version",
+        "composition_and_color": "supported_in_audited_figures",
+        "software_attribution": "unknown_kept_separate_from_reconstruction_suggestion"
+      },
+      "observation": "作者接受稿页6明确Fig2，页14明确Fig6。三层共享时间、蓝无dmphen/红含dmphen、浅原始/深FFT平滑曲线与铜表面CO-[CuCO]+-Cu+循环支持记录；结论明确需要新operando技术确认瞬态身份。未独立复核最终publisher版只有5图这一外部版本数量。",
+      "finding_ids": []
+    },
+    {
+      "id": "C02",
+      "doi": "10.1038/s41592-023-01995-9",
+      "year": 2023,
+      "primary_url": "https://doi.org/10.1038/s41592-023-01995-9",
+      "figures_actually_opened": [
+        {
+          "number": 1,
+          "path": "corpus/c/C02/page-02.png",
+          "url": "https://schuler.bioc.uzh.ch/wp-content/uploads/2023/09/yang23schuler.pdf"
+        },
+        {
+          "number": 2,
+          "path": "corpus/c/C02/page-03.png",
+          "url": "https://schuler.bioc.uzh.ch/wp-content/uploads/2023/09/yang23schuler.pdf"
+        }
+      ],
+      "primary_text_examined": [
+        "corpus/c/C02/source.pdf:pages2/3; captions and adjacent main paragraphs"
+      ],
+      "checks": {
+        "figure_identity": "supported_in_selected_source_version",
+        "composition_and_color": "supported_in_audited_figures",
+        "software_attribution": "unknown_kept_separate_from_reconstruction_suggestion"
+      },
+      "observation": "机构公开期刊格式PDF页2为Fig1、页3为Fig2。Fig1通道总图、6个时间帧红色手动着色单滴、观测位置到FRET分布；Fig2左右结合案例、紫/蓝时间与浓度序列、断轴动力学均支持。caption明确红滴是manually colored，并非自然红色液滴。",
+      "finding_ids": []
+    },
+    {
+      "id": "C03",
+      "doi": "10.1038/s41592-022-01643-8",
+      "year": 2022,
+      "primary_url": "https://doi.org/10.1038/s41592-022-01643-8",
+      "figures_actually_opened": [
+        {
+          "number": 1,
+          "path": "corpus/c/C03/figure_01_full.png",
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-022-01643-8/MediaObjects/41592_2022_1643_Fig1_HTML.png"
+        },
+        {
+          "number": 2,
+          "path": "corpus/c/C03/figure_02_full.png",
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-022-01643-8/MediaObjects/41592_2022_1643_Fig2_HTML.png"
+        }
+      ],
+      "primary_text_examined": [
+        "corpus/c/C03/article.html:front matter, Fig1/Fig2 captions, Results paragraphs"
+      ],
+      "checks": {
+        "figure_identity": "supported_in_selected_source_version",
+        "composition_and_color": "supported_in_audited_figures",
+        "software_attribution": "unknown_kept_separate_from_reconstruction_suggestion"
+      },
+      "observation": "PMC页头明确author manuscript、final edited DOI一致；主图取publisher整图1/2。几何切核/径向展开、12孔板照片、操作图与Day×method显微矩阵支持记录；后段不同培养日的功能比较需保留EA-05边界。",
+      "finding_ids": [
+        "EA-05"
+      ]
+    },
+    {
+      "id": "C12",
+      "doi": "10.1038/s41551-024-01280-w",
+      "year": 2025,
+      "primary_url": "https://doi.org/10.1038/s41551-024-01280-w",
+      "figures_actually_opened": [
+        {
+          "number": 1,
+          "path": "corpus/c/C12/figure_01_full.png",
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41551-024-01280-w/MediaObjects/41551_2024_1280_Fig1_HTML.png"
+        },
+        {
+          "number": 2,
+          "path": "corpus/c/C12/figure_02_full.png",
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41551-024-01280-w/MediaObjects/41551_2024_1280_Fig2_HTML.png"
+        }
+      ],
+      "primary_text_examined": [
+        "corpus/c/C12/article.xml:Fig1/Fig2 captions and Overview paragraphs"
+      ],
+      "checks": {
+        "figure_identity": "supported_in_selected_source_version",
+        "composition_and_color": "supported_in_audited_figures",
+        "software_attribution": "unknown_kept_separate_from_reconstruction_suggestion"
+      },
+      "observation": "原XML第一个fig是Extended Data Fig1，但所选publisher PNG1/2确为主图。图1猕猴解剖/无线监测/ACC与LFP/AI分类四区；图2探针与记录器功能爆炸、实物/尺度/CT支持记录。主文说明customized smartphone app，图中界面只是系统概念示意。",
+      "finding_ids": []
+    },
+    {
+      "id": "D01",
+      "doi": "10.1038/s41586-024-07487-w",
+      "year": 2024,
+      "primary_url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "figures_actually_opened": [
+        {
+          "number": "Fig. 1",
+          "path": "corpus/d/D01/figure_01.jpg",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1437/11168924/dc9b1cc96d82/41586_2024_7487_Fig1_HTML.jpg"
+        },
+        {
+          "number": "Fig. 2",
+          "path": "corpus/d/D01/figure_02.jpg",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1437/11168924/17a091851317/41586_2024_7487_Fig2_HTML.jpg"
+        }
+      ],
+      "primary_text_examined": [
+        "corpus/d/D01/article.xml:Fig1/Fig2 captions and Main/Network architecture paragraphs"
+      ],
+      "checks": {
+        "figure_identity": "supported_in_selected_source_version",
+        "composition_and_color": "supported_with_specific_notes",
+        "software_attribution": "unknown_kept_separate_from_reconstruction_suggestion"
+      },
+      "observation": "主图1分子叠合、四类benchmark、底部inference流程；主图2顶部pairformer、左diffusion、右训练曲线、底部训练路径，色语义与直接标签支持。图注给出不同任务的不同metric/n，支持不可跨类型直接按柱高排名。单图notes有EA-02。",
+      "finding_ids": [
+        "EA-02"
+      ]
+    },
+    {
+      "id": "D14",
+      "doi": "10.1038/ncomms4286",
+      "year": 2014,
+      "primary_url": "https://doi.org/10.1038/ncomms4286",
+      "figures_actually_opened": [
+        {
+          "number": "Figure 1",
+          "path": "corpus/d/D14/figure_01.jpg",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9a18/3976994/21e9050c3efb/nihms-558863-f0001.jpg"
+        },
+        {
+          "number": "Figure 2",
+          "path": "corpus/d/D14/figure_02.jpg",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9a18/3976994/40333843ad77/nihms-558863-f0002.jpg"
+        }
+      ],
+      "primary_text_examined": [
+        "corpus/d/D14/article.xml:Fig1/Fig2 captions and chiral 2DES Results paragraphs"
+      ],
+      "checks": {
+        "figure_identity": "supported_in_selected_source_version",
+        "composition_and_color": "supported_with_specific_notes",
+        "software_attribution": "unknown_kept_separate_from_reconstruction_suggestion"
+      },
+      "observation": "2014原文Fig1脉冲偏振/绿色LH2与紫色波包/二维谱；Fig2手性pump/probe两行、橙绿截线与右曲线相连。caption把波包称semiclassical、正负为左右圆偏振吸收差；建议发散色标属于审美/解码建议，不是作者数据错误。单图notes有EA-02。",
+      "finding_ids": [
+        "EA-02"
+      ]
+    },
+    {
+      "id": "D20",
+      "doi": "10.1038/s41586-024-07558-y",
+      "year": 2024,
+      "primary_url": "https://doi.org/10.1038/s41586-024-07558-y",
+      "figures_actually_opened": [
+        {
+          "number": "Fig. 1",
+          "path": "corpus/d/D20/figure_01.jpg",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/066c/11446842/c87db67f45fc/41586_2024_7558_Fig1_HTML.jpg"
+        },
+        {
+          "number": "Fig. 2",
+          "path": "corpus/d/D20/main_figure_02.jpg",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/066c/11446842/8dc8d0ed28d6/41586_2024_7558_Fig2_HTML.jpg"
+        }
+      ],
+      "primary_text_examined": [
+        "corpus/d/D20/article.xml:Fig1/Fig2 captions, Reconstruction/Intrinsic neurons paragraphs, targeted software passages"
+      ],
+      "checks": {
+        "figure_identity": "supported_in_selected_source_version",
+        "composition_and_color": "supported_with_specific_notes",
+        "software_attribution": "scope_precision_needed"
+      },
+      "observation": "XML依次Fig1、Extended1、Extended2、Fig2；实际record第二图main_figure_02为Neuron categories，并非本地旧figure_02。图1资源生态和神经总览，图2双侧计数、聚合连接与类别形态支持；原caption明确mirror inverted。软件范围及单图notes见EA-02/EA-04。",
+      "finding_ids": [
+        "EA-02",
+        "EA-04"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "EA-01",
+      "severity": "minor",
+      "status": "open_at_audit",
+      "scope": [
+        "B05"
+      ],
+      "location": "corpus/b/b_records.json:B05.color_observation",
+      "finding": "颜色概括称白虚线标孪晶/晶界；Fig2a/b用白虚线界定孪晶，Fig2c的晶界实际用白箭头。",
+      "evidence": [
+        "corpus/b/B05/figure_2.jpg",
+        "corpus/b/B05/fulltext.xml:Figure 2 caption"
+      ],
+      "impact": "不改变图号或科学对象，但降低标记语法复用的精确度。",
+      "repair": "分别写白虚线=孪晶边界、白箭头=独立簇晶界、黑箭头=空位或并合（按具体图）。"
+    },
+    {
+      "id": "EA-02",
+      "severity": "minor",
+      "status": "open_at_audit",
+      "scope": [
+        "D01",
+        "D14",
+        "D20"
+      ],
+      "location": "corpus/d/d_records.json:figures_viewed[].visual_notes",
+      "finding": "单图visual_notes不是逐图独立记录：第一图条目合并两幅构图/配色，第二图条目主要为两幅综合优点与局限。",
+      "evidence": [
+        "corpus/d/d_records.json:D01.figures_viewed",
+        "corpus/d/d_records.json:D14.figures_viewed",
+        "corpus/d/d_records.json:D20.figures_viewed"
+      ],
+      "impact": "整篇composition/color字段与实际图大体一致，但若按单图检索会把图2特征误分到图1。",
+      "repair": "将visual_notes按已记录number拆分；综合分析保留在篇级字段。"
+    },
+    {
+      "id": "EA-03",
+      "severity": "minor",
+      "status": "open_at_audit",
+      "scope": [
+        "A23"
+      ],
+      "location": "corpus/a/a_records.json:A23.source_refs and corpus/a/s41928-023-00950-y/metadata.json",
+      "finding": "当前source_refs仅为原会话turn引用；metadata列publisher figure页，未留实际机构PDF下载URL。已核本地PDF第一页、页3/7的标题、DOI、期刊排版和图号一致。",
+      "evidence": [
+        "corpus/a/s41928-023-00950-y/article.pdf",
+        "corpus/a/s41928-023-00950-y/pdftext.txt",
+        "corpus/a/s41928-023-00950-y/metadata.json"
+      ],
+      "impact": "不构成图文错配；离开原会话后无法精确重取该PDF副本或核对获取版本。",
+      "repair": "补实际下载URL、取得日期和版本表述；保留publisher DOI与图页作为主出版身份。不能凭institution-hosted自动称accepted manuscript。"
+    },
+    {
+      "id": "EA-04",
+      "severity": "minor",
+      "status": "open_at_audit",
+      "scope": [
+        "D20"
+      ],
+      "location": "corpus/d/d_records.json:D20.software_evidence",
+      "finding": "Neuroglancer名称确有原始来源，但出现于Methods→Proofreading annotations、致谢、作者贡献；本次查到的角色是校对/注释。当前“正文明确神经可视化平台Neuroglancer”未精确标其来源范围，且不在所声明主文图导向阅读小节中。",
+      "evidence": [
+        "corpus/d/D20/article.xml:Methods/Proofreading annotations",
+        "corpus/d/D20/article.xml:Author contributions",
+        "corpus/d/D20/article.xml:Fig. 1 caption"
+      ],
+      "impact": "不能据此归属最终面板渲染或排版软件。当前记录已将最终排版/导出保留unknown，故不是最终软件误归。",
+      "repair": "明确主文/图1图注明示CAVE等工具生态；若保留Neuroglancer则注明定向补查Methods/作者贡献及proofreading用途，最终图渲染/排版unknown。"
+    },
+    {
+      "id": "EA-05",
+      "severity": "minor",
+      "status": "recommendation_not_false_claim",
+      "scope": [
+        "C03",
+        "sci-figure-compose"
+      ],
+      "location": "corpus/c/c_records.json:C03.limitations; skills/sci-figure-compose/references/layout-strategies.md:C03 case",
+      "finding": "C03 Fig2顶部Day5/10/14×培养法矩阵成立；后段功能/分化图却包含Drop D7与OCTOPUS D14，原图注说明其目的为考察延长培养。篇级记录和技能案例的概括没有复述这一局部限制。",
+      "evidence": [
+        "corpus/c/C03/article.html:Fig. 2 caption panels m/n",
+        "corpus/c/C03/figure_02_full.png"
+      ],
+      "impact": "目前没有明说同日因果比较，不判为错误；迁移案例时若一概当成同时间方法对照，可能混合培养时长和方法效应。",
+      "repair": "在案例补一句：顶部为同日矩阵；后段D7对D14用于延长培养效果，重建需逐面板保留day/condition，不把整图假设为等时长比较。"
+    }
+  ],
+  "skills": [
+    {
+      "name": "sci-figure-director",
+      "skill_md_read": true,
+      "references_examined": [
+        "references/evidence-index.md:scope and sampled rows",
+        "references/visual-grammars.md",
+        "references/brief-contract.md"
+      ],
+      "conclusion": "声明89篇为目的抽样、66通读/23定向、Methods/SI逐篇边界；多语法可组合，简单图直接制作。未将顶刊品牌等同质量。"
+    },
+    {
+      "name": "sci-figure-color",
+      "skill_md_read": true,
+      "references_examined": [
+        "references/color-semantics.md",
+        "references/diagnostics-and-sources.md"
+      ],
+      "conclusion": "分类/顺序/发散/周期/二变量/缺测分开，12色卡标原创起点而非提取或认证。ΔE76、对比值、严重度1模拟与线性RGB均有限定；官方来源支持线性化和周期边界。未复算全部矩阵或色卡。"
+    },
+    {
+      "name": "sci-figure-compose",
+      "skill_md_read": true,
+      "references_examined": [
+        "references/layout-strategies.md",
+        "references/examples.md"
+      ],
+      "conclusion": "任务决定矩阵/读序与空间不变量，不固定hero/底色；真实图和数据来源独立。C03后段时长边界见EA-05。正文“比较至少两种”是轻微流程强制，可考虑仅复杂布局触发，与director保持一致。"
+    },
+    {
+      "name": "sci-figure-data",
+      "skill_md_read": true,
+      "references_examined": [
+        "references/task-cases.md",
+        "references/scientific-checks.md"
+      ],
+      "conclusion": "样本/批次、计量口径、寿命工况、双轴、归一和外推有边界；A14探测角度不直接当精确深度，A01 i/j来源矛盾保留。未核全部未抽查案例。"
+    },
+    {
+      "name": "sci-figure-device",
+      "skill_md_read": true,
+      "references_examined": [
+        "references/routes-and-evidence.md"
+      ],
+      "conclusion": "按接触、装配、曲面或多尺度选择2D/3D；未知尺寸不编、爆炸间距不当真实、工具不可用可2D。领域例子的科学结论不称独立确认。"
+    },
+    {
+      "name": "sci-figure-process",
+      "skill_md_read": true,
+      "references_examined": [
+        "references/cases-and-counterexamples.md"
+      ],
+      "conclusion": "过程箭头与时间/物料/因果分开，候选中间体、流路延迟、接受稿版本差异均明确；B01/B17迁移准确。"
+    },
+    {
+      "name": "sci-figure-image",
+      "skill_md_read": true,
+      "references_examined": [
+        "references/pixels-and-annotations.md",
+        "references/volume-fields-and-cases.md"
+      ],
+      "conclusion": "raw/展示副本/分析处理分开，ROI/注册/比例可追溯；负空间非身份鉴定、多模态不同样品不称共定位、每行归一不能比较绝对强度。"
+    },
+    {
+      "name": "sci-figure-mechanism",
+      "skill_md_read": true,
+      "references_examined": [
+        "references/physics-grammar.md",
+        "references/task-cases.md"
+      ],
+      "conclusion": "空间/能级/k/状态/反应坐标分开，电子与传统电流区别，快PL不等于缺陷少。A23势垒与诊断模拟边界、A14辐射解释均与抽查源相符。"
+    },
+    {
+      "name": "sci-figure-review",
+      "skill_md_read": true,
+      "references_examined": [
+        "references/review-cases.md",
+        "references/svg-scan.md"
+      ],
+      "conclusion": "科学、视觉、可编辑三项分开；SVG扫描限CSS/视口/字体/元数据且不构成科学证明，无综合分数或投稿成功承诺。未运行scanner或示例。"
+    }
+  ],
+  "additional_sources_examined": [
+    {
+      "id": "M01",
+      "source": "analysis/M01/article.xml",
+      "scope": "仅定向颜色类别/亮度/连续与分类语义原文；未作为第13篇图像审查或新增语料阅读数。"
+    },
+    {
+      "url": "https://colorspace.r-forge.r-project.org/reference/simulate_cvd.html",
+      "ref": "turn43search0",
+      "scope": "官方说明linear RGB、severity、先线性化再转换及回编码；首次open 502，后续search取得官方页面内容。"
+    },
+    {
+      "url": "https://colorspace.r-forge.r-project.org/articles/color_vision_deficiency.html",
+      "ref": "turn43search1",
+      "scope": "严重度1为dichromacy；不是覆盖全部个体色觉。"
+    },
+    {
+      "url": "https://profs.ic.uff.br/~laffernandes/content/publications/journal/2009_tvcg_15(6)/machado_oliveira_fernandes-tvcg-15(6)-2009-corrected.pdf",
+      "ref": "turn42view1",
+      "scope": "仅定向模型、RGB线性矩阵与模拟边界；未复核所有公式/补充材料。"
+    },
+    {
+      "url": "https://matplotlib.org/stable/users/explain/colors/colormaps.html",
+      "ref": "turn42view2",
+      "scope": "官方顺序/发散/周期颜色分类与L*局部关系；不将版本可用色标倒推本地安装。"
+    }
+  ],
+  "not_examined": [
+    "其余77篇及154张所选图未独立重新打开。",
+    "12篇所有Methods、SI、源数据、统计、物理机理与结果正确性未做完整重算/复制。D20仅为软件归属定向读了Methods/作者贡献相关段。",
+    "未逐一审查9技能的全部引用、所有外部URL、全部脚本、示例、Blender源、打包安装及技能同步。",
+    "未独立重新证明66篇主文论证通读/23篇定向阅读的历史过程。",
+    "未独立核对B17最终发表版全图数量；已验证所用接受稿Fig2/Fig6与其版本标记。",
+    "未将作者使用的软件从外观推断；unknown不是声明论文任何地方都没有软件名称。"
+  ],
+  "handoff": "修复由root统筹；本审查只写review文件，不改records或skills。"
+}

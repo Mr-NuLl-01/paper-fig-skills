@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1040" viewBox="0 0 1600 1040">
+<title>DEMO — interdigitated top contacts and a true geometric cutaway</title><desc>Original illustrative 3D model with two connected but mutually separated comb electrodes. No physical scale, data or paper reproduction.</desc>
+<g id="header" font-family="Arial, sans-serif" fill="#203740">
+<text x="48" y="57" font-size="32" font-weight="600">Interdigitated contacts + a buried interface</text>
+<text x="48" y="94" font-size="20" fill="#526b75">DEMO · original teaching geometry · not to scale · no measured dimensions</text></g>
+<g id="panel-labels" font-family="Arial, sans-serif" fill="#203740">
+<text x="48" y="148" font-size="22" font-weight="600">A  Spatial overview</text>
+<text x="1130" y="260" font-size="22" font-weight="600">B  Cutaway detail</text>
+<text x="1130" y="288" font-size="16" fill="#526b75">Same geometry, closer camera</text></g>
+<g id="annotation_contact_A"><path d="M 408.05,292.83 L 330,235 L 275,235" stroke="#455f68" stroke-width="1.6" fill="none"/><circle cx="408.05" cy="292.83" r="3.6" fill="#455f68"/>
+<text x="48" y="223" text-anchor="start" font-family="Arial, sans-serif" font-size="19" fill="#203740">
+<tspan x="48" dy="0">Contact A</tspan>
+<tspan x="48" dy="25">one continuous comb</tspan>
+</text></g>
+<g id="annotation_contact_B"><path d="M 918.44,529.12 L 1060,260 L 1116,188" stroke="#455f68" stroke-width="1.6" fill="none"/><circle cx="918.44" cy="529.12" r="3.6" fill="#455f68"/>
+<text x="1128" y="194" text-anchor="start" font-family="Arial, sans-serif" font-size="19" fill="#203740">
+<tspan x="1128" dy="0">Contact B</tspan>
+<tspan x="1128" dy="25">separate continuous comb</tspan>
+</text></g>
+<g id="annotation_semiconductor"><path d="M 157.58,439.64 L 40,780 L 48,827" stroke="#455f68" stroke-width="1.6" fill="none"/><circle cx="157.58" cy="439.64" r="3.6" fill="#455f68"/>
+<text x="48" y="849" text-anchor="start" font-family="Arial, sans-serif" font-size="19" fill="#203740">
+<tspan x="48" dy="0">Continuous semiconductor</tspan>
+<tspan x="48" dy="25">lateral gaps remain exposed</tspan>
+</text></g>
+<g id="annotation_cut"><path d="M 673.69,728.49 L 826,856 L 715,888" stroke="#455f68" stroke-width="1.6" fill="none"/><circle cx="673.69" cy="728.49" r="3.6" fill="#455f68"/>
+<text x="715" y="910" text-anchor="start" font-family="Arial, sans-serif" font-size="19" fill="#203740">
+<tspan x="715" dy="0">Front-edge cutaway</tspan>
+<tspan x="715" dy="25">outside both contact networks</tspan>
+</text></g>
+<g id="annotation_detail_active"><path d="M 1250.84,476.97 L 1245,720 L 1245,734" stroke="#455f68" stroke-width="1.6" fill="none"/><circle cx="1250.84" cy="476.97" r="3.6" fill="#455f68"/>
+<text x="1128" y="756" text-anchor="start" font-family="Arial, sans-serif" font-size="19" fill="#203740">
+<tspan x="1128" dy="0">Semiconductor</tspan>
+</text></g>
+<g id="annotation_detail_dielectric"><path d="M 1304.88,514.63 L 1302,775 L 1302,788" stroke="#455f68" stroke-width="1.6" fill="none"/><circle cx="1304.88" cy="514.63" r="3.6" fill="#455f68"/>
+<text x="1128" y="810" text-anchor="start" font-family="Arial, sans-serif" font-size="19" fill="#203740">
+<tspan x="1128" dy="0">Dielectric layer</tspan>
+</text></g>
+<g id="annotation_detail_substrate"><path d="M 1388.02,567.78 L 1390,825 L 1390,842" stroke="#455f68" stroke-width="1.6" fill="none"/><circle cx="1388.02" cy="567.78" r="3.6" fill="#455f68"/>
+<text x="1128" y="864" text-anchor="start" font-family="Arial, sans-serif" font-size="19" fill="#203740">
+<tspan x="1128" dy="0">Supporting substrate</tspan>
+</text></g>
+<g id="footer" font-family="Arial, sans-serif" fill="#526b75" font-size="17">
+<text x="48" y="978">Gold identifies both metal networks; teal identifies the semiconductor. Color does not encode a measured field.</text>
+<text x="48" y="1007">No contact chemistry, field solution, photocurrent or fabricated dimensions are asserted. Layer thicknesses are exaggerated.</text></g>
+</svg>

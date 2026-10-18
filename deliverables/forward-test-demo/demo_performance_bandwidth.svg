@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="180mm" height="104mm" viewBox="0 0 1800 1040" font-family="DejaVu Sans, sans-serif" font-size="29" version="1.1">
+  <title>DEMO paired performance–bandwidth tradeoff across three batches</title>
+  <desc>All plotted numbers are simulated, not measured. Three batches, five independent devices each, with before and after endpoints. Layer schematic is not to scale. Carrier transfer rate is unmeasured.</desc>
+  <metadata>{"status": "DEMO — NOT RESEARCH RESULTS", "claim": "Demonstrate how batch-resolved paired data expose performance–bandwidth tradeoffs.", "canvas_mm": [180, 104], "layout": "compact layer context plus three equal-scale batch facets", "independent_devices": 15, "batches": 3, "devices_per_batch": 5, "numeric_source": "deterministic invented endpoints, random seed 2601017", "pairing": "before/after on same device, assumed for DEMO", "statistical_operations": "none; no fit, mean, error bar, p value, or pooled test", "display_transforms": "linear axes; source endpoints rounded to 3 decimals; no values removed", "unknown": ["physical performance metric", "actual numeric values", "measurement conditions", "bandwidth cutoff definition", "all physical layer thicknesses", "carrier-transfer rate"], "qualitative_user_evidence": ["steady-state spectrum changes", "stability improves"], "mechanism_route": "No carrier-transfer arrows or rate claim; state unmeasured boundary explicitly.", "layers_bottom_to_top": ["glass", "ITO", "active film", "Au"], "schematic_scale": "not to scale; display thicknesses arbitrary; physical thicknesses unknown", "color_scopes": {"conditions": {"before": {"color": "#697680", "shape": "open circle"}, "after": {"color": "#176B7B", "shape": "filled diamond"}}, "material_identity_only": {"glass": "#E7EDF0", "ITO": "#B8CED3", "active_film": "#E5C58D", "Au": "#BA9461"}, "pairing": {"color": "#9BA9AD", "meaning": "within-device condition order, not physical transport"}}, "font_family": "DejaVu Sans, sans-serif", "font_sizes_viewbox_units": [26, 27, 28, 29, 30, 31, 35, 36], "main_file": "demo_performance_bandwidth.svg", "source_data": "demo_data.csv", "generator": "make_figure.py", "external_assets": [], "author_software": "unknown; this original draft uses Python stdlib + Inkscape"}</metadata>
+  <rect x="0" y="0" width="1800" height="1040" fill="white" id="paper" />
+  <defs>
+    <marker id="paired-arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.4" markerHeight="4.4" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M 0 1 L 9 5 L 0 9 Z" fill="#9BA9AD" />
+    </marker>
+  </defs>
+  <g id="title-and-study-design">
+    <text x="40" y="58" font-size="36" font-weight="700" fill="#8B541F" text-anchor="start" id="label-011">DEMO</text>
+    <text x="190" y="58" font-size="36" font-weight="600" fill="#25343B" text-anchor="start" id="label-012">Paired performance–bandwidth tradeoff</text>
+    <text x="40" y="108" font-size="29" font-weight="400" fill="#5B6970" text-anchor="start" id="label-013">3 batches × 5 independent devices  |  Before/after pairing assumed for this DEMO</text>
+    <line x1="40" y1="139" x2="1760" y2="139" stroke="#D8DFE1" stroke-width="2" />
+  </g>
+  <g id="panel-a-layer-context">
+    <text x="40" y="192" font-size="35" font-weight="700" fill="#25343B" text-anchor="start" id="label-014">a</text>
+    <text x="84" y="192" font-size="31" font-weight="600" fill="#25343B" text-anchor="start" id="label-015">Layer context</text>
+    <text x="40" y="242" font-size="28" font-weight="400" fill="#5B6970" text-anchor="start" id="label-016">Layer order only</text>
+    <g id="layer-glass">
+      <rect x="43" y="385" width="174" height="98" fill="#E7EDF0" stroke="#53616A" stroke-width="1.5" />
+      <line x1="220" y1="434.0" x2="245" y2="434.0" stroke="#5B6970" stroke-width="1.8" />
+      <text x="263" y="440" font-size="28" font-weight="400" fill="#25343B" text-anchor="start" id="label-017">glass</text>
+    </g>
+    <g id="layer-ITO">
+      <rect x="43" y="358" width="174" height="27" fill="#B8CED3" stroke="#53616A" stroke-width="1.5" />
+      <line x1="220" y1="371.5" x2="245" y2="371.5" stroke="#5B6970" stroke-width="1.8" />
+      <text x="263" y="382" font-size="28" font-weight="400" fill="#25343B" text-anchor="start" id="label-018">ITO</text>
+    </g>
+    <g id="layer-active_film">
+      <rect x="43" y="304" width="174" height="54" fill="#E5C58D" stroke="#53616A" stroke-width="1.5" />
+      <line x1="220" y1="331.0" x2="245" y2="331.0" stroke="#5B6970" stroke-width="1.8" />
+      <text x="263" y="335" font-size="28" font-weight="400" fill="#25343B" text-anchor="start" id="label-019">active film</text>
+    </g>
+    <g id="layer-Au">
+      <rect x="43" y="280" width="174" height="24" fill="#BA9461" stroke="#53616A" stroke-width="1.5" />
+      <line x1="220" y1="292.0" x2="245" y2="292.0" stroke="#5B6970" stroke-width="1.8" />
+      <line x1="245" y1="292.0" x2="255" y2="281" stroke="#5B6970" stroke-width="1.8" />
+      <text x="263" y="290" font-size="28" font-weight="400" fill="#25343B" text-anchor="start" id="label-020">Au</text>
+    </g>
+    <text x="40" y="535" font-size="28" font-weight="400" fill="#5B6970" text-anchor="start" id="label-021">Not to scale</text>
+    <text x="40" y="574" font-size="28" font-weight="400" fill="#5B6970" text-anchor="start" id="label-022">All thicknesses unknown</text>
+    <g id="qualitative-evidence-boundary">
+      <line x1="40" y1="625" x2="405" y2="625" stroke="#D8DFE1" stroke-width="2" />
+      <text x="40" y="668" font-size="27" font-weight="600" fill="#25343B" text-anchor="start" id="label-023">Qualitative evidence</text>
+      <text x="40" y="710" font-size="26" font-weight="400" fill="#25343B" text-anchor="start" id="label-024">Steady-state spectrum</text>
+      <text x="40" y="744" font-size="26" font-weight="400" fill="#25343B" text-anchor="start" id="label-025">changes; stability improves</text>
+      <text x="40" y="798" font-size="27" font-weight="600" fill="#8B541F" text-anchor="start" id="label-026">Transfer rate:</text>
+      <text x="40" y="835" font-size="27" font-weight="600" fill="#8B541F" text-anchor="start" id="label-027">unmeasured</text>
+    </g>
+  </g>
+  <g id="condition-and-pair-legend">
+    <circle cx="530" cy="249" r="8" fill="white" stroke="#697680" stroke-width="2.7" />
+    <text x="552" y="258" font-size="28" font-weight="400" fill="#25343B" text-anchor="start" id="label-028">Before</text>
+    <path d="M 720 240 L 729 249 L 720 258 L 711 249 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" />
+    <text x="742" y="258" font-size="28" font-weight="400" fill="#25343B" text-anchor="start" id="label-029">After</text>
+    <line x1="910" y1="249" x2="967" y2="249" stroke="#9BA9AD" stroke-width="2.7" marker-end="url(#paired-arrowhead)" />
+    <text x="985" y="258" font-size="28" font-weight="400" fill="#25343B" text-anchor="start" id="label-030">Same device</text>
+  </g>
+  <g id="panel-b-batch-1">
+    <text x="496" y="192" font-size="35" font-weight="700" fill="#25343B" text-anchor="start" id="label-031">b</text>
+    <text x="540" y="192" font-size="31" font-weight="600" fill="#25343B" text-anchor="start" id="label-032">Batch 1</text>
+    <text x="865" y="192" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-033">n = 5</text>
+    <g id="axes-B1">
+      <line x1="512" y1="720.0" x2="520" y2="720.0" stroke="#5B6970" stroke-width="1.8" />
+      <text x="503" y="730.0" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-034">6</text>
+      <line x1="520" y1="618.75" x2="865" y2="618.75" stroke="#E8EDEE" stroke-width="1.5" />
+      <line x1="512" y1="618.75" x2="520" y2="618.75" stroke="#5B6970" stroke-width="1.8" />
+      <text x="503" y="628.75" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-035">10</text>
+      <line x1="520" y1="517.5" x2="865" y2="517.5" stroke="#E8EDEE" stroke-width="1.5" />
+      <line x1="512" y1="517.5" x2="520" y2="517.5" stroke="#5B6970" stroke-width="1.8" />
+      <text x="503" y="527.5" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-036">14</text>
+      <line x1="520" y1="416.25" x2="865" y2="416.25" stroke="#E8EDEE" stroke-width="1.5" />
+      <line x1="512" y1="416.25" x2="520" y2="416.25" stroke="#5B6970" stroke-width="1.8" />
+      <text x="503" y="426.25" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-037">18</text>
+      <line x1="520" y1="315.0" x2="865" y2="315.0" stroke="#E8EDEE" stroke-width="1.5" />
+      <line x1="512" y1="315.0" x2="520" y2="315.0" stroke="#5B6970" stroke-width="1.8" />
+      <text x="503" y="325.0" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-038">22</text>
+      <line x1="554.5" y1="720" x2="554.5" y2="728" stroke="#5B6970" stroke-width="1.8" />
+      <text x="554.5" y="762" font-size="27" font-weight="400" fill="#5B6970" text-anchor="middle" id="label-039">0.8</text>
+      <line x1="692.5" y1="720" x2="692.5" y2="728" stroke="#5B6970" stroke-width="1.8" />
+      <text x="692.5" y="762" font-size="27" font-weight="400" fill="#5B6970" text-anchor="middle" id="label-040">1.2</text>
+      <line x1="830.5" y1="720" x2="830.5" y2="728" stroke="#5B6970" stroke-width="1.8" />
+      <text x="830.5" y="762" font-size="27" font-weight="400" fill="#5B6970" text-anchor="middle" id="label-041">1.6</text>
+      <line x1="520" y1="315" x2="520" y2="720" stroke="#5B6970" stroke-width="1.8" />
+      <line x1="520" y1="720" x2="865" y2="720" stroke="#5B6970" stroke-width="1.8" />
+    </g>
+    <g id="paired-device-trajectories-B1">
+      <g id="device-B1-D01" data-sample-id="B1-D01">
+        <title>B1-D01: before 0.837 a.u., 19.892 MHz; after 1.026 a.u., 18.225 MHz. DEMO.</title>
+        <line x1="575.6604392440025" y1="373.79166817536964" x2="623.2350168315972" y2="404.57847750709334" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B1-D01" />
+        <circle cx="567.265" cy="368.35875" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B1-D01" />
+        <path d="M 632.47 402.35468749999995 L 640.6700000000001 410.55468749999994 L 632.47 418.75468749999993 L 624.27 410.55468749999994 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B1-D01" />
+      </g>
+      <g id="device-B1-D02" data-sample-id="B1-D02">
+        <title>B1-D02: before 0.956 a.u., 16.885 MHz; after 1.076 a.u., 15.497 MHz. DEMO.</title>
+        <line x1="615.9445028342453" y1="450.9439055302576" x2="641.3330468823302" y2="472.4896726667166" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B1-D02" />
+        <circle cx="608.32" cy="444.4734375" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B1-D02" />
+        <path d="M 649.72 471.4071875 L 657.9200000000001 479.6071875 L 649.72 487.8071875 L 641.52 479.6071875 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B1-D02" />
+      </g>
+      <g id="device-B1-D03" data-sample-id="B1-D03">
+        <title>B1-D03: before 1.099 a.u., 13.178 MHz; after 1.169 a.u., 11.962 MHz. DEMO.</title>
+        <line x1="663.8277956061814" y1="546.1743138719778" x2="675.0149248332004" y2="560.4326922408244" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B1-D03" />
+        <circle cx="657.655" cy="538.306875" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B1-D03" />
+        <path d="M 681.8050000000001 560.8868749999999 L 690.0050000000001 569.086875 L 681.8050000000001 577.286875 L 673.605 569.086875 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B1-D03" />
+      </g>
+      <g id="device-B1-D04" data-sample-id="B1-D04">
+        <title>B1-D04: before 1.21 a.u., 9.313 MHz; after 1.126 a.u., 10.344 MHz. DEMO.</title>
+        <line x1="688.518995268141" y1="629.447888887139" x2="675.144105205045" y2="617.4034784741472" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B1-D04" />
+        <circle cx="695.95" cy="636.1396875" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B1-D04" />
+        <path d="M 666.97 601.8425 L 675.1700000000001 610.0425 L 666.97 618.2425000000001 L 658.77 610.0425 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B1-D04" />
+      </g>
+      <g id="device-B1-D05" data-sample-id="B1-D05">
+        <title>B1-D05: before 1.361 a.u., 6.786 MHz; after 1.509 a.u., 7.506 MHz. DEMO.</title>
+        <line x1="757.463044916243" y1="696.7427637857711" x2="788.7451505921327" y2="685.5771473356518" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B1-D05" />
+        <circle cx="748.0450000000001" cy="700.104375" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B1-D05" />
+        <path d="M 799.105 673.6793749999999 L 807.3050000000001 681.879375 L 799.105 690.079375 L 790.905 681.879375 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B1-D05" />
+      </g>
+    </g>
+  </g>
+  <g id="panel-c-batch-2">
+    <text x="926" y="192" font-size="35" font-weight="700" fill="#25343B" text-anchor="start" id="label-042">c</text>
+    <text x="970" y="192" font-size="31" font-weight="600" fill="#25343B" text-anchor="start" id="label-043">Batch 2</text>
+    <text x="1295" y="192" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-044">n = 5</text>
+    <g id="axes-B2">
+      <line x1="942" y1="720.0" x2="950" y2="720.0" stroke="#5B6970" stroke-width="1.8" />
+      <text x="933" y="730.0" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-045">6</text>
+      <line x1="950" y1="618.75" x2="1295" y2="618.75" stroke="#E8EDEE" stroke-width="1.5" />
+      <line x1="942" y1="618.75" x2="950" y2="618.75" stroke="#5B6970" stroke-width="1.8" />
+      <text x="933" y="628.75" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-046">10</text>
+      <line x1="950" y1="517.5" x2="1295" y2="517.5" stroke="#E8EDEE" stroke-width="1.5" />
+      <line x1="942" y1="517.5" x2="950" y2="517.5" stroke="#5B6970" stroke-width="1.8" />
+      <text x="933" y="527.5" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-047">14</text>
+      <line x1="950" y1="416.25" x2="1295" y2="416.25" stroke="#E8EDEE" stroke-width="1.5" />
+      <line x1="942" y1="416.25" x2="950" y2="416.25" stroke="#5B6970" stroke-width="1.8" />
+      <text x="933" y="426.25" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-048">18</text>
+      <line x1="950" y1="315.0" x2="1295" y2="315.0" stroke="#E8EDEE" stroke-width="1.5" />
+      <line x1="942" y1="315.0" x2="950" y2="315.0" stroke="#5B6970" stroke-width="1.8" />
+      <text x="933" y="325.0" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-049">22</text>
+      <line x1="984.5" y1="720" x2="984.5" y2="728" stroke="#5B6970" stroke-width="1.8" />
+      <text x="984.5" y="762" font-size="27" font-weight="400" fill="#5B6970" text-anchor="middle" id="label-050">0.8</text>
+      <line x1="1122.5" y1="720" x2="1122.5" y2="728" stroke="#5B6970" stroke-width="1.8" />
+      <text x="1122.5" y="762" font-size="27" font-weight="400" fill="#5B6970" text-anchor="middle" id="label-051">1.2</text>
+      <line x1="1260.5" y1="720" x2="1260.5" y2="728" stroke="#5B6970" stroke-width="1.8" />
+      <text x="1260.5" y="762" font-size="27" font-weight="400" fill="#5B6970" text-anchor="middle" id="label-052">1.6</text>
+      <line x1="950" y1="315" x2="950" y2="720" stroke="#5B6970" stroke-width="1.8" />
+      <line x1="950" y1="720" x2="1295" y2="720" stroke="#5B6970" stroke-width="1.8" />
+    </g>
+    <g id="paired-device-trajectories-B2">
+      <g id="device-B2-D01" data-sample-id="B2-D01">
+        <title>B2-D01: before 0.875 a.u., 20.5 MHz; after 1.062 a.u., 18.656 MHz. DEMO.</title>
+        <line x1="1018.47689673833" y1="358.83042802266874" x2="1065.977913587837" y2="393.1971541750644" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B2-D01" />
+        <circle cx="1010.375" cy="352.96875" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B2-D01" />
+        <path d="M 1074.89 391.44500000000005 L 1083.0900000000001 399.64500000000004 L 1074.89 407.845 L 1066.69 399.64500000000004 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B2-D01" />
+      </g>
+      <g id="device-B2-D02" data-sample-id="B2-D02">
+        <title>B2-D02: before 1.013 a.u., 17.05 MHz; after 1.146 a.u., 15.433 MHz. DEMO.</title>
+        <line x1="1065.4474814710038" y1="446.95355362337693" x2="1095.6612703818955" y2="473.9048410142854" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B2-D02" />
+        <circle cx="1057.985" cy="440.296875" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B2-D02" />
+        <path d="M 1103.87 473.0271875 L 1112.07 481.2271875 L 1103.87 489.4271875 L 1095.6699999999998 481.2271875 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B2-D02" />
+      </g>
+      <g id="device-B2-D03" data-sample-id="B2-D03">
+        <title>B2-D03: before 1.137 a.u., 13.836 MHz; after 1.216 a.u., 12.583 MHz. DEMO.</title>
+        <line x1="1107.2824719900266" y1="529.2356127853118" x2="1120.850780810971" y2="545.0250134361571" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B2-D03" />
+        <circle cx="1100.765" cy="521.65125" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B2-D03" />
+        <path d="M 1128.02 545.1678125 L 1136.22 553.3678125 L 1128.02 561.5678125000001 L 1119.82 553.3678125 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B2-D03" />
+      </g>
+      <g id="device-B2-D04" data-sample-id="B2-D04">
+        <title>B2-D04: before 1.262 a.u., 9.71 MHz; after 1.175 a.u., 10.658 MHz. DEMO.</title>
+        <line x1="1136.079313007245" y1="619.8461739671864" x2="1122.4667556920306" y2="608.9632711360949" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B2-D04" />
+        <circle cx="1143.89" cy="626.0906249999999" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B2-D04" />
+        <path d="M 1113.875 593.894375 L 1122.075 602.094375 L 1113.875 610.2943750000001 L 1105.675 602.094375 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B2-D04" />
+      </g>
+      <g id="device-B2-D05" data-sample-id="B2-D05">
+        <title>B2-D05: before 1.396 a.u., 7.346 MHz; after 1.557 a.u., 8.242 MHz. DEMO.</title>
+        <line x1="1199.3779765087413" y1="682.1491804331038" x2="1235.4812258403845" y2="667.407589023586" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B2-D05" />
+        <circle cx="1190.12" cy="685.929375" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B2-D05" />
+        <path d="M 1245.665 655.0493749999999 L 1253.865 663.249375 L 1245.665 671.449375 L 1237.465 663.249375 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B2-D05" />
+      </g>
+    </g>
+  </g>
+  <g id="panel-d-batch-3">
+    <text x="1356" y="192" font-size="35" font-weight="700" fill="#25343B" text-anchor="start" id="label-053">d</text>
+    <text x="1400" y="192" font-size="31" font-weight="600" fill="#25343B" text-anchor="start" id="label-054">Batch 3</text>
+    <text x="1725" y="192" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-055">n = 5</text>
+    <g id="axes-B3">
+      <line x1="1372" y1="720.0" x2="1380" y2="720.0" stroke="#5B6970" stroke-width="1.8" />
+      <text x="1363" y="730.0" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-056">6</text>
+      <line x1="1380" y1="618.75" x2="1725" y2="618.75" stroke="#E8EDEE" stroke-width="1.5" />
+      <line x1="1372" y1="618.75" x2="1380" y2="618.75" stroke="#5B6970" stroke-width="1.8" />
+      <text x="1363" y="628.75" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-057">10</text>
+      <line x1="1380" y1="517.5" x2="1725" y2="517.5" stroke="#E8EDEE" stroke-width="1.5" />
+      <line x1="1372" y1="517.5" x2="1380" y2="517.5" stroke="#5B6970" stroke-width="1.8" />
+      <text x="1363" y="527.5" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-058">14</text>
+      <line x1="1380" y1="416.25" x2="1725" y2="416.25" stroke="#E8EDEE" stroke-width="1.5" />
+      <line x1="1372" y1="416.25" x2="1380" y2="416.25" stroke="#5B6970" stroke-width="1.8" />
+      <text x="1363" y="426.25" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-059">18</text>
+      <line x1="1380" y1="315.0" x2="1725" y2="315.0" stroke="#E8EDEE" stroke-width="1.5" />
+      <line x1="1372" y1="315.0" x2="1380" y2="315.0" stroke="#5B6970" stroke-width="1.8" />
+      <text x="1363" y="325.0" font-size="27" font-weight="400" fill="#5B6970" text-anchor="end" id="label-060">22</text>
+      <line x1="1414.5" y1="720" x2="1414.5" y2="728" stroke="#5B6970" stroke-width="1.8" />
+      <text x="1414.5" y="762" font-size="27" font-weight="400" fill="#5B6970" text-anchor="middle" id="label-061">0.8</text>
+      <line x1="1552.5" y1="720" x2="1552.5" y2="728" stroke="#5B6970" stroke-width="1.8" />
+      <text x="1552.5" y="762" font-size="27" font-weight="400" fill="#5B6970" text-anchor="middle" id="label-062">1.2</text>
+      <line x1="1690.5" y1="720" x2="1690.5" y2="728" stroke="#5B6970" stroke-width="1.8" />
+      <text x="1690.5" y="762" font-size="27" font-weight="400" fill="#5B6970" text-anchor="middle" id="label-063">1.6</text>
+      <line x1="1380" y1="315" x2="1380" y2="720" stroke="#5B6970" stroke-width="1.8" />
+      <line x1="1380" y1="720" x2="1725" y2="720" stroke="#5B6970" stroke-width="1.8" />
+    </g>
+    <g id="paired-device-trajectories-B3">
+      <g id="device-B3-D01" data-sample-id="B3-D01">
+        <title>B3-D01: before 0.927 a.u., 19.505 MHz; after 1.109 a.u., 17.693 MHz. DEMO.</title>
+        <line x1="1466.3900597645534" y1="384.05328138319715" x2="1512.2224342589914" y2="417.5324842284831" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B3-D01" />
+        <circle cx="1458.315" cy="378.1546875" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B3-D01" />
+        <path d="M 1521.105 415.82093749999996 L 1529.305 424.02093749999995 L 1521.105 432.22093749999993 L 1512.905 424.02093749999995 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B3-D01" />
+      </g>
+      <g id="device-B3-D02" data-sample-id="B3-D02">
+        <title>B3-D02: before 1.07 a.u., 16.087 MHz; after 1.195 a.u., 14.576 MHz. DEMO.</title>
+        <line x1="1515.1315094636911" y1="471.3080981867435" x2="1542.54533958994" y2="495.62118574458214" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B3-D02" />
+        <circle cx="1507.65" cy="464.6728125" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B3-D02" />
+        <path d="M 1550.775 494.71999999999997 L 1558.9750000000001 502.91999999999996 L 1550.775 511.11999999999995 L 1542.575 502.91999999999996 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B3-D02" />
+      </g>
+      <g id="device-B3-D03" data-sample-id="B3-D03">
+        <title>B3-D03: before 1.188 a.u., 12.644 MHz; after 1.26 a.u., 11.586 MHz. DEMO.</title>
+        <line x1="1555.1604343384854" y1="559.1554682711795" x2="1565.7195222276662" y2="570.5394849017025" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B3-D03" />
+        <circle cx="1548.36" cy="551.82375" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B3-D03" />
+        <path d="M 1573.2 570.404375 L 1581.4 578.604375 L 1573.2 586.804375 L 1565.0 578.604375 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B3-D03" />
+      </g>
+      <g id="device-B3-D04" data-sample-id="B3-D04">
+        <title>B3-D04: before 1.311 a.u., 8.569 MHz; after 1.22 a.u., 9.334 MHz. DEMO.</title>
+        <line x1="1582.2837531065672" y1="649.722551672723" x2="1568.762371582776" y2="641.3827244100047" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B3-D04" />
+        <circle cx="1590.795" cy="654.9721875" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B3-D04" />
+        <path d="M 1559.4 627.4081249999999 L 1567.6000000000001 635.608125 L 1559.4 643.808125 L 1551.2 635.608125 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B3-D04" />
+      </g>
+      <g id="device-B3-D05" data-sample-id="B3-D05">
+        <title>B3-D05: before 1.443 a.u., 6.236 MHz; after 1.583 a.u., 6.972 MHz. DEMO.</title>
+        <line x1="1645.6650165836431" y1="710.4275293177376" x2="1674.3719817579924" y2="699.3548427504886" stroke="#9BA9AD" stroke-width="2.5" marker-end="url(#paired-arrowhead)" id="pair-B3-D05" />
+        <circle cx="1636.335" cy="714.02625" r="7.2" fill="white" stroke="#697680" stroke-width="2.7" id="before-B3-D05" />
+        <path d="M 1684.635 687.19625 L 1692.835 695.39625 L 1684.635 703.59625 L 1676.435 695.39625 Z" fill="#176B7B" stroke="#176B7B" stroke-width="1.8" id="after-B3-D05" />
+      </g>
+    </g>
+  </g>
+  <g id="shared-data-axis-labels">
+    <text x="445" y="518" font-size="29" font-weight="400" fill="#25343B" text-anchor="middle" transform="rotate(-90 445 518)" id="label-064">Bandwidth (MHz; DEMO)</text>
+    <text x="1120" y="811" font-size="30" font-weight="400" fill="#25343B" text-anchor="middle" id="label-065">Performance index (a.u.; DEMO)</text>
+    <text x="1120" y="857" font-size="26" font-weight="400" fill="#5B6970" text-anchor="middle" id="label-066">Higher values preferred on both axes by DEMO definition</text>
+  </g>
+  <g id="caption-and-simulation-warning">
+    <line x1="40" y1="893" x2="1760" y2="893" stroke="#D8DFE1" stroke-width="2" />
+    <text x="40" y="943" font-size="29" font-weight="600" fill="#8B541F" text-anchor="start" id="label-067">DEMO ONLY — every plotted number is simulated; no experimental result is shown.</text>
+    <text x="40" y="987" font-size="27" font-weight="400" fill="#5B6970" text-anchor="start" id="label-068">Each arrow joins the same device before → after; panels share axis limits. No kinetic mechanism is inferred.</text>
+  </g>
+</svg>

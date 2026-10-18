@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210.000mm" height="138.409mm" viewBox="0 0 880 580">
+<metadata>{&quot;title&quot;: &quot;marine-burgundy&quot;, &quot;purpose&quot;: &quot;Palette diagnostic, not scientific data&quot;}</metadata>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, DejaVu Sans, sans-serif" fill="#26313D">
+<text x="24" y="38" font-size="23" font-weight="bold">marine-burgundy</text>
+<text x="24" y="65" font-size="13">Original combinations • finite simulations • verify in the actual figure</text>
+<text x="24" y="121" font-size="15">original</text>
+<text x="24" y="143" font-size="10.5">min ΔE76 21.6 · pair 1/5</text>
+<rect x="215" y="96" width="104" height="35" fill="#2D7192"/>
+<text x="215" y="147" font-size="12">1  #2D7192</text>
+<text x="215" y="164" font-size="10.5">L* 44.9 · CR 5.40</text>
+<rect x="329" y="96" width="104" height="35" fill="#853E59"/>
+<text x="329" y="147" font-size="12">2  #853E59</text>
+<text x="329" y="164" font-size="10.5">L* 36.3 · CR 7.42</text>
+<rect x="443" y="96" width="104" height="35" fill="#85884A"/>
+<text x="443" y="147" font-size="12">3  #85884A</text>
+<text x="443" y="164" font-size="10.5">L* 55.2 · CR 3.74</text>
+<rect x="557" y="96" width="104" height="35" fill="#BD7658"/>
+<text x="557" y="147" font-size="12">4  #BD7658</text>
+<text x="557" y="164" font-size="10.5">L* 56.6 · CR 3.56</text>
+<rect x="671" y="96" width="104" height="35" fill="#626698"/>
+<text x="671" y="147" font-size="12">5  #626698</text>
+<text x="671" y="164" font-size="10.5">L* 44.8 · CR 5.42</text>
+<text x="24" y="203" font-size="15">protanopia</text>
+<text x="24" y="225" font-size="10.5">min ΔE76 6.4 · pair 1/5</text>
+<rect x="215" y="178" width="104" height="35" fill="#617094"/>
+<text x="215" y="229" font-size="12">1  #617094</text>
+<text x="215" y="246" font-size="10.5">L* 47.3 · CR 4.94</text>
+<rect x="329" y="178" width="104" height="35" fill="#494D5A"/>
+<text x="329" y="229" font-size="12">2  #494D5A</text>
+<text x="329" y="246" font-size="10.5">L* 32.8 · CR 8.43</text>
+<rect x="443" y="178" width="104" height="35" fill="#908345"/>
+<text x="443" y="229" font-size="12">3  #908345</text>
+<text x="443" y="246" font-size="10.5">L* 54.6 · CR 3.81</text>
+<rect x="557" y="178" width="104" height="35" fill="#897E56"/>
+<text x="557" y="229" font-size="12">4  #897E56</text>
+<text x="557" y="246" font-size="10.5">L* 52.9 · CR 4.05</text>
+<rect x="671" y="178" width="104" height="35" fill="#566C9A"/>
+<text x="671" y="229" font-size="12">5  #566C9A</text>
+<text x="671" y="246" font-size="10.5">L* 45.7 · CR 5.24</text>
+<text x="24" y="285" font-size="15">deuteranopia</text>
+<text x="24" y="307" font-size="10.5">min ΔE76 2.5 · pair 1/5</text>
+<rect x="215" y="260" width="104" height="35" fill="#536691"/>
+<text x="215" y="311" font-size="12">1  #536691</text>
+<text x="215" y="328" font-size="10.5">L* 43.3 · CR 5.71</text>
+<rect x="329" y="260" width="104" height="35" fill="#5B5A57"/>
+<text x="329" y="311" font-size="12">2  #5B5A57</text>
+<text x="329" y="328" font-size="10.5">L* 38.2 · CR 6.90</text>
+<rect x="443" y="260" width="104" height="35" fill="#91854D"/>
+<text x="443" y="311" font-size="12">3  #91854D</text>
+<text x="443" y="328" font-size="10.5">L* 55.4 · CR 3.71</text>
+<rect x="557" y="260" width="104" height="35" fill="#998E57"/>
+<text x="557" y="311" font-size="12">4  #998E57</text>
+<text x="557" y="328" font-size="10.5">L* 58.8 · CR 3.30</text>
+<rect x="671" y="260" width="104" height="35" fill="#546897"/>
+<text x="671" y="311" font-size="12">5  #546897</text>
+<text x="671" y="328" font-size="10.5">L* 44.3 · CR 5.52</text>
+<text x="24" y="367" font-size="15">tritanopia</text>
+<text x="24" y="389" font-size="10.5">min ΔE76 19.4 · pair 1/5</text>
+<rect x="215" y="342" width="104" height="35" fill="#007A7C"/>
+<text x="215" y="393" font-size="12">1  #007A7C</text>
+<text x="215" y="410" font-size="10.5">L* 46.1 · CR 5.15</text>
+<rect x="329" y="342" width="104" height="35" fill="#8F3948"/>
+<text x="329" y="393" font-size="12">2  #8F3948</text>
+<text x="329" y="410" font-size="10.5">L* 36.4 · CR 7.38</text>
+<rect x="443" y="342" width="104" height="35" fill="#8C8179"/>
+<text x="443" y="393" font-size="12">3  #8C8179</text>
+<text x="443" y="410" font-size="10.5">L* 54.7 · CR 3.80</text>
+<rect x="557" y="342" width="104" height="35" fill="#CD6A6E"/>
+<text x="557" y="393" font-size="12">4  #CD6A6E</text>
+<text x="557" y="410" font-size="10.5">L* 56.5 · CR 3.57</text>
+<rect x="671" y="342" width="104" height="35" fill="#536F78"/>
+<text x="671" y="393" font-size="12">5  #536F78</text>
+<text x="671" y="410" font-size="10.5">L* 45.0 · CR 5.37</text>
+<text x="24" y="449" font-size="15">grayscale</text>
+<text x="24" y="471" font-size="10.5">min ΔE76 0.0 · pair 1/5</text>
+<rect x="215" y="424" width="104" height="35" fill="#6A6A6A"/>
+<text x="215" y="475" font-size="12">1  #6A6A6A</text>
+<text x="215" y="492" font-size="10.5">L* 44.8 · CR 5.41</text>
+<rect x="329" y="424" width="104" height="35" fill="#555555"/>
+<text x="329" y="475" font-size="12">2  #555555</text>
+<text x="329" y="492" font-size="10.5">L* 36.1 · CR 7.46</text>
+<rect x="443" y="424" width="104" height="35" fill="#848484"/>
+<text x="443" y="475" font-size="12">3  #848484</text>
+<text x="443" y="492" font-size="10.5">L* 55.1 · CR 3.74</text>
+<rect x="557" y="424" width="104" height="35" fill="#888888"/>
+<text x="557" y="475" font-size="12">4  #888888</text>
+<text x="557" y="492" font-size="10.5">L* 56.7 · CR 3.54</text>
+<rect x="671" y="424" width="104" height="35" fill="#6A6A6A"/>
+<text x="671" y="475" font-size="12">5  #6A6A6A</text>
+<text x="671" y="492" font-size="10.5">L* 44.8 · CR 5.41</text>
+<text x="24" y="530" font-size="12">CR: luminance contrast to the specified background. Use dark labels outside pale fills.</text>
+<text x="24" y="551" font-size="12">Colour alone may merge categories. Add labels, shapes or panels when the task requires it.</text>
+</g></svg>

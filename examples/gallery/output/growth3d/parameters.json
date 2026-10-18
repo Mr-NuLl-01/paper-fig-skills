@@ -1,0 +1,17 @@
+{
+  "kind": "conceptual faceted prisms over fixed Voronoi cells",
+  "no_crystallographic_claim": true,
+  "growth_factor": [
+    0.12,
+    0.6,
+    0.97
+  ],
+  "height_rule": "0.015 + 0.1*g; roof +0.035*g; arbitrary units",
+  "seed_count": 11,
+  "camera": [
+    1.600000023841858,
+    -2.200000047683716,
+    2.0999999046325684
+  ],
+  "samples": 64
+}

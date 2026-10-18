@@ -1,0 +1,2169 @@
+{
+  "generated_utc": "2026-10-17T08:23:47.321308+00:00",
+  "scope": "All nine skill packages: official frontmatter validation, local Markdown/resource references, agents metadata, seven SVG-scanner contract tests and mechanical inventories of every current bundled demo SVG. Not a visual or scientific review of all demos.",
+  "validator": "/root/.codex/skills/oai/skill-creator/scripts/quick_validate.py",
+  "skill_count": 9,
+  "official_validation": [
+    {
+      "skill": "sci-figure-color",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/root/.codex/skills/oai/skill-creator/scripts/quick_validate.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-color"
+      ],
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "skill": "sci-figure-compose",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/root/.codex/skills/oai/skill-creator/scripts/quick_validate.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-compose"
+      ],
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "skill": "sci-figure-data",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/root/.codex/skills/oai/skill-creator/scripts/quick_validate.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-data"
+      ],
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "skill": "sci-figure-device",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/root/.codex/skills/oai/skill-creator/scripts/quick_validate.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-device"
+      ],
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "skill": "sci-figure-director",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/root/.codex/skills/oai/skill-creator/scripts/quick_validate.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-director"
+      ],
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "skill": "sci-figure-image",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/root/.codex/skills/oai/skill-creator/scripts/quick_validate.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-image"
+      ],
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "skill": "sci-figure-mechanism",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/root/.codex/skills/oai/skill-creator/scripts/quick_validate.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-mechanism"
+      ],
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "skill": "sci-figure-process",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/root/.codex/skills/oai/skill-creator/scripts/quick_validate.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-process"
+      ],
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "skill": "sci-figure-review",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/root/.codex/skills/oai/skill-creator/scripts/quick_validate.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review"
+      ],
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    }
+  ],
+  "agents_metadata": [
+    {
+      "skill": "sci-figure-color",
+      "interface": {
+        "display_name": "Scientific Colour Systems",
+        "short_description": "Choose semantic palettes and inspect perceptual limitations",
+        "default_prompt": "Use $sci-figure-color to prepare this scientific figure."
+      },
+      "checks": {
+        "folder_matches_frontmatter_name": true,
+        "display_name_present": true,
+        "short_description_length_25_to_64": true,
+        "default_prompt_mentions_correct_skill_id": true,
+        "all_interface_strings_double_quoted": true
+      }
+    },
+    {
+      "skill": "sci-figure-compose",
+      "interface": {
+        "display_name": "Scientific Figure Composition",
+        "short_description": "Assemble figures for the intended reading order and final size",
+        "default_prompt": "Use $sci-figure-compose to prepare this scientific figure."
+      },
+      "checks": {
+        "folder_matches_frontmatter_name": true,
+        "display_name_present": true,
+        "short_description_length_25_to_64": true,
+        "default_prompt_mentions_correct_skill_id": true,
+        "all_interface_strings_double_quoted": true
+      }
+    },
+    {
+      "skill": "sci-figure-data",
+      "interface": {
+        "display_name": "Scientific Data Figures",
+        "short_description": "Build quantitative figures matched to scientific questions",
+        "default_prompt": "Use $sci-figure-data to prepare this scientific figure."
+      },
+      "checks": {
+        "folder_matches_frontmatter_name": true,
+        "display_name_present": true,
+        "short_description_length_25_to_64": true,
+        "default_prompt_mentions_correct_skill_id": true,
+        "all_interface_strings_double_quoted": true
+      }
+    },
+    {
+      "skill": "sci-figure-device",
+      "interface": {
+        "display_name": "Device and Material Structures",
+        "short_description": "Create editable sections, cutaways and spatial device views",
+        "default_prompt": "Use $sci-figure-device to prepare this scientific figure."
+      },
+      "checks": {
+        "folder_matches_frontmatter_name": true,
+        "display_name_present": true,
+        "short_description_length_25_to_64": true,
+        "default_prompt_mentions_correct_skill_id": true,
+        "all_interface_strings_double_quoted": true
+      }
+    },
+    {
+      "skill": "sci-figure-director",
+      "interface": {
+        "display_name": "Scientific Figure Director",
+        "short_description": "Choose visual forms from evidence and reference figures",
+        "default_prompt": "Use $sci-figure-director to prepare this scientific figure."
+      },
+      "checks": {
+        "folder_matches_frontmatter_name": true,
+        "display_name_present": true,
+        "short_description_length_25_to_64": true,
+        "default_prompt_mentions_correct_skill_id": true,
+        "all_interface_strings_double_quoted": true
+      }
+    },
+    {
+      "skill": "sci-figure-image",
+      "interface": {
+        "display_name": "Scientific Image Plates",
+        "short_description": "Compose microscopy and field plates while preserving evidence",
+        "default_prompt": "Use $sci-figure-image to compose this scientific image plate."
+      },
+      "checks": {
+        "folder_matches_frontmatter_name": true,
+        "display_name_present": true,
+        "short_description_length_25_to_64": true,
+        "default_prompt_mentions_correct_skill_id": true,
+        "all_interface_strings_double_quoted": true
+      }
+    },
+    {
+      "skill": "sci-figure-mechanism",
+      "interface": {
+        "display_name": "Mechanism and Energy Diagrams",
+        "short_description": "Draw precise mechanisms with explicit evidence and direction",
+        "default_prompt": "Use $sci-figure-mechanism to prepare this scientific figure."
+      },
+      "checks": {
+        "folder_matches_frontmatter_name": true,
+        "display_name_present": true,
+        "short_description_length_25_to_64": true,
+        "default_prompt_mentions_correct_skill_id": true,
+        "all_interface_strings_double_quoted": true
+      }
+    },
+    {
+      "skill": "sci-figure-process",
+      "interface": {
+        "display_name": "Growth and Experimental Processes",
+        "short_description": "Show growth, fabrication and experiments across time and scale",
+        "default_prompt": "Use $sci-figure-process to prepare this scientific figure."
+      },
+      "checks": {
+        "folder_matches_frontmatter_name": true,
+        "display_name_present": true,
+        "short_description_length_25_to_64": true,
+        "default_prompt_mentions_correct_skill_id": true,
+        "all_interface_strings_double_quoted": true
+      }
+    },
+    {
+      "skill": "sci-figure-review",
+      "interface": {
+        "display_name": "Scientific Figure Review",
+        "short_description": "Check scientific meaning, visibility and editable deliverables",
+        "default_prompt": "Use $sci-figure-review to prepare this scientific figure."
+      },
+      "checks": {
+        "folder_matches_frontmatter_name": true,
+        "display_name_present": true,
+        "short_description_length_25_to_64": true,
+        "default_prompt_mentions_correct_skill_id": true,
+        "all_interface_strings_double_quoted": true
+      }
+    }
+  ],
+  "display_names_unique": true,
+  "relative_markdown_links": [
+    {
+      "source": "skills/sci-figure-color/SKILL.md",
+      "target": "references/color-semantics.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-color/references/color-semantics.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-color/SKILL.md",
+      "target": "assets/palettes.json",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-color/assets/palettes.json",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-color/SKILL.md",
+      "target": "references/diagnostics-and-sources.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-color/references/diagnostics-and-sources.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-compose/SKILL.md",
+      "target": "references/layout-strategies.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-compose/references/layout-strategies.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-compose/SKILL.md",
+      "target": "references/editable-production.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-compose/references/editable-production.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-compose/SKILL.md",
+      "target": "references/examples.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-compose/references/examples.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-compose/references/editable-production.md",
+      "target": "../../sci-figure-review/scripts/check_svg.py",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/scripts/check_svg.py",
+      "exists": true,
+      "within_same_skill": false
+    },
+    {
+      "source": "skills/sci-figure-data/SKILL.md",
+      "target": "references/task-cases.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-data/references/task-cases.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-data/SKILL.md",
+      "target": "references/scientific-checks.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-data/references/scientific-checks.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-data/SKILL.md",
+      "target": "references/reconstruction.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-data/references/reconstruction.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-device/SKILL.md",
+      "target": "references/routes-and-evidence.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-device/references/routes-and-evidence.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-device/SKILL.md",
+      "target": "references/geometry-and-export.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-device/references/geometry-and-export.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-director/SKILL.md",
+      "target": "references/evidence-index.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-director/references/evidence-index.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-director/SKILL.md",
+      "target": "references/corpus-atlas.json",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-director/references/corpus-atlas.json",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-director/SKILL.md",
+      "target": "references/brief-contract.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-director/references/brief-contract.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-director/SKILL.md",
+      "target": "references/visual-grammars.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-director/references/visual-grammars.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-image/SKILL.md",
+      "target": "references/pixels-and-annotations.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-image/references/pixels-and-annotations.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-image/SKILL.md",
+      "target": "references/volume-fields-and-cases.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-image/references/volume-fields-and-cases.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-mechanism/SKILL.md",
+      "target": "references/physics-grammar.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-mechanism/references/physics-grammar.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-mechanism/SKILL.md",
+      "target": "references/task-cases.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-mechanism/references/task-cases.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-mechanism/SKILL.md",
+      "target": "references/reconstruction.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-mechanism/references/reconstruction.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-process/SKILL.md",
+      "target": "references/semantics-and-delivery.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-process/references/semantics-and-delivery.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-process/SKILL.md",
+      "target": "references/cases-and-counterexamples.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-process/references/cases-and-counterexamples.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-review/SKILL.md",
+      "target": "references/review-cases.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/references/review-cases.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-review/SKILL.md",
+      "target": "references/svg-scan.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/references/svg-scan.md",
+      "exists": true,
+      "within_same_skill": true
+    },
+    {
+      "source": "skills/sci-figure-review/SKILL.md",
+      "target": "references/review-report.md",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/references/review-report.md",
+      "exists": true,
+      "within_same_skill": true
+    }
+  ],
+  "skill_root_resource_mentions": [
+    {
+      "source": "skills/sci-figure-color/SKILL.md",
+      "target": "scripts/palette_audit.py",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-color/scripts/palette_audit.py",
+      "exists": true
+    },
+    {
+      "source": "skills/sci-figure-data/SKILL.md",
+      "target": "scripts/make_demo.py",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-data/scripts/make_demo.py",
+      "exists": true
+    },
+    {
+      "source": "skills/sci-figure-data/references/reconstruction.md",
+      "target": "scripts/make_demo.py",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-data/scripts/make_demo.py",
+      "exists": true
+    },
+    {
+      "source": "skills/sci-figure-device/SKILL.md",
+      "target": "scripts/device_demo.py",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-device/scripts/device_demo.py",
+      "exists": true
+    },
+    {
+      "source": "skills/sci-figure-device/references/geometry-and-export.md",
+      "target": "scripts/device_demo.py",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-device/scripts/device_demo.py",
+      "exists": true
+    },
+    {
+      "source": "skills/sci-figure-mechanism/SKILL.md",
+      "target": "scripts/make_demo.py",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-mechanism/scripts/make_demo.py",
+      "exists": true
+    },
+    {
+      "source": "skills/sci-figure-mechanism/references/reconstruction.md",
+      "target": "scripts/make_demo.py",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-mechanism/scripts/make_demo.py",
+      "exists": true
+    },
+    {
+      "source": "skills/sci-figure-review/SKILL.md",
+      "target": "scripts/check_svg.py",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/scripts/check_svg.py",
+      "exists": true
+    },
+    {
+      "source": "skills/sci-figure-review/references/svg-scan.md",
+      "target": "scripts/check_svg.py",
+      "resolved": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/scripts/check_svg.py",
+      "exists": true
+    }
+  ],
+  "scanner_contract_tests": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/scripts/test_check_svg.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.003s\n\nOK"
+  },
+  "bundled_demo_svg_mechanical_scans": [
+    {
+      "svg": "skills/sci-figure-color/assets/demo/palette_diagnostic.svg",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/scripts/check_svg.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-color/assets/demo/palette_diagnostic.svg"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "inventory": {
+        "file": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-color/assets/demo/palette_diagnostic.svg",
+        "scan": "mechanical inventory only; no scientific or visual approval",
+        "canvas": {
+          "width": "210mm",
+          "height": "138.409mm",
+          "width_mm": 210.0,
+          "height_mm": 138.409,
+          "viewBox": [
+            0.0,
+            0.0,
+            880.0,
+            580.0
+          ]
+        },
+        "metadata_element_present": true,
+        "live_text_nodes": [
+          {
+            "element": "text",
+            "text": "indigo-copper",
+            "font_size_declared": "23",
+            "estimated_em_height_pt": 15.5583,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Original combinations • finite simulations • verify in the actual figure",
+            "font_size_declared": "13",
+            "estimated_em_height_pt": 8.7938,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "original",
+            "font_size_declared": "15",
+            "estimated_em_height_pt": 10.1467,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "min ΔE76 29.7 · pair 4/5",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "1  #334E8C",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 34.1 · CR 8.05",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "2  #C77945",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 58.3 · CR 3.36",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "3  #759891",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 60.1 · CR 3.15",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "4  #90648C",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 48.2 · CR 4.79",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "5  #48515D",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 34.1 · CR 8.04",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "protanopia",
+            "font_size_declared": "15",
+            "estimated_em_height_pt": 10.1467,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "min ΔE76 16.2 · pair 4/5",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "1  #32548E",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 35.9 · CR 7.51",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "2  #8F8240",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 54.2 · CR 3.86",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "3  #959491",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 61.3 · CR 3.03",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "4  #626F8E",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 46.9 · CR 5.02",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "5  #4D515E",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 34.5 · CR 7.91",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "deuteranopia",
+            "font_size_declared": "15",
+            "estimated_em_height_pt": 10.1467,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "min ΔE76 15.8 · pair 3/4",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "1  #244C8B",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 32.7 · CR 8.46",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "2  #A29345",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 60.8 · CR 3.09",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "3  #8E8F92",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 59.4 · CR 3.23",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "4  #6D748B",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 49.0 · CR 4.64",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "5  #4B4F5D",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 33.7 · CR 8.15",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "tritanopia",
+            "font_size_declared": "15",
+            "estimated_em_height_pt": 10.1467,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "min ΔE76 16.2 · pair 1/5",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "1  #005C66",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 35.2 · CR 7.71",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "2  #D9696D",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 58.0 · CR 3.39",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "3  #6C9996",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 60.0 · CR 3.17",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "4  #936772",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 48.4 · CR 4.75",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "5  #435455",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 34.4 · CR 7.96",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "grayscale",
+            "font_size_declared": "15",
+            "estimated_em_height_pt": 10.1467,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "min ΔE76 0.0 · pair 1/5",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "1  #505050",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 34.0 · CR 8.06",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "2  #8C8C8C",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 58.2 · CR 3.36",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "3  #919191",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 60.2 · CR 3.15",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "4  #727272",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 48.0 · CR 4.81",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "5  #505050",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "L* 34.0 · CR 8.06",
+            "font_size_declared": "10.5",
+            "estimated_em_height_pt": 7.1027,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "CR: luminance contrast to the specified background. Use dark labels outside pale fills.",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Colour alone may merge categories. Add labels, shapes or panels when the task requires it.",
+            "font_size_declared": "12",
+            "estimated_em_height_pt": 8.1174,
+            "font_family": "Arial, DejaVu Sans, sans-serif",
+            "font_size_explicit_or_inherited": true
+          }
+        ],
+        "images": [],
+        "findings": [],
+        "uncertainties": []
+      }
+    },
+    {
+      "svg": "skills/sci-figure-data/assets/demo/demo-paired-batches.svg",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/scripts/check_svg.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-data/assets/demo/demo-paired-batches.svg"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "inventory": {
+        "file": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-data/assets/demo/demo-paired-batches.svg",
+        "scan": "mechanical inventory only; no scientific or visual approval",
+        "canvas": {
+          "width": "357.88125pt",
+          "height": "277.474375pt",
+          "width_mm": 126.2526,
+          "height_mm": 97.8868,
+          "viewBox": [
+            0.0,
+            0.0,
+            357.88125,
+            277.474375
+          ]
+        },
+        "metadata_element_present": true,
+        "live_text_nodes": [
+          {
+            "element": "text",
+            "text": "Before",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "After",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "3.5",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "4.0",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "4.5",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "5.0",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "5.5",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "6.0",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "DEMO response (a.u.)",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "DEMO | Paired samples across batches",
+            "font_size_declared": "12px",
+            "estimated_em_height_pt": 12.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Batch 1",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Batch 2",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Batch 3",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Synthetic values; n = 12 paired DEMO units in 3 batches. No inference.",
+            "font_size_declared": "8px",
+            "estimated_em_height_pt": 8.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          }
+        ],
+        "images": [],
+        "findings": [],
+        "uncertainties": [
+          "Stylesheets are not resolved; font/visibility estimates include only attributes, inline style and inheritance."
+        ]
+      }
+    },
+    {
+      "svg": "skills/sci-figure-data/assets/demo/demo-tradeoff.svg",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/scripts/check_svg.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-data/assets/demo/demo-tradeoff.svg"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "inventory": {
+        "file": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-data/assets/demo/demo-tradeoff.svg",
+        "scan": "mechanical inventory only; no scientific or visual approval",
+        "canvas": {
+          "width": "387.05375pt",
+          "height": "259.006375pt",
+          "width_mm": 136.544,
+          "height_mm": 91.3717,
+          "viewBox": [
+            0.0,
+            0.0,
+            387.05375,
+            259.006375
+          ]
+        },
+        "metadata_element_present": true,
+        "live_text_nodes": [
+          {
+            "element": "text",
+            "text": "1",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "2",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "3",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "4",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "5",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "6",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "DEMO delay (ms; lower is preferred)",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "70",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "75",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "80",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "85",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "90",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "DEMO quality score (%)",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "P0",
+            "font_size_declared": "8px",
+            "estimated_em_height_pt": 8.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "P4",
+            "font_size_declared": "8px",
+            "estimated_em_height_pt": 8.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "P8",
+            "font_size_declared": "8px",
+            "estimated_em_height_pt": 8.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "DEMO | Retain the tradeoff rather than one winner",
+            "font_size_declared": "12px",
+            "estimated_em_height_pt": 12.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Non-dominated DEMO settings",
+            "font_size_declared": "8px",
+            "estimated_em_height_pt": 8.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "0",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "1",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "2",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "3",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "4",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "5",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "6",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "7",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "8",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Ordered DEMO setting index",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Synthetic values; frontier computed from the stated two-objective rule.",
+            "font_size_declared": "8px",
+            "estimated_em_height_pt": 8.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          }
+        ],
+        "images": [
+          {
+            "element": "imagee991f8bfe2",
+            "reference": "embedded data URI",
+            "bytes": 398,
+            "format": "PNG",
+            "width_px": 12,
+            "height_px": 241,
+            "placed_width_mm": 3.048,
+            "placed_height_mm": 61.214,
+            "effective_ppi_xy": [
+              100.0,
+              100.0
+            ],
+            "ppi_note": "Image box estimate; preserveAspectRatio cropping/letterboxing can change actual rendered pixel scale."
+          }
+        ],
+        "findings": [],
+        "uncertainties": [
+          "Stylesheets are not resolved; font/visibility estimates include only attributes, inline style and inheritance."
+        ]
+      }
+    },
+    {
+      "svg": "skills/sci-figure-device/assets/demo/device_demo_overlay.svg",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/scripts/check_svg.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-device/assets/demo/device_demo_overlay.svg"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "inventory": {
+        "file": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-device/assets/demo/device_demo_overlay.svg",
+        "scan": "mechanical inventory only; no scientific or visual approval",
+        "canvas": {
+          "width": "1100",
+          "height": "750",
+          "width_mm": 291.0417,
+          "height_mm": 198.4375,
+          "viewBox": [
+            0.0,
+            0.0,
+            1100.0,
+            750.0
+          ]
+        },
+        "metadata_element_present": false,
+        "live_text_nodes": [
+          {
+            "element": "text",
+            "text": "DEMO · illustrative geometry",
+            "font_size_declared": "28",
+            "estimated_em_height_pt": 21.0,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Not measured · not a reconstruction of a published figure",
+            "font_size_declared": "17",
+            "estimated_em_height_pt": 12.75,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Material labels and section references remain editable in the side-section SVG.",
+            "font_size_declared": "17",
+            "estimated_em_height_pt": 12.75,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          }
+        ],
+        "images": [],
+        "findings": [],
+        "uncertainties": []
+      }
+    },
+    {
+      "svg": "skills/sci-figure-device/assets/demo/device_demo_preview.svg",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/scripts/check_svg.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-device/assets/demo/device_demo_preview.svg"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "inventory": {
+        "file": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-device/assets/demo/device_demo_preview.svg",
+        "scan": "mechanical inventory only; no scientific or visual approval",
+        "canvas": {
+          "width": "1500",
+          "height": "560",
+          "width_mm": 396.875,
+          "height_mm": 148.1667,
+          "viewBox": [
+            0.0,
+            0.0,
+            1500.0,
+            560.0
+          ]
+        },
+        "metadata_element_present": false,
+        "live_text_nodes": [
+          {
+            "element": "text",
+            "text": "DEMO · three editable spatial views",
+            "font_size_declared": "28",
+            "estimated_em_height_pt": 21.0,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Illustrative geometry, not measured · all materials, parts and cameras retained in device_demo.blend",
+            "font_size_declared": "18",
+            "estimated_em_height_pt": 13.5,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "A · assembled",
+            "font_size_declared": "21",
+            "estimated_em_height_pt": 15.75,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "B · exploded assembly",
+            "font_size_declared": "21",
+            "estimated_em_height_pt": 15.75,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "C · planar half-section",
+            "font_size_declared": "21",
+            "estimated_em_height_pt": 15.75,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Layer identities and editable leader lines: device_demo_side_section.svg",
+            "font_size_declared": null,
+            "estimated_em_height_pt": 12.75,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "No physical scale; thicknesses exaggerated for explanation. This example does not reproduce a publis",
+            "font_size_declared": null,
+            "estimated_em_height_pt": 12.75,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          }
+        ],
+        "images": [
+          {
+            "element": "image",
+            "reference": "embedded data URI",
+            "bytes": 525902,
+            "format": "PNG",
+            "width_px": 1100,
+            "height_px": 750,
+            "placed_width_mm": 127.0,
+            "placed_height_mm": 86.5187,
+            "effective_ppi_xy": [
+              220.0,
+              220.18
+            ],
+            "ppi_note": "Image box estimate; preserveAspectRatio cropping/letterboxing can change actual rendered pixel scale."
+          },
+          {
+            "element": "image",
+            "reference": "embedded data URI",
+            "bytes": 649054,
+            "format": "PNG",
+            "width_px": 1100,
+            "height_px": 750,
+            "placed_width_mm": 127.0,
+            "placed_height_mm": 86.5187,
+            "effective_ppi_xy": [
+              220.0,
+              220.18
+            ],
+            "ppi_note": "Image box estimate; preserveAspectRatio cropping/letterboxing can change actual rendered pixel scale."
+          },
+          {
+            "element": "image",
+            "reference": "embedded data URI",
+            "bytes": 417254,
+            "format": "PNG",
+            "width_px": 1100,
+            "height_px": 750,
+            "placed_width_mm": 127.0,
+            "placed_height_mm": 86.5187,
+            "effective_ppi_xy": [
+              220.0,
+              220.18
+            ],
+            "ppi_note": "Image box estimate; preserveAspectRatio cropping/letterboxing can change actual rendered pixel scale."
+          }
+        ],
+        "findings": [],
+        "uncertainties": []
+      }
+    },
+    {
+      "svg": "skills/sci-figure-device/assets/demo/device_demo_side_section.svg",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/scripts/check_svg.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-device/assets/demo/device_demo_side_section.svg"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "inventory": {
+        "file": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-device/assets/demo/device_demo_side_section.svg",
+        "scan": "mechanical inventory only; no scientific or visual approval",
+        "canvas": {
+          "width": "1100",
+          "height": "600",
+          "width_mm": 291.0417,
+          "height_mm": 158.75,
+          "viewBox": [
+            0.0,
+            0.0,
+            1100.0,
+            600.0
+          ]
+        },
+        "metadata_element_present": false,
+        "live_text_nodes": [
+          {
+            "element": "text",
+            "text": "DEMO · editable side section",
+            "font_size_declared": "28",
+            "estimated_em_height_pt": 21.0,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Illustrative geometry; thickness exaggerated; no physical scale",
+            "font_size_declared": "17",
+            "estimated_em_height_pt": 12.75,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "substrate",
+            "font_size_declared": null,
+            "estimated_em_height_pt": 15.0,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "bottom electrode",
+            "font_size_declared": null,
+            "estimated_em_height_pt": 15.0,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "active DEMO",
+            "font_size_declared": null,
+            "estimated_em_height_pt": 15.0,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "top electrode",
+            "font_size_declared": null,
+            "estimated_em_height_pt": 15.0,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "cover DEMO",
+            "font_size_declared": null,
+            "estimated_em_height_pt": 15.0,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Source assets: device_demo.blend · separate assembled / exploded / section collections",
+            "font_size_declared": null,
+            "estimated_em_height_pt": 12.0,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Material colors identify parts; they do not encode composition, thickness or performance.",
+            "font_size_declared": null,
+            "estimated_em_height_pt": 12.0,
+            "font_family": "Arial, sans-serif",
+            "font_size_explicit_or_inherited": true
+          }
+        ],
+        "images": [],
+        "findings": [],
+        "uncertainties": []
+      }
+    },
+    {
+      "svg": "skills/sci-figure-mechanism/assets/demo/demo-energy-alignment.svg",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/scripts/check_svg.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-mechanism/assets/demo/demo-energy-alignment.svg"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "inventory": {
+        "file": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-mechanism/assets/demo/demo-energy-alignment.svg",
+        "scan": "mechanical inventory only; no scientific or visual approval",
+        "canvas": {
+          "width": "412.520312pt",
+          "height": "308.150391pt",
+          "width_mm": 145.528,
+          "height_mm": 108.7086,
+          "viewBox": [
+            0.0,
+            0.0,
+            412.520312,
+            308.150391
+          ]
+        },
+        "metadata_element_present": true,
+        "live_text_nodes": [
+          {
+            "element": "text",
+            "text": "−6",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "−5",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "−4",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "−3",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "−2",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "−1",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "0",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Energy E (eV; all values are DEMO)",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Vacuum reference = 0 eV",
+            "font_size_declared": "9px",
+            "estimated_em_height_pt": 9.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "DEMO CB: -2.8 eV",
+            "font_size_declared": "9px",
+            "estimated_em_height_pt": 9.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "DEMO VB: -5.2 eV",
+            "font_size_declared": "9px",
+            "estimated_em_height_pt": 9.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "State set A",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "DEMO CB: -3.3 eV",
+            "font_size_declared": "9px",
+            "estimated_em_height_pt": 9.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "DEMO VB: -5.0 eV",
+            "font_size_declared": "9px",
+            "estimated_em_height_pt": 9.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "State set B",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "proposed e- transfer",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "proposed",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "radiative step",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "DEMO | Energy alignment is not a spatial trajectory",
+            "font_size_declared": "12px",
+            "estimated_em_height_pt": 12.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Horizontal spacing is categorical, not distance. Dashed arrows = proposed DEMO processes.",
+            "font_size_declared": "7.5px",
+            "estimated_em_height_pt": 7.5,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          }
+        ],
+        "images": [],
+        "findings": [],
+        "uncertainties": [
+          "Stylesheets are not resolved; font/visibility estimates include only attributes, inline style and inheritance."
+        ]
+      }
+    },
+    {
+      "svg": "skills/sci-figure-mechanism/assets/demo/demo-spatial-drift.svg",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-review/scripts/check_svg.py",
+        "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-mechanism/assets/demo/demo-spatial-drift.svg"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "inventory": {
+        "file": "/workspace/scratch/bff0697374b8/figure-atlas/skills/sci-figure-mechanism/assets/demo/demo-spatial-drift.svg",
+        "scan": "mechanical inventory only; no scientific or visual approval",
+        "canvas": {
+          "width": "407.52pt",
+          "height": "252.850375pt",
+          "width_mm": 143.764,
+          "height_mm": 89.2,
+          "viewBox": [
+            0.0,
+            0.0,
+            407.52,
+            252.850375
+          ]
+        },
+        "metadata_element_present": true,
+        "live_text_nodes": [
+          {
+            "element": "text",
+            "text": "Position x (qualitative spatial axis)",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "DEMO homogeneous medium | drift only",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "E points right",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "electron particle flux: left",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "hole particle flux: right",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "conventional drift current: right",
+            "font_size_declared": "10px",
+            "estimated_em_height_pt": 10.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "DEMO | Spatial directions require an explicit model",
+            "font_size_declared": "12px",
+            "estimated_em_height_pt": 12.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          },
+          {
+            "element": "text",
+            "text": "Synthetic concept. Assumes positive mobilities and no diffusion or ionic current.",
+            "font_size_declared": "8px",
+            "estimated_em_height_pt": 8.0,
+            "font_family": "'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif",
+            "font_size_explicit_or_inherited": true
+          }
+        ],
+        "images": [],
+        "findings": [],
+        "uncertainties": [
+          "Stylesheets are not resolved; font/visibility estimates include only attributes, inline style and inheritance."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "official_passed": 9,
+    "agents_failed": [],
+    "relative_markdown_links_count": 26,
+    "skill_root_resource_mentions_count": 9,
+    "missing_local_references": [],
+    "bundled_demo_svg_count": 8,
+    "demo_scans_nonzero_exit": [],
+    "demo_scan_flags": [
+      {
+        "svg": "skills/sci-figure-data/assets/demo/demo-paired-batches.svg",
+        "findings": [],
+        "uncertainties": [
+          "Stylesheets are not resolved; font/visibility estimates include only attributes, inline style and inheritance."
+        ]
+      },
+      {
+        "svg": "skills/sci-figure-data/assets/demo/demo-tradeoff.svg",
+        "findings": [],
+        "uncertainties": [
+          "Stylesheets are not resolved; font/visibility estimates include only attributes, inline style and inheritance."
+        ]
+      },
+      {
+        "svg": "skills/sci-figure-mechanism/assets/demo/demo-energy-alignment.svg",
+        "findings": [],
+        "uncertainties": [
+          "Stylesheets are not resolved; font/visibility estimates include only attributes, inline style and inheritance."
+        ]
+      },
+      {
+        "svg": "skills/sci-figure-mechanism/assets/demo/demo-spatial-drift.svg",
+        "findings": [],
+        "uncertainties": [
+          "Stylesheets are not resolved; font/visibility estimates include only attributes, inline style and inheritance."
+        ]
+      }
+    ]
+  },
+  "exact_edits": [
+    {
+      "file": "skills/sci-figure-compose/SKILL.md",
+      "section": "2. 用读序选择布局",
+      "change": "Limit two-layout comparison to complex composites, uncertain reading order or re-layout; allow clear single panels to proceed with a reason."
+    },
+    {
+      "file": "skills/sci-figure-compose/references/layout-strategies.md",
+      "section": "C03",
+      "change": "Separate Day5/10/14 same-day matrix, panel m three conditions, and panel n Drop D7 vs OCTOPUS D14 extended-culture comparison; preserve day/condition per panel."
+    },
+    {
+      "file": "skills/sci-figure-compose/references/examples.md",
+      "section": "多条件显微结果 验收",
+      "change": "Require panel-specific day/condition and warn that C03 later functional comparison is not matched-age."
+    },
+    {
+      "file": "skills/sci-figure-compose/references/editable-production.md",
+      "section": "final paragraph",
+      "change": "Replace nonresolving review/scripts/check_svg.py prose path with actual ../../sci-figure-review/scripts/check_svg.py Markdown link."
+    },
+    {
+      "file": "skills/sci-figure-review/scripts/check_svg.py",
+      "section": "embedded base64 decode",
+      "change": "Strip only ASCII whitespace inserted by SVG exporters before strict base64 validation, fixing the false invalid_data_uri on the actual Matplotlib tradeoff demo."
+    },
+    {
+      "file": "skills/sci-figure-review/scripts/test_check_svg.py",
+      "section": "SVGScanContract",
+      "change": "Add wrapped/whitespace base64 acceptance and nonwhitespace-corruption rejection tests; seven contract tests total."
+    },
+    {
+      "file": "skills/sci-figure-review/references/svg-scan.md",
+      "section": "实际计算",
+      "change": "Document ASCII-whitespace normalization and continued strict validation of other base64 characters."
+    }
+  ],
+  "forward_test_coverage": {
+    "path": "review/forward-test",
+    "actual_modules": [
+      "sci-figure-director",
+      "sci-figure-data",
+      "sci-figure-device",
+      "sci-figure-mechanism",
+      "sci-figure-compose",
+      "sci-figure-color",
+      "sci-figure-review"
+    ],
+    "module_count": 7,
+    "actual_visual_checks": "one original optoelectronic-device DEMO figure, full PNG/reduced PNG/grayscale",
+    "not_covered": "process and image task routes; full scientific or visual review of all bundled demos; alternate editor import"
+  },
+  "observed_before_fixes": [
+    {
+      "location": "skills/sci-figure-compose/SKILL.md:layout rule",
+      "finding": "Two-layout comparison was unconditional despite director allowing simple single panels to proceed directly."
+    },
+    {
+      "location": "skills/sci-figure-compose/references/layout-strategies.md:C03",
+      "finding": "Case summary did not preserve Fig2 later-panel age conditions; checked against local figure_02_full.png and article.html figure#F2."
+    },
+    {
+      "location": "skills/sci-figure-compose/references/editable-production.md",
+      "finding": "review/scripts/check_svg.py prose path did not resolve to a bundled resource."
+    },
+    {
+      "location": "skills/sci-figure-data/assets/demo/demo-tradeoff.svg",
+      "finding": "Actual exported embedded PNG has ASCII whitespace after data:image/png;base64,; old scanner emitted invalid_data_uri: Only base64 data is allowed."
+    }
+  ],
+  "not_changed": [
+    "color script",
+    "raw C03 corpus record (handled by corpus_opto)",
+    "installed skills",
+    "official validator"
+  ]
+}

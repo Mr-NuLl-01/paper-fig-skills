@@ -1,0 +1,437 @@
+{
+  "schema_version": "1.0",
+  "created_date": "2026-10-17",
+  "scope": "Original skill import only; excludes repository maintenance documents and LICENSE",
+  "source_archive_sha256": "51fe54cd16dba5d17d931995e7a42349c5ee723f2a0dbf3fa90c63c9fd222553",
+  "skill_count": 9,
+  "file_count": 71,
+  "total_bytes": 5698685,
+  "files": [
+    {
+      "path": "skills/sci-figure-color/SKILL.md",
+      "bytes": 3206,
+      "sha256": "a84f9e84d3fec3a6776dc40a939376775faa8a6d768d92eac4fd15168ff0dfec",
+      "git_blob_sha1": "04c7dfb07c9f5399597798a2ff099391ac8c4c9c"
+    },
+    {
+      "path": "skills/sci-figure-color/agents/openai.yaml",
+      "bytes": 215,
+      "sha256": "3b3a67c8031bb0739b27b8f762fde5fc5f7d09b6552fb02b45e7f5d5bac15bec",
+      "git_blob_sha1": "ea1c9a0027d358fe57fa29595fdcac6964aca004"
+    },
+    {
+      "path": "skills/sci-figure-color/assets/demo/palette_diagnostic.json",
+      "bytes": 4931,
+      "sha256": "a196ea80a3cea19ebf068ada489dcfe4bfdde4f62ff5e6443dce40830eea07f3",
+      "git_blob_sha1": "8c8631686da49db3b9df695381d9c576d3186e4f"
+    },
+    {
+      "path": "skills/sci-figure-color/assets/demo/palette_diagnostic.svg",
+      "bytes": 6017,
+      "sha256": "f0b52fd3bc27da144757260c8b3d161cde5fb6875374b597e70c59bbfa9e0ad5",
+      "git_blob_sha1": "1157fe39e07ef794c42e73496491b7e4e9d21c9d"
+    },
+    {
+      "path": "skills/sci-figure-color/assets/palettes.json",
+      "bytes": 2680,
+      "sha256": "8d84c72d4b72a9950ba476b0f7dc139ee945e4e902afcf6f608cee53f6c5136b",
+      "git_blob_sha1": "1418741d7521e37d9a1528dfad205df121c93a96"
+    },
+    {
+      "path": "skills/sci-figure-color/references/color-semantics.md",
+      "bytes": 2144,
+      "sha256": "7d49c507e8f893ebde75ad56f8b04c74cb53be66d7a6e0081afe55923ba3e671",
+      "git_blob_sha1": "8ca7e368cc65fb3e77cffc23505398f7493c09eb"
+    },
+    {
+      "path": "skills/sci-figure-color/references/diagnostics-and-sources.md",
+      "bytes": 2144,
+      "sha256": "0cd5b0eeb21363104afb4feb2ebecfd55ba6e862310fca3d7afb02d67faeb0e6",
+      "git_blob_sha1": "e55d57c367b2292d0ffee9269f4729d768baf202"
+    },
+    {
+      "path": "skills/sci-figure-color/scripts/palette_audit.py",
+      "bytes": 6342,
+      "sha256": "b77e293123486f4151c65026bef00e1692026ae2378d0ae387e66d76634e7a9d",
+      "git_blob_sha1": "3ec0f96c6623c1082d31681e19c7a97433e009ab"
+    },
+    {
+      "path": "skills/sci-figure-compose/SKILL.md",
+      "bytes": 4055,
+      "sha256": "f6d71716b9d962299963f51b9a8ceb42a9e8fb7cb00f4f9e828e7666181399ec",
+      "git_blob_sha1": "2302b1e632d7fe44ca2af7fc0538786fb88490fd"
+    },
+    {
+      "path": "skills/sci-figure-compose/agents/openai.yaml",
+      "bytes": 224,
+      "sha256": "0d07766ccc41e687e01e5a58c9873f887f79126f420acdebcea62ec71b6edfcc",
+      "git_blob_sha1": "bc47ec528b3b3f89597b2c4e3b1476a784dec4d6"
+    },
+    {
+      "path": "skills/sci-figure-compose/references/editable-production.md",
+      "bytes": 2711,
+      "sha256": "fdc214a16ab56c005e11b6610f5f9c81a245ce4dfad86ee68c2841308668e688",
+      "git_blob_sha1": "dbb29d768995f71e887db7a64adb2cda06787216"
+    },
+    {
+      "path": "skills/sci-figure-compose/references/examples.md",
+      "bytes": 1975,
+      "sha256": "03ac5af9adcf8b83dd9c0b94b86412e64574ec188d1e2eb44ea740b0cdd442e7",
+      "git_blob_sha1": "88ef58cc0bdcdc00b3d74d89beaa706733a018ef"
+    },
+    {
+      "path": "skills/sci-figure-compose/references/layout-strategies.md",
+      "bytes": 3637,
+      "sha256": "e88eef226c07f8a43ae422448a03a799299e103a2a8fa58e65af338ad34c9ddf",
+      "git_blob_sha1": "9d7a759f4bae44c0fbe7112e91ceef8308042e02"
+    },
+    {
+      "path": "skills/sci-figure-data/SKILL.md",
+      "bytes": 4156,
+      "sha256": "24423a561f15b21a531171f41ad97c1fa7a425b6c3dbab37bf00509ee13cae9c",
+      "git_blob_sha1": "7ea2b37d401cbac8797585591d716098df902181"
+    },
+    {
+      "path": "skills/sci-figure-data/agents/openai.yaml",
+      "bytes": 211,
+      "sha256": "54b8fed668c7f5db2e005d30f543fa7b83cda310f55163af5eb65e7d248b54fe",
+      "git_blob_sha1": "770b6d8325fa6a3f7561a6a889ebf4bf09e41458"
+    },
+    {
+      "path": "skills/sci-figure-data/assets/demo/demo-data.json",
+      "bytes": 4220,
+      "sha256": "a95c5d2ff6f90659aec604d827c226561bc38c4b66255f79780f4ae8b17c3708",
+      "git_blob_sha1": "cf50394762566313963d3c93b4752698f1bf9fbc"
+    },
+    {
+      "path": "skills/sci-figure-data/assets/demo/demo-paired-batches.png",
+      "bytes": 88985,
+      "sha256": "9d7d6c4e7e7ffb6f450440f53cae04930cc32dc69155c81eb374cf70377a04e8",
+      "git_blob_sha1": "8dbf7436fb9c61d1b9348e809f4044e900136278"
+    },
+    {
+      "path": "skills/sci-figure-data/assets/demo/demo-paired-batches.svg",
+      "bytes": 15888,
+      "sha256": "c0365804d76fa3764789855c31db775f83c58349603959499c6597c58499819e",
+      "git_blob_sha1": "1049167d886b2ba4df7c2619af7ce49a0c4a422f"
+    },
+    {
+      "path": "skills/sci-figure-data/assets/demo/demo-tradeoff.png",
+      "bytes": 79755,
+      "sha256": "24073b52a7bf23fa5e9e8c79709b7d4372cbc531bc0eaf1cbb7f67aa90607767",
+      "git_blob_sha1": "76930f8728ce7d8149bed26cdd3efc7391369c1d"
+    },
+    {
+      "path": "skills/sci-figure-data/assets/demo/demo-tradeoff.svg",
+      "bytes": 20470,
+      "sha256": "54ed2431f51f5376fc3d002e100861f51694cf5b1a7ff1bec112b8dc13e36d12",
+      "git_blob_sha1": "fab8df484f519e647e59c84ea5ba015e21c1ecaf"
+    },
+    {
+      "path": "skills/sci-figure-data/references/reconstruction.md",
+      "bytes": 1454,
+      "sha256": "3e8908efe690811d3f22e7bda67bfab6bc4b788c1fe3105b897436919d0981d0",
+      "git_blob_sha1": "7aaa919086d77903be07a12f5e2ecce786b1a63c"
+    },
+    {
+      "path": "skills/sci-figure-data/references/scientific-checks.md",
+      "bytes": 2259,
+      "sha256": "38a844b4a57a7301d012dcb25ebe3f5ab87ef3d528a966d76871d6505680fe75",
+      "git_blob_sha1": "bc9b8f4ce1479cc03cd96954f26af35a730fe1bc"
+    },
+    {
+      "path": "skills/sci-figure-data/references/task-cases.md",
+      "bytes": 3357,
+      "sha256": "212f80006e5ffc790124059f0f83e08e008c13365eb0fbb76d20baa62d8abfd1",
+      "git_blob_sha1": "86ca345c04e620286392aba1d3fc742bd5e5ac07"
+    },
+    {
+      "path": "skills/sci-figure-data/scripts/make_demo.py",
+      "bytes": 4228,
+      "sha256": "6f89662d9e28153680b568e7062bbea653a79d0bbe4b807c5fe18b103d3e45b6",
+      "git_blob_sha1": "7d641e03db4cdbd22858c5e45d5cc72eb9ef39e8"
+    },
+    {
+      "path": "skills/sci-figure-device/SKILL.md",
+      "bytes": 3533,
+      "sha256": "0819a5162b180c307b1197f3d82559c5c6991ea1bd5382768c2aba13fa9b79f6",
+      "git_blob_sha1": "3e77424fb1dc553ecf28ceed2b81e54ec1f4b2bf"
+    },
+    {
+      "path": "skills/sci-figure-device/agents/openai.yaml",
+      "bytes": 221,
+      "sha256": "b34737145d4c261ac43367c3dc1f53d7dee6289c85948f08f7a6d0bad7e1726b",
+      "git_blob_sha1": "7e5f65438b7aba92714f4d01e9821483b108f873"
+    },
+    {
+      "path": "skills/sci-figure-device/assets/demo/device_demo.blend",
+      "bytes": 654783,
+      "sha256": "bb0d56d704e0aa5b00dbc1cccb9980baedad3f772538fd233d02953c65a72011",
+      "git_blob_sha1": "849a76c74dd24d2c6712b103d232891547512667"
+    },
+    {
+      "path": "skills/sci-figure-device/assets/demo/device_demo_assembled.png",
+      "bytes": 525902,
+      "sha256": "9af65a606800a84030324a9ed898a96bd03a4a3b3b4d0bd4d5d86a4a3b6fbec2",
+      "git_blob_sha1": "fb2bdeac02634677d7ab8d03746119bed9c1eaba"
+    },
+    {
+      "path": "skills/sci-figure-device/assets/demo/device_demo_exploded.png",
+      "bytes": 649054,
+      "sha256": "ddaeba023f61dabca301308e088c774cfce52b7db12a37f24e82514a789425a9",
+      "git_blob_sha1": "1e167b2a8d8988ea24ff59ea0770caf060f8c9f7"
+    },
+    {
+      "path": "skills/sci-figure-device/assets/demo/device_demo_overlay.svg",
+      "bytes": 512,
+      "sha256": "a511a2f858b13517f1774054c1c737047e3017433fef0d2f19b5d938cd2f2e76",
+      "git_blob_sha1": "887ed9dc92db5e22b71784cc2177f1500d4e51be"
+    },
+    {
+      "path": "skills/sci-figure-device/assets/demo/device_demo_parameters.json",
+      "bytes": 1338,
+      "sha256": "dec17ce475898038fff5e17d953cdeea392cb022c4a32bbe711d58f627cb9213",
+      "git_blob_sha1": "51ff6e07d732198ac957f53a8712475b4e5e3176"
+    },
+    {
+      "path": "skills/sci-figure-device/assets/demo/device_demo_preview.png",
+      "bytes": 270927,
+      "sha256": "82b0f477513c2211a7e3eb06f3197d7510937db192ff12997a6489a5a21bfd49",
+      "git_blob_sha1": "c544f132d333075e31de048327f9066adfc5c4ea"
+    },
+    {
+      "path": "skills/sci-figure-device/assets/demo/device_demo_preview.svg",
+      "bytes": 2124502,
+      "sha256": "372f496b6b2b9c473ae5a5ab01e17387629472152b0ba99d1d12b2e24378637a",
+      "git_blob_sha1": "11604be44fd17e9f79c34a5c9fb7bbf447e40842"
+    },
+    {
+      "path": "skills/sci-figure-device/assets/demo/device_demo_section.png",
+      "bytes": 417254,
+      "sha256": "46bbe343a0a02e214884ec995a36712a7ce88ffe555b6820bfcfc7758eb06c42",
+      "git_blob_sha1": "73d98d296b37e7c24ed097ab6140358da6a31e46"
+    },
+    {
+      "path": "skills/sci-figure-device/assets/demo/device_demo_side_section.png",
+      "bytes": 69543,
+      "sha256": "50c5d417375391f28f0c47d068919746b34254ab75de058e73ee33926bfff9be",
+      "git_blob_sha1": "8cbe90fb498fc6fd2891887619bc72a42f90455f"
+    },
+    {
+      "path": "skills/sci-figure-device/assets/demo/device_demo_side_section.svg",
+      "bytes": 2612,
+      "sha256": "73fe7ce1a05bc82ce465003f84ab0125c6ddb57c0d10de2b74183688b833800d",
+      "git_blob_sha1": "2027aab3b6bab863085963073fc7362fa97f95d5"
+    },
+    {
+      "path": "skills/sci-figure-device/references/geometry-and-export.md",
+      "bytes": 2205,
+      "sha256": "8dc08a7000e0a686c57c2bee2eccd16389f53884b43352fe876aaace9e43f8ed",
+      "git_blob_sha1": "a6d102f573ccdbfce4ca734d7bd55512243d7184"
+    },
+    {
+      "path": "skills/sci-figure-device/references/routes-and-evidence.md",
+      "bytes": 2091,
+      "sha256": "5905b759da79283566986cf636819607777e3843230608302d3f9d068e1bfbfe",
+      "git_blob_sha1": "0df62958eb3d3587608d1e76721ec059c50b5a2b"
+    },
+    {
+      "path": "skills/sci-figure-device/scripts/device_demo.py",
+      "bytes": 11028,
+      "sha256": "55be000dad3600e69024d5b5a1d9db0287d44f4671c9ad6336987ca1c0c130f0",
+      "git_blob_sha1": "b4733bdb0e294884a1288c966386db373dd97185"
+    },
+    {
+      "path": "skills/sci-figure-director/SKILL.md",
+      "bytes": 3689,
+      "sha256": "3de93290ecd7de05f13613a1f550e48228aeab76ee6bb449b7b06aaca6490582",
+      "git_blob_sha1": "97d80b95b251a5141f5f2d67cbb55dcd0c89cd8f"
+    },
+    {
+      "path": "skills/sci-figure-director/agents/openai.yaml",
+      "bytes": 215,
+      "sha256": "8051af140f2c4e22e79d0d714e383d00b332ea521b63812f4cb0e3d039ce3a5e",
+      "git_blob_sha1": "58184e1121a858ae1f09e1e92139d7d4ff988735"
+    },
+    {
+      "path": "skills/sci-figure-director/references/brief-contract.md",
+      "bytes": 1614,
+      "sha256": "da1043f75896aa4eb0bfa63143e95536916a2b16f3429d247defee1e5f82dbce",
+      "git_blob_sha1": "c16b8b9b75f961c701eaf72f144f392176b4b3a0"
+    },
+    {
+      "path": "skills/sci-figure-director/references/corpus-atlas.json",
+      "bytes": 422047,
+      "sha256": "a66faa68bb3d9e50abce6fbbcac8ba6cee121f00cccb47b4e134628d3addda58",
+      "git_blob_sha1": "a5bed6f56878dee89c9a44db9308a6517e145ebd"
+    },
+    {
+      "path": "skills/sci-figure-director/references/evidence-index.md",
+      "bytes": 43731,
+      "sha256": "4c2476899b937691d8498706f5918d677257a95462e9c1c0b143d396830c6c5b",
+      "git_blob_sha1": "a1b6bb08c7c3e2d7abcb1bc120c8d32805f93729"
+    },
+    {
+      "path": "skills/sci-figure-director/references/visual-grammars.md",
+      "bytes": 1960,
+      "sha256": "e36b25414d5db7fab018883c2b602b905923c76c6c19597bf07e98ff6965a4b2",
+      "git_blob_sha1": "edb39f7a87bec51201fdcbd66c9a78bd1ac0644a"
+    },
+    {
+      "path": "skills/sci-figure-image/SKILL.md",
+      "bytes": 3537,
+      "sha256": "5d66646ffdf38aa07fa29cf182927385096b5004c7ba1f6cf3221952efd15653",
+      "git_blob_sha1": "384130aee506cd6fbe1fad6049971cd5db12914b"
+    },
+    {
+      "path": "skills/sci-figure-image/agents/openai.yaml",
+      "bytes": 220,
+      "sha256": "3c7a9ff0772a17c7d29fd2ce88930a72161fa639b0af6e2026da9f6312e6b545",
+      "git_blob_sha1": "01ae7a2f2862a9702954ac127d51275b10f28463"
+    },
+    {
+      "path": "skills/sci-figure-image/references/pixels-and-annotations.md",
+      "bytes": 2155,
+      "sha256": "dfa07601f13996bc4c6435ec8b10ab531662e01de7f1eda0affca7bcd0ea8ae3",
+      "git_blob_sha1": "241ea52e3a50d712fe211535bcda2e779c228068"
+    },
+    {
+      "path": "skills/sci-figure-image/references/volume-fields-and-cases.md",
+      "bytes": 2404,
+      "sha256": "9b236459383e46bf2cf97802ff84f968bbd7f812f650d782039354e69b2f8382",
+      "git_blob_sha1": "4a1e2e8238c2f3bbacf503c276e8f15d6e61b1c2"
+    },
+    {
+      "path": "skills/sci-figure-mechanism/SKILL.md",
+      "bytes": 3954,
+      "sha256": "df0b0d2c316ee56133378db4d5176daf404981f17422d59ad0ff6a179e3cd0f1",
+      "git_blob_sha1": "f4ffe54b842ac7b1b6c5c181eee2e8793284225f"
+    },
+    {
+      "path": "skills/sci-figure-mechanism/agents/openai.yaml",
+      "bytes": 224,
+      "sha256": "bf165483ee0cbb4f22485c231646de09b77989387ca6add77a253584bced82f1",
+      "git_blob_sha1": "737651b3a6a9cdc38d057d3dae0383683835f797"
+    },
+    {
+      "path": "skills/sci-figure-mechanism/assets/demo/demo-energy-alignment.png",
+      "bytes": 83160,
+      "sha256": "16ee7d7154280e0e85726269e69297cf8f72854e4b33556a36b400a7285b8c5d",
+      "git_blob_sha1": "b9e99606c484853a7f39df5b63400f286ed65862"
+    },
+    {
+      "path": "skills/sci-figure-mechanism/assets/demo/demo-energy-alignment.svg",
+      "bytes": 12236,
+      "sha256": "2ecc852cc884f4f211ba79e4eccfee88eb07b3b8d1eb8c381942b4cb85e96ad2",
+      "git_blob_sha1": "3f57cf4daf96fe565338a68a86901899ae57dcc7"
+    },
+    {
+      "path": "skills/sci-figure-mechanism/assets/demo/demo-mechanism.json",
+      "bytes": 717,
+      "sha256": "1b9bd38e2fdefdaaf4c7156b5b774cc934b752811b8fc9591a20c224f06c502f",
+      "git_blob_sha1": "afc512c5ef1a2002216f6aa5c3b8b15797a62d4c"
+    },
+    {
+      "path": "skills/sci-figure-mechanism/assets/demo/demo-spatial-drift.png",
+      "bytes": 64722,
+      "sha256": "5266864e4c7ed8cf5f9bcc069da2265f4b1b097d1fc22b37d7308c1401bd70b7",
+      "git_blob_sha1": "6a821ae27630e3c3bbd86441dd3fb58574c94004"
+    },
+    {
+      "path": "skills/sci-figure-mechanism/assets/demo/demo-spatial-drift.svg",
+      "bytes": 6377,
+      "sha256": "303fdd9ae5148265d8bc0af6524da8b0fcf4f9007606117c706ae2cf271639a9",
+      "git_blob_sha1": "97e667de0b64b1c445928f19b0ff4ab1713b7bba"
+    },
+    {
+      "path": "skills/sci-figure-mechanism/references/physics-grammar.md",
+      "bytes": 2793,
+      "sha256": "45a5eb5006bf5176828acbe57ddd766842e256cdacc7ef3772f41550c291e66d",
+      "git_blob_sha1": "d668b0b4e43be89d787b20bc12a322e83313c6b5"
+    },
+    {
+      "path": "skills/sci-figure-mechanism/references/reconstruction.md",
+      "bytes": 1720,
+      "sha256": "76b09642b333a6bae5eb3aa3e34886d265a3978ce94e63885c874cc200f447c3",
+      "git_blob_sha1": "00c4287bbf71db98fea4ff7f864a9dec66c6d18e"
+    },
+    {
+      "path": "skills/sci-figure-mechanism/references/task-cases.md",
+      "bytes": 2757,
+      "sha256": "ad8915436ba9b228599999ae9cbd9e9b462daf5db2b1bdd80176fce90693d645",
+      "git_blob_sha1": "73fbf00cc1c4eaea98025aa3f77759cae1b74313"
+    },
+    {
+      "path": "skills/sci-figure-mechanism/scripts/make_demo.py",
+      "bytes": 4456,
+      "sha256": "698a12c5e67c9ed1c8a347b64a99ad0b4be7efe7e8f5f5881810f8611798c676",
+      "git_blob_sha1": "bc200e78486d635fcd15f2b2f8a83898f487d12a"
+    },
+    {
+      "path": "skills/sci-figure-process/SKILL.md",
+      "bytes": 3857,
+      "sha256": "16c2e585674bb70002793b95f478874a4f1d11262ab5849af8b99754574d4f57",
+      "git_blob_sha1": "8b4869dab1bf4401273a020f3cb404b6a49f7190"
+    },
+    {
+      "path": "skills/sci-figure-process/agents/openai.yaml",
+      "bytes": 228,
+      "sha256": "6dae44b9a9fa1bfa9de0309fa70ad79581a4f728544d003d603c1479fb79ead2",
+      "git_blob_sha1": "1615016205475ce383207aab3dd56d17eb51e6a5"
+    },
+    {
+      "path": "skills/sci-figure-process/references/cases-and-counterexamples.md",
+      "bytes": 1946,
+      "sha256": "905999b0145a4132844c5ca06cacc9132185d8efb15a009be85d0747240de599",
+      "git_blob_sha1": "888a574b36caef33a311a3339aeb32b6ef572b74"
+    },
+    {
+      "path": "skills/sci-figure-process/references/semantics-and-delivery.md",
+      "bytes": 1855,
+      "sha256": "af251b58f1574227e09bdccbeff85525e0de00112c3a2537fd3fb7de8b504fa7",
+      "git_blob_sha1": "02683e10a55b28d5cda97c1c777da202e425458c"
+    },
+    {
+      "path": "skills/sci-figure-review/SKILL.md",
+      "bytes": 3739,
+      "sha256": "b5d77167e08f29533ed9240349fcf47d8167041263749be844d8fbd5b97cd37d",
+      "git_blob_sha1": "b6397443e17250260b66059b448e1bd5d1a755ce"
+    },
+    {
+      "path": "skills/sci-figure-review/agents/openai.yaml",
+      "bytes": 218,
+      "sha256": "11c4d8ee7707ce1ffd53c916dcb0cc013bcdd570dbc2ba95e239a54363706d51",
+      "git_blob_sha1": "ff3d5d562494624700695bdcbadc3868b169fa4e"
+    },
+    {
+      "path": "skills/sci-figure-review/references/review-cases.md",
+      "bytes": 2632,
+      "sha256": "a278e80374ed0c55bb427cfc5a09af28dced7bcd3373c846d64222f958bd401c",
+      "git_blob_sha1": "7f92320d1f90b04f2e714942c767e8b8c1fc1ee3"
+    },
+    {
+      "path": "skills/sci-figure-review/references/review-report.md",
+      "bytes": 1546,
+      "sha256": "cffdb843e1b8cb7592ee2c80cd9126bbbd672f0cd7811459fcd2937362db8b0c",
+      "git_blob_sha1": "f2d791cf79997b6a6b78df0adf930dc4338b2756"
+    },
+    {
+      "path": "skills/sci-figure-review/references/svg-scan.md",
+      "bytes": 2322,
+      "sha256": "f3859095584d213aeb31cd5b2bd0655b7b283f0e7a9801781b0fdba333d9284c",
+      "git_blob_sha1": "9f0fd92b733742fe13ecbea43fc660f57b53bd83"
+    },
+    {
+      "path": "skills/sci-figure-review/scripts/check_svg.py",
+      "bytes": 11417,
+      "sha256": "8762592be8953341fb2fc7e54dc58631607c1c6cd689756a830035ccad7c8dc5",
+      "git_blob_sha1": "8ba3072a06f8c07d0654abe13ec4e9fc652ea44b"
+    },
+    {
+      "path": "skills/sci-figure-review/scripts/test_check_svg.py",
+      "bytes": 3468,
+      "sha256": "7ce0c8edd4e2e98b9df92a6c08cb1a16351de4216f30a43bbe332e3791a12db1",
+      "git_blob_sha1": "edf9eb92575df5de3e53e9a0dd6bafe46e304d4c"
+    }
+  ]
+}

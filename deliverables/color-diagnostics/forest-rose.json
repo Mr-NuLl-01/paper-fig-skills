@@ -1,0 +1,283 @@
+{
+  "method": "sRGB D65, CIELAB delta-E76; Machado2009 severity=1, linear RGB; gamut clipped",
+  "scope": "Finite diagnostic only. Not a universal accessibility pass; inspect actual figures at final size. Grayscale alone need not distinguish all categories.",
+  "source": "https://doi.org/10.1109/TVCG.2009.113",
+  "cases": {
+    "original": {
+      "colors": [
+        "#34715D",
+        "#B85F79",
+        "#8C742E",
+        "#5B7598",
+        "#6F617A"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        43.256,
+        51.562,
+        49.815,
+        48.527,
+        43.262
+      ],
+      "contrast_to_background": [
+        5.728,
+        4.242,
+        4.514,
+        4.727,
+        5.727
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 15.673
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 32.31
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 37.179
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 39.657
+        }
+      ]
+    },
+    "protanopia": {
+      "colors": [
+        "#6E6A5C",
+        "#6D717A",
+        "#817326",
+        "#68779A",
+        "#5D667B"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        44.796,
+        47.581,
+        48.347,
+        50.06,
+        43.152
+      ],
+      "contrast_to_background": [
+        5.414,
+        4.891,
+        4.758,
+        4.474,
+        5.75
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 8.681
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 10.546
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "delta_e76": 14.269
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 15.63
+        }
+      ]
+    },
+    "deuteranopia": {
+      "colors": [
+        "#65635E",
+        "#848177",
+        "#877931",
+        "#617197",
+        "#606679"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        41.998,
+        53.961,
+        50.744,
+        47.733,
+        43.315
+      ],
+      "contrast_to_background": [
+        6.001,
+        3.898,
+        4.366,
+        4.864,
+        5.716
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 12.113
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "delta_e76": 12.277
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 14.745
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 20.434
+        }
+      ]
+    },
+    "tritanopia": {
+      "colors": [
+        "#1B726B",
+        "#C55868",
+        "#976B65",
+        "#467D81",
+        "#6E6469"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        43.253,
+        51.67,
+        49.539,
+        48.95,
+        43.433
+      ],
+      "contrast_to_background": [
+        5.729,
+        4.225,
+        4.558,
+        4.655,
+        5.691
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 11.91
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 17.717
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 23.56
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 28.428
+        }
+      ]
+    },
+    "grayscale": {
+      "colors": [
+        "#666666",
+        "#7B7B7B",
+        "#767676",
+        "#737373",
+        "#666666"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        43.192,
+        51.618,
+        49.637,
+        48.441,
+        43.192
+      ],
+      "contrast_to_background": [
+        5.742,
+        4.233,
+        4.542,
+        4.742,
+        5.742
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 0.0
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 1.196
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 1.981
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 3.177
+        }
+      ]
+    }
+  },
+  "name": "forest-rose"
+}

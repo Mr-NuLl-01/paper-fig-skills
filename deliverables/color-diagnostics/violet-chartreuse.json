@@ -1,0 +1,283 @@
+{
+  "method": "sRGB D65, CIELAB delta-E76; Machado2009 severity=1, linear RGB; gamut clipped",
+  "scope": "Finite diagnostic only. Not a universal accessibility pass; inspect actual figures at final size. Grayscale alone need not distinguish all categories.",
+  "source": "https://doi.org/10.1109/TVCG.2009.113",
+  "cases": {
+    "original": {
+      "colors": [
+        "#7557A3",
+        "#82933B",
+        "#B96659",
+        "#307D8C",
+        "#785F4F"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        43.126,
+        57.97,
+        52.443,
+        48.496,
+        42.373
+      ],
+      "contrast_to_background": [
+        5.756,
+        3.395,
+        4.111,
+        4.732,
+        5.918
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 27.772
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 38.896
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 43.617
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 52.296
+        }
+      ]
+    },
+    "protanopia": {
+      "colors": [
+        "#4166A6",
+        "#9C8B31",
+        "#7A7358",
+        "#71798D",
+        "#66614E"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        43.328,
+        57.805,
+        48.391,
+        50.814,
+        41.096
+      ],
+      "contrast_to_background": [
+        5.713,
+        3.414,
+        4.75,
+        4.355,
+        6.204
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 8.521
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 25.54
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 28.125
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 28.174
+        }
+      ]
+    },
+    "deuteranopia": {
+      "colors": [
+        "#4765A1",
+        "#9A8C41",
+        "#8E8458",
+        "#646F8C",
+        "#6C664F"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        43.092,
+        58.045,
+        55.03,
+        46.937,
+        43.146
+      ],
+      "contrast_to_background": [
+        5.763,
+        3.386,
+        3.756,
+        5.007,
+        5.752
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 16.425
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 16.491
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 19.496
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 31.32
+        }
+      ]
+    },
+    "tritanopia": {
+      "colors": [
+        "#6C6575",
+        "#898C80",
+        "#C95963",
+        "#008382",
+        "#7F5A5B"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        43.916,
+        57.687,
+        52.361,
+        49.305,
+        42.124
+      ],
+      "contrast_to_background": [
+        5.591,
+        3.428,
+        4.124,
+        4.596,
+        5.973
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 16.428
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "delta_e76": 21.807
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 24.392
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 30.967
+        }
+      ]
+    },
+    "grayscale": {
+      "colors": [
+        "#666666",
+        "#8B8B8B",
+        "#7D7D7D",
+        "#737373",
+        "#646464"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        43.192,
+        57.864,
+        52.407,
+        48.441,
+        42.375
+      ],
+      "contrast_to_background": [
+        5.742,
+        3.407,
+        4.116,
+        4.742,
+        5.918
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 0.818
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 3.966
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 5.249
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 5.458
+        }
+      ]
+    }
+  },
+  "name": "violet-chartreuse"
+}

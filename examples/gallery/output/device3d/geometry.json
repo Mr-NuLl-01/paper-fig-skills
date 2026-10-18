@@ -1,0 +1,211 @@
+{
+  "kind": "conceptual only",
+  "units": "arbitrary display units",
+  "thickness": "exaggerated, not measured",
+  "objects": [
+    {
+      "name": "assembled_Glass",
+      "dimensions": [
+        4.0,
+        3.0,
+        0.3199999928474426
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.1599999964237213
+      ],
+      "assembled_z": 0.16,
+      "exploded_shift": 0,
+      "color": "#d5e4e9"
+    },
+    {
+      "name": "assembled_Transparent_anode",
+      "dimensions": [
+        4.0,
+        3.0,
+        0.09000000357627869
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.36500000953674316
+      ],
+      "assembled_z": 0.365,
+      "exploded_shift": 0,
+      "color": "#8fb3c3"
+    },
+    {
+      "name": "assembled_Hole_transport",
+      "dimensions": [
+        4.0,
+        3.0,
+        0.12999999523162842
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.4749999940395355
+      ],
+      "assembled_z": 0.47500000000000003,
+      "exploded_shift": 0,
+      "color": "#b58ca4"
+    },
+    {
+      "name": "assembled_Emitter",
+      "dimensions": [
+        4.0,
+        3.0,
+        0.17000000178813934
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.625
+      ],
+      "assembled_z": 0.625,
+      "exploded_shift": 0,
+      "color": "#58a897"
+    },
+    {
+      "name": "assembled_Electron_transport",
+      "dimensions": [
+        4.0,
+        3.0,
+        0.12999999523162842
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.7749999761581421
+      ],
+      "assembled_z": 0.7750000000000001,
+      "exploded_shift": 0,
+      "color": "#7d91ba"
+    },
+    {
+      "name": "assembled_Metal_cathode",
+      "dimensions": [
+        4.0,
+        3.0,
+        0.1599999964237213
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.9200000166893005
+      ],
+      "assembled_z": 0.92,
+      "exploded_shift": 0,
+      "color": "#56677e"
+    },
+    {
+      "name": "exploded_Glass",
+      "dimensions": [
+        4.0,
+        3.0,
+        0.3199999928474426
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.1599999964237213
+      ],
+      "assembled_z": 0.16,
+      "exploded_shift": 0.0,
+      "color": "#d5e4e9"
+    },
+    {
+      "name": "exploded_Transparent_anode",
+      "dimensions": [
+        4.0,
+        3.0,
+        0.09000000357627869
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.7450000047683716
+      ],
+      "assembled_z": 0.365,
+      "exploded_shift": 0.38,
+      "color": "#8fb3c3"
+    },
+    {
+      "name": "exploded_Hole_transport",
+      "dimensions": [
+        4.0,
+        3.0,
+        0.12999999523162842
+      ],
+      "location": [
+        0.0,
+        0.0,
+        1.2350000143051147
+      ],
+      "assembled_z": 0.47500000000000003,
+      "exploded_shift": 0.76,
+      "color": "#b58ca4"
+    },
+    {
+      "name": "exploded_Emitter",
+      "dimensions": [
+        4.0,
+        3.0,
+        0.17000000178813934
+      ],
+      "location": [
+        0.0,
+        0.0,
+        1.7649999856948853
+      ],
+      "assembled_z": 0.625,
+      "exploded_shift": 1.1400000000000001,
+      "color": "#58a897"
+    },
+    {
+      "name": "exploded_Electron_transport",
+      "dimensions": [
+        4.0,
+        3.0,
+        0.12999999523162842
+      ],
+      "location": [
+        0.0,
+        0.0,
+        2.2950000762939453
+      ],
+      "assembled_z": 0.7750000000000001,
+      "exploded_shift": 1.52,
+      "color": "#7d91ba"
+    },
+    {
+      "name": "exploded_Metal_cathode",
+      "dimensions": [
+        4.0,
+        3.0,
+        0.1599999964237213
+      ],
+      "location": [
+        0.0,
+        0.0,
+        2.819999933242798
+      ],
+      "assembled_z": 0.92,
+      "exploded_shift": 1.9,
+      "color": "#56677e"
+    }
+  ],
+  "camera": {
+    "location": [
+      7.0,
+      -9.0,
+      6.0
+    ],
+    "type": "ORTHO",
+    "scale": 6.8
+  },
+  "samples": 128,
+  "render_engine": "CYCLES",
+  "denoising": "disabled; local Blender lacks OpenImageDenoise"
+}

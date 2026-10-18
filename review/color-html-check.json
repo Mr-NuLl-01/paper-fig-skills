@@ -1,0 +1,13 @@
+{
+  "desktop": {
+    "details": 12,
+    "fonts": true,
+    "overflow": false
+  },
+  "mobile": {
+    "overflow": false,
+    "details": 12
+  },
+  "errors": [],
+  "external_requests": []
+}

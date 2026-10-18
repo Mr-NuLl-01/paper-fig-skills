@@ -1,0 +1,283 @@
+{
+  "method": "sRGB D65, CIELAB delta-E76; Machado2009 severity=1, linear RGB; gamut clipped",
+  "scope": "Finite diagnostic only. Not a universal accessibility pass; inspect actual figures at final size. Grayscale alone need not distinguish all categories.",
+  "source": "https://doi.org/10.1109/TVCG.2009.113",
+  "cases": {
+    "original": {
+      "colors": [
+        "#404B58",
+        "#BA8530",
+        "#348780",
+        "#9C587B",
+        "#536DA0"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        31.409,
+        59.37,
+        51.399,
+        46.283,
+        46.06
+      ],
+      "contrast_to_background": [
+        8.878,
+        3.238,
+        4.265,
+        5.128,
+        5.169
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 26.608
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "delta_e76": 32.923
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 36.083
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 36.921
+        }
+      ]
+    },
+    "protanopia": {
+      "colors": [
+        "#464B59",
+        "#988724",
+        "#808080",
+        "#5E677C",
+        "#5A71A2"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        31.933,
+        56.22,
+        53.585,
+        43.559,
+        47.741
+      ],
+      "contrast_to_background": [
+        8.71,
+        3.604,
+        3.949,
+        5.665,
+        4.863
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 12.268
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 16.369
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 17.066
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "delta_e76": 23.463
+        }
+      ]
+    },
+    "deuteranopia": {
+      "colors": [
+        "#444958",
+        "#A59433",
+        "#737681",
+        "#707279",
+        "#516A9F"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        31.11,
+        61.15,
+        49.722,
+        48.083,
+        45.025
+      ],
+      "contrast_to_background": [
+        8.975,
+        3.051,
+        4.528,
+        4.803,
+        5.368
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 2.855
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 17.846
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "delta_e76": 18.881
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 26.028
+        }
+      ]
+    },
+    "tritanopia": {
+      "colors": [
+        "#394E4F",
+        "#CA7774",
+        "#008A85",
+        "#A55665",
+        "#34787F"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        31.539,
+        58.987,
+        51.688,
+        46.441,
+        46.571
+      ],
+      "contrast_to_background": [
+        8.836,
+        3.28,
+        4.222,
+        5.098,
+        5.074
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 14.464
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 15.857
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 20.111
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "delta_e76": 31.671
+        }
+      ]
+    },
+    "grayscale": {
+      "colors": [
+        "#4A4A4A",
+        "#8F8F8F",
+        "#7A7A7A",
+        "#6E6E6E",
+        "#6D6D6D"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        31.458,
+        59.405,
+        51.223,
+        46.435,
+        46.032
+      ],
+      "contrast_to_background": [
+        8.862,
+        3.234,
+        4.292,
+        5.099,
+        5.174
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 0.403
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 4.788
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 5.191
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 8.182
+        }
+      ]
+    }
+  },
+  "name": "graphite-saffron"
+}

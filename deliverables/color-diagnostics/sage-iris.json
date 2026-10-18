@@ -1,0 +1,283 @@
+{
+  "method": "sRGB D65, CIELAB delta-E76; Machado2009 severity=1, linear RGB; gamut clipped",
+  "scope": "Finite diagnostic only. Not a universal accessibility pass; inspect actual figures at final size. Grayscale alone need not distinguish all categories.",
+  "source": "https://doi.org/10.1109/TVCG.2009.113",
+  "cases": {
+    "original": {
+      "colors": [
+        "#627C60",
+        "#776397",
+        "#B46C55",
+        "#3F8495",
+        "#A27685"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        49.321,
+        45.744,
+        53.044,
+        51.528,
+        54.378
+      ],
+      "contrast_to_background": [
+        4.594,
+        5.229,
+        4.025,
+        4.246,
+        3.842
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 25.612
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 27.27
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 28.107
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 37.492
+        }
+      ]
+    },
+    "protanopia": {
+      "colors": [
+        "#7D775E",
+        "#576C99",
+        "#7E7553",
+        "#788096",
+        "#7B7E86"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        49.932,
+        45.703,
+        49.232,
+        53.635,
+        52.789
+      ],
+      "contrast_to_background": [
+        4.495,
+        5.237,
+        4.609,
+        3.942,
+        4.061
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "delta_e76": 5.483
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 8.248
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 16.394
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 19.713
+        }
+      ]
+    },
+    "deuteranopia": {
+      "colors": [
+        "#797461",
+        "#5B6C96",
+        "#8F8554",
+        "#6B7795",
+        "#858584"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        48.784,
+        45.84,
+        55.334,
+        50.084,
+        55.51
+      ],
+      "contrast_to_background": [
+        4.684,
+        5.211,
+        3.716,
+        4.47,
+        3.694
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 8.607
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 12.681
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "delta_e76": 17.942
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 19.249
+        }
+      ]
+    },
+    "tritanopia": {
+      "colors": [
+        "#607A74",
+        "#726B76",
+        "#C36066",
+        "#008A89",
+        "#A9747B"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        49.089,
+        46.178,
+        52.873,
+        51.816,
+        54.404
+      ],
+      "contrast_to_background": [
+        4.632,
+        5.147,
+        4.05,
+        4.203,
+        3.838
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "delta_e76": 16.837
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 21.162
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 21.176
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 21.973
+        }
+      ]
+    },
+    "grayscale": {
+      "colors": [
+        "#757575",
+        "#6C6C6C",
+        "#7F7F7F",
+        "#7B7B7B",
+        "#828282"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        49.239,
+        45.629,
+        53.193,
+        51.618,
+        54.368
+      ],
+      "contrast_to_background": [
+        4.608,
+        5.251,
+        4.004,
+        4.233,
+        3.843
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 1.175
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 1.575
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 2.379
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 2.75
+        }
+      ]
+    }
+  },
+  "name": "sage-iris"
+}

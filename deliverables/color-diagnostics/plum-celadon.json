@@ -1,0 +1,283 @@
+{
+  "method": "sRGB D65, CIELAB delta-E76; Machado2009 severity=1, linear RGB; gamut clipped",
+  "scope": "Finite diagnostic only. Not a universal accessibility pass; inspect actual figures at final size. Grayscale alone need not distinguish all categories.",
+  "source": "https://doi.org/10.1109/TVCG.2009.113",
+  "cases": {
+    "original": {
+      "colors": [
+        "#6F496C",
+        "#4A8C83",
+        "#BF9A50",
+        "#566A8A",
+        "#BB6974"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        36.419,
+        53.867,
+        65.568,
+        44.406,
+        53.954
+      ],
+      "contrast_to_background": [
+        7.38,
+        3.911,
+        2.64,
+        5.491,
+        3.899
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 23.675
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 30.471
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 31.912
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 44.495
+        }
+      ]
+    },
+    "protanopia": {
+      "colors": [
+        "#47536D",
+        "#868683",
+        "#AA9A49",
+        "#5F6C8B",
+        "#787774"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        35.262,
+        55.844,
+        63.458,
+        45.664,
+        50.035
+      ],
+      "contrast_to_background": [
+        7.703,
+        3.651,
+        2.827,
+        5.244,
+        4.478
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 5.824
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 10.643
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 21.089
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 22.909
+        }
+      ]
+    },
+    "deuteranopia": {
+      "colors": [
+        "#51576B",
+        "#7B7D84",
+        "#B3A353",
+        "#596789",
+        "#8C8772"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        37.165,
+        52.447,
+        66.827,
+        43.697,
+        56.206
+      ],
+      "contrast_to_background": [
+        7.178,
+        4.111,
+        2.536,
+        5.636,
+        3.606
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 10.562
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 16.668
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "delta_e76": 17.431
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 18.818
+        }
+      ]
+    },
+    "tritanopia": {
+      "colors": [
+        "#724C56",
+        "#2C8E89",
+        "#CE8E89",
+        "#457175",
+        "#C9616D"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        36.778,
+        53.692,
+        65.181,
+        44.743,
+        54.106
+      ],
+      "contrast_to_background": [
+        7.282,
+        3.934,
+        2.674,
+        5.424,
+        3.879
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 17.372
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 21.823
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "delta_e76": 31.345
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 32.659
+        }
+      ]
+    },
+    "grayscale": {
+      "colors": [
+        "#565656",
+        "#818181",
+        "#9F9F9F",
+        "#696969",
+        "#818181"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        36.567,
+        53.977,
+        65.491,
+        44.414,
+        53.977
+      ],
+      "contrast_to_background": [
+        7.34,
+        3.896,
+        2.647,
+        5.49,
+        3.896
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 0.0
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 7.847
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 9.563
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 9.563
+        }
+      ]
+    }
+  },
+  "name": "plum-celadon"
+}

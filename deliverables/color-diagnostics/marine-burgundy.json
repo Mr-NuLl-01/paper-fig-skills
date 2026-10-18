@@ -1,0 +1,283 @@
+{
+  "method": "sRGB D65, CIELAB delta-E76; Machado2009 severity=1, linear RGB; gamut clipped",
+  "scope": "Finite diagnostic only. Not a universal accessibility pass; inspect actual figures at final size. Grayscale alone need not distinguish all categories.",
+  "source": "https://doi.org/10.1109/TVCG.2009.113",
+  "cases": {
+    "original": {
+      "colors": [
+        "#2D7192",
+        "#853E59",
+        "#85884A",
+        "#BD7658",
+        "#626698"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        44.86,
+        36.28,
+        55.165,
+        56.568,
+        44.753
+      ],
+      "contrast_to_background": [
+        5.4,
+        7.419,
+        3.738,
+        3.562,
+        5.422
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 21.615
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 35.524
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 35.8
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 37.105
+        }
+      ]
+    },
+    "protanopia": {
+      "colors": [
+        "#617094",
+        "#494D5A",
+        "#908345",
+        "#897E56",
+        "#566C9A"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        47.323,
+        32.837,
+        54.65,
+        52.854,
+        45.683
+      ],
+      "contrast_to_background": [
+        4.937,
+        8.425,
+        3.806,
+        4.052,
+        5.24
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 6.44
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 11.941
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "delta_e76": 19.719
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 23.439
+        }
+      ]
+    },
+    "deuteranopia": {
+      "colors": [
+        "#536691",
+        "#5B5A57",
+        "#91854D",
+        "#998E57",
+        "#546897"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        43.338,
+        38.243,
+        55.412,
+        58.795,
+        44.26
+      ],
+      "contrast_to_background": [
+        5.711,
+        6.897,
+        3.706,
+        3.301,
+        5.521
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 2.482
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 3.55
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "delta_e76": 28.617
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 31.006
+        }
+      ]
+    },
+    "tritanopia": {
+      "colors": [
+        "#007A7C",
+        "#8F3948",
+        "#8C8179",
+        "#CD6A6E",
+        "#536F78"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        46.141,
+        36.434,
+        54.717,
+        56.502,
+        45.03
+      ],
+      "contrast_to_background": [
+        5.154,
+        7.377,
+        3.797,
+        3.57,
+        5.367
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 19.423
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 20.127
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 21.069
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "delta_e76": 34.607
+        }
+      ]
+    },
+    "grayscale": {
+      "colors": [
+        "#6A6A6A",
+        "#555555",
+        "#848484",
+        "#888888",
+        "#6A6A6A"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        44.819,
+        36.146,
+        55.148,
+        56.703,
+        44.819
+      ],
+      "contrast_to_background": [
+        5.409,
+        7.455,
+        3.74,
+        3.545,
+        5.409
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 0.0
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 1.555
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "delta_e76": 8.673
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 8.673
+        }
+      ]
+    }
+  },
+  "name": "marine-burgundy"
+}

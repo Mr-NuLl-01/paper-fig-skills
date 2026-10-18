@@ -1,5 +1,12 @@
 # paper-fig-skills
 
+中文 · [English](README.en.md) · [新增案例画廊](examples/gallery/README.md)
+
+![互指电极与埋藏界面：原创可编辑教学示例](deliverables/advanced-device-demo/advanced_device_preview.png)
+
+[主图与原生源文件](deliverables/advanced-device-demo/README_zh.md) · [使用手册](docs/USER_GUIDE.zh.md) · [配色图谱](deliverables/color-atlas.html) · [研究手册 PDF](deliverables/scientific-figure-handbook.pdf)
+
+
 一套面向科研论文配图的九模块技能：从科学问题与证据出发，选择表达方式，制作可编辑图，再分别检查科学语义、可读性和交付完整性。
 
 适用于数据图、机制图、器件结构、实验过程、显微/场图及多面板组合。它们提供工作规程、参考案例与可复用脚本，不是固定期刊模板，也不保证科学结论正确或投稿成功。
@@ -26,7 +33,7 @@
 - 文献图谱记录 89 篇不同论文与 178 张关键整图。其中 66 篇为主文连续阅读，23 篇为围绕目标图的定向精读。这是来源项目记录的范围，不表示所有论文全文、Methods、SI 或全部图像均已核验，也不是本次发布重新完成的阅读。
 - 文献元数据、来源链接及设计分析见 [证据索引](skills/sci-figure-director/references/evidence-index.md) 和 [机器可读图谱](skills/sci-figure-director/references/corpus-atlas.json)。不附带第三方论文全文或原图。
 - 示例数据、几何与机制均明确标记为 DEMO，不能作为真实研究结果。三维预览包含渲染位图；几何编辑使用 `.blend`，标注编辑使用相应 SVG。
-- 本次发布保留全部 71 个技能文件原始字节；没有修复脚本逻辑。已知问题请先读 [KNOWN_ISSUES.md](KNOWN_ISSUES.md)。
+- 首次导入的 71 文件原始清单保留在 docs/history/skill-manifest-20261017.json；本次候选版本修改了部分技能入口并新增英文入口、专项说明和示例，原清单仅用于历史追溯，没有修复旧脚本逻辑。已知问题请先读 [KNOWN_ISSUES.md](KNOWN_ISSUES.md)。
 
 ## 安装：macOS / Linux / Windows
 
@@ -122,9 +129,21 @@ blender -b --python skills/sci-figure-device/scripts/device_demo.py -- --out out
 ## 核验、贡献与许可
 
 - [PROVENANCE.md](PROVENANCE.md)：来源、纳入范围和检查边界
-- [SKILL-MANIFEST.json](SKILL-MANIFEST.json)：71 个技能文件的字节数与 SHA-256
+- [SKILL-MANIFEST.json](SKILL-MANIFEST.json)：当前技能文件的字节数与 SHA-256
 - [KNOWN_ISSUES.md](KNOWN_ISSUES.md)：当前脚本限制与使用提醒
 - [CONTRIBUTING.md](CONTRIBUTING.md)：提交问题和改动的要求
 - [CHANGELOG.md](CHANGELOG.md)：变更记录
 
 沿用仓库已有的 [MIT License](LICENSE)。论文、第三方素材及其商标的权利仍归原权利人；文献链接不授予复制或再分发其内容的许可。
+
+## 英文入口与新版示例（v1.1.0）
+
+九个技能各自提供 `SKILL.en.md`；它不是第十个技能。用 `python scripts/export_skills.py --language en --output ../paper-fig-en` 导出一个新目录，再将其中九个技能按上方安装步骤复制到实际识别目录。导出不会安装，不会覆盖已有目录。仅装同名技能的一种语言版本。旧文献案例参考保持中文；新复杂视图说明中英双语。
+
+[案例画廊](examples/gallery/README.md)包含配对数据、器件、能级、过程、复杂热图、热图堆叠、曲线瀑布和体切片非等大组合。它们全部使用模拟数值或概念结构，可运行生成 SVG/PDF/PNG；不代表实测或科研结论。先按画廊说明复现，本轮新增案例已由用户完成视觉审阅。
+
+## 完整配套资料
+
+本轮从原151文件归档补齐：[中英文使用手册](docs/USER_GUIDE.zh.md)、[原26页研究手册](deliverables/scientific-figure-handbook.pdf)、[论文图谱HTML](deliverables/paper-atlas.html)及[CSV](deliverables/paper-atlas.csv)/[JSON](deliverables/paper-atlas.json)、[配色图谱](deliverables/color-atlas.html)、[原前向试用](deliverables/forward-test-demo/README.md)和[原增强器件案例](deliverables/advanced-device-demo/README_zh.md)。
+
+HTML请下载后在浏览器本地打开，GitHub文件页显示的是源码。导入来源、历史范围和兼容性调整见[归档说明](docs/ARCHIVE_IMPORT.md)。不要将历史审读记录视为这次重新研究，也不要将原配套案例冒称新模型测试。

@@ -1,0 +1,195 @@
+{
+  "status": "static_and_actual_browser_validation_passed",
+  "statistics": {
+    "papers": 89,
+    "unique_doi": 89,
+    "figures_viewed": 178,
+    "reading_tiers": {
+      "main_narrative": 66,
+      "targeted_figure_read": 23
+    },
+    "source_groups": {
+      "A": 24,
+      "B": 24,
+      "C": 24,
+      "D": 17
+    },
+    "journals": {
+      "Nature Communications": 47,
+      "Nature": 12,
+      "Science Advances": 8,
+      "Proceedings of the National Academy of Sciences": 5,
+      "Nature Biomedical Engineering": 4,
+      "Nature Electronics": 2,
+      "Nature Materials": 2,
+      "Nature Methods": 2,
+      "ACS Applied Materials & Interfaces": 1,
+      "ACS Catalysis": 1,
+      "Langmuir": 1,
+      "Nature Biotechnology": 1,
+      "Nature Catalysis": 1,
+      "Nature Nanotechnology": 1,
+      "Science": 1
+    },
+    "years": {
+      "2014": 3,
+      "2015": 3,
+      "2016": 4,
+      "2017": 5,
+      "2019": 2,
+      "2020": 7,
+      "2021": 3,
+      "2022": 13,
+      "2023": 14,
+      "2024": 34,
+      "2025": 1
+    },
+    "categories": {
+      "发光材料与LED": 12,
+      "光电探测、晶体管与神经器件": 12,
+      "成核、生长与材料加工": 16,
+      "催化与电池原位表征": 8,
+      "微流控、类器官与组织芯片": 8,
+      "可穿戴与植入式生物电子": 6,
+      "软体机器人与致动": 6,
+      "水凝胶与生物黏附": 4,
+      "科学计算、动力学与理论": 9,
+      "成像、光谱与结构解析": 8
+    },
+    "unique_domain_strings": 87
+  },
+  "source_sha256": {
+    "corpus/a/a_records.json": "f2e12e0e92507872680e2233ae40164876dca2e868eb3d7b300038470edf904b",
+    "corpus/b/b_records.json": "27f786712c9228d3208199622a78dbb6a7a9586f73a0fb32d2877aa8bf30174d",
+    "corpus/c/c_records.json": "7ddd6af51db8bb03ae36117fae47eadb3ddd80b68ff5f226af11335fc6f2e11b",
+    "corpus/d/d_records.json": "4a47d54e7afe150550a257f2af936a128cc7c523b419be770fcc7d790f599efc"
+  },
+  "original_read_scope_preserved": true,
+  "all_89_unique_ids_and_dois": true,
+  "all_178_local_figure_paths_exist_and_nonempty": true,
+  "unique_local_figure_paths": 178,
+  "unique_external_urls_syntax_checked": 383,
+  "external_url_validation_scope": "Protocol/hostname/whitespace and article/DOI/figure link generation checked; remote availability not re-probed in this assembly task.",
+  "csv_encoding": "UTF-8 BOM; dict/list cells use JSON strings",
+  "csv_columns": [
+    "id",
+    "title",
+    "doi",
+    "url",
+    "journal",
+    "journal_original",
+    "year",
+    "category",
+    "domain",
+    "read_tier",
+    "read_tier_label",
+    "read_tier_definition",
+    "read_scope",
+    "sections_read",
+    "figures_viewed",
+    "science_story",
+    "composition",
+    "color_observation",
+    "visual_form",
+    "strengths",
+    "limitations",
+    "reconstruction_route",
+    "software_evidence",
+    "transferable_rule",
+    "skill_tags",
+    "source_links",
+    "source_refs",
+    "access_date",
+    "source_group",
+    "evidence_dir",
+    "methods_read",
+    "reader",
+    "reading_evidence",
+    "software_notes",
+    "source_provenance",
+    "source_version",
+    "supplement_read",
+    "supplementary_information_read",
+    "targeted_read_scope",
+    "version_note"
+  ],
+  "portable_paths_removed": true,
+  "html_external_images_scripts_styles": 0,
+  "source_files_modified": false,
+  "delivery_checks": {
+    "javascript_syntax": "passed (node --check)",
+    "actual_browser_render": {
+      "status": "passed",
+      "browser": "isolated headless Chromium; local file only; no persistent user profile",
+      "viewport_desktop": [
+        1440,
+        1000
+      ],
+      "viewport_mobile": [
+        390,
+        844
+      ],
+      "checked": [
+        "89/178/801 DOM counts",
+        "66/23 tier filters",
+        "category+tier intersection",
+        "empty state",
+        "NFKC full-width search",
+        "expand/collapse/reset",
+        "C24 desktop deep link and corrected exact text",
+        "A23 original institutional PDF link and provenance text",
+        "C03 exact D7/D14 limitation on mobile",
+        "mobile filter and deep link",
+        "embedded CJK font loaded",
+        "no horizontal page overflow",
+        "no JavaScript page errors",
+        "no external resource requests"
+      ],
+      "screenshots": [
+        "desktop-top.png",
+        "desktop-c24-expanded.png",
+        "mobile-top.png",
+        "mobile-c03-expanded.png"
+      ],
+      "screenshots_delivery_status": "internal review only; not public deliverables",
+      "desktop_width": {
+        "width": 1440,
+        "scroll": 1440
+      },
+      "mobile_top_width": {
+        "width": 390,
+        "scroll": 390
+      },
+      "mobile_expanded_width": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    "html_papers": 89,
+    "complete_analysis_blocks": 801,
+    "figure_notes": 178,
+    "html_external_link_instances": 609,
+    "csv_rows": 89,
+    "csv_columns": 40,
+    "csv_roundtrip": "passed",
+    "original_reading_and_analysis_preservation": "passed",
+    "portable_no_absolute_paths": "passed",
+    "index_89_ids": "passed",
+    "html_embedded_third_party_images": 0,
+    "embedded_cjk_font": {
+      "format": "WOFF",
+      "source": "official Google Fonts Noto Sans SC; renamed subset",
+      "license": "SIL OFL 1.1 embedded in HTML",
+      "subset_bytes": 249584,
+      "all_visible_cjk_glyphs_covered": true
+    },
+    "manual_visual_inspection": "Desktop top/C24 expanded and mobile top/C03 expanded actually viewed; Chinese glyphs readable, mobile heading layout corrected, mobile stats 2x2.",
+    "audit_fixes_included": [
+      "A23 source PDF and verified provenance",
+      "B05 twin/grain boundary symbols",
+      "C03 Fig2n D7/D14 comparison",
+      "C24 Fig2a and adjacent Fig3 distinction",
+      "D group final records"
+    ]
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "file": "/workspace/scratch/bff0697374b8/figure-atlas/review/forward-test/demo_performance_bandwidth.svg",
+  "scan": "mechanical inventory only; no scientific or visual approval",
+  "canvas": {
+    "width": "180mm",
+    "height": "104mm",
+    "width_mm": 180.0,
+    "height_mm": 104.0,
+    "viewBox": [
+      0.0,
+      0.0,
+      1800.0,
+      1040.0
+    ]
+  },
+  "metadata_element_present": true,
+  "live_text_nodes": [
+    {
+      "element": "label-011",
+      "text": "DEMO",
+      "font_size_declared": "36",
+      "estimated_em_height_pt": 10.2047,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-012",
+      "text": "Paired performance–bandwidth tradeoff",
+      "font_size_declared": "36",
+      "estimated_em_height_pt": 10.2047,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-013",
+      "text": "3 batches × 5 independent devices  |  Before/after pairing assumed for this DEMO",
+      "font_size_declared": "29",
+      "estimated_em_height_pt": 8.2205,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-014",
+      "text": "a",
+      "font_size_declared": "35",
+      "estimated_em_height_pt": 9.9213,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-015",
+      "text": "Layer context",
+      "font_size_declared": "31",
+      "estimated_em_height_pt": 8.7874,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-016",
+      "text": "Layer order only",
+      "font_size_declared": "28",
+      "estimated_em_height_pt": 7.937,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-017",
+      "text": "glass",
+      "font_size_declared": "28",
+      "estimated_em_height_pt": 7.937,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-018",
+      "text": "ITO",
+      "font_size_declared": "28",
+      "estimated_em_height_pt": 7.937,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-019",
+      "text": "active film",
+      "font_size_declared": "28",
+      "estimated_em_height_pt": 7.937,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-020",
+      "text": "Au",
+      "font_size_declared": "28",
+      "estimated_em_height_pt": 7.937,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-021",
+      "text": "Not to scale",
+      "font_size_declared": "28",
+      "estimated_em_height_pt": 7.937,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-022",
+      "text": "All thicknesses unknown",
+      "font_size_declared": "28",
+      "estimated_em_height_pt": 7.937,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-023",
+      "text": "Qualitative evidence",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-024",
+      "text": "Steady-state spectrum",
+      "font_size_declared": "26",
+      "estimated_em_height_pt": 7.3701,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-025",
+      "text": "changes; stability improves",
+      "font_size_declared": "26",
+      "estimated_em_height_pt": 7.3701,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-026",
+      "text": "Transfer rate:",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-027",
+      "text": "unmeasured",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-028",
+      "text": "Before",
+      "font_size_declared": "28",
+      "estimated_em_height_pt": 7.937,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-029",
+      "text": "After",
+      "font_size_declared": "28",
+      "estimated_em_height_pt": 7.937,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-030",
+      "text": "Same device",
+      "font_size_declared": "28",
+      "estimated_em_height_pt": 7.937,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-031",
+      "text": "b",
+      "font_size_declared": "35",
+      "estimated_em_height_pt": 9.9213,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-032",
+      "text": "Batch 1",
+      "font_size_declared": "31",
+      "estimated_em_height_pt": 8.7874,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-033",
+      "text": "n = 5",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-034",
+      "text": "6",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-035",
+      "text": "10",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-036",
+      "text": "14",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-037",
+      "text": "18",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-038",
+      "text": "22",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-039",
+      "text": "0.8",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-040",
+      "text": "1.2",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-041",
+      "text": "1.6",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-042",
+      "text": "c",
+      "font_size_declared": "35",
+      "estimated_em_height_pt": 9.9213,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-043",
+      "text": "Batch 2",
+      "font_size_declared": "31",
+      "estimated_em_height_pt": 8.7874,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-044",
+      "text": "n = 5",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-045",
+      "text": "6",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-046",
+      "text": "10",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-047",
+      "text": "14",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-048",
+      "text": "18",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-049",
+      "text": "22",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-050",
+      "text": "0.8",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-051",
+      "text": "1.2",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-052",
+      "text": "1.6",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-053",
+      "text": "d",
+      "font_size_declared": "35",
+      "estimated_em_height_pt": 9.9213,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-054",
+      "text": "Batch 3",
+      "font_size_declared": "31",
+      "estimated_em_height_pt": 8.7874,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-055",
+      "text": "n = 5",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-056",
+      "text": "6",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-057",
+      "text": "10",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-058",
+      "text": "14",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-059",
+      "text": "18",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-060",
+      "text": "22",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-061",
+      "text": "0.8",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-062",
+      "text": "1.2",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-063",
+      "text": "1.6",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-064",
+      "text": "Bandwidth (MHz; DEMO)",
+      "font_size_declared": "29",
+      "estimated_em_height_pt": 8.2205,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-065",
+      "text": "Performance index (a.u.; DEMO)",
+      "font_size_declared": "30",
+      "estimated_em_height_pt": 8.5039,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-066",
+      "text": "Higher values preferred on both axes by DEMO definition",
+      "font_size_declared": "26",
+      "estimated_em_height_pt": 7.3701,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-067",
+      "text": "DEMO ONLY — every plotted number is simulated; no experimental result is shown.",
+      "font_size_declared": "29",
+      "estimated_em_height_pt": 8.2205,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    },
+    {
+      "element": "label-068",
+      "text": "Each arrow joins the same device before → after; panels share axis limits. No kinetic mechanism is i",
+      "font_size_declared": "27",
+      "estimated_em_height_pt": 7.6535,
+      "font_family": "DejaVu Sans, sans-serif",
+      "font_size_explicit_or_inherited": true
+    }
+  ],
+  "images": [],
+  "findings": [],
+  "uncertainties": []
+}

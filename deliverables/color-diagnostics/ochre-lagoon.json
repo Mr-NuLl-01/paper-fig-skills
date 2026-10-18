@@ -1,0 +1,283 @@
+{
+  "method": "sRGB D65, CIELAB delta-E76; Machado2009 severity=1, linear RGB; gamut clipped",
+  "scope": "Finite diagnostic only. Not a universal accessibility pass; inspect actual figures at final size. Grayscale alone need not distinguish all categories.",
+  "source": "https://doi.org/10.1109/TVCG.2009.113",
+  "cases": {
+    "original": {
+      "colors": [
+        "#A9792A",
+        "#2D7F99",
+        "#8A4C69",
+        "#4D7B57",
+        "#786CA0"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        54.322,
+        49.538,
+        40.562,
+        47.535,
+        48.581
+      ],
+      "contrast_to_background": [
+        3.849,
+        4.558,
+        6.328,
+        4.899,
+        4.718
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 26.453
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 32.552
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 36.948
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 49.169
+        }
+      ]
+    },
+    "protanopia": {
+      "colors": [
+        "#8B7B1F",
+        "#707C9A",
+        "#53596A",
+        "#7C7455",
+        "#5F74A2"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        51.559,
+        52.054,
+        37.886,
+        48.8,
+        48.923
+      ],
+      "contrast_to_background": [
+        4.242,
+        4.168,
+        6.989,
+        4.681,
+        4.66
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 10.259
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 15.862
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 20.181
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 31.018
+        }
+      ]
+    },
+    "deuteranopia": {
+      "colors": [
+        "#96872D",
+        "#617199",
+        "#626467",
+        "#746F59",
+        "#60739F"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        56.09,
+        47.817,
+        42.293,
+        46.716,
+        48.574
+      ],
+      "contrast_to_background": [
+        3.621,
+        4.85,
+        5.935,
+        5.047,
+        4.719
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 2.488
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 15.695
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 22.76
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 25.231
+        }
+      ]
+    },
+    "tritanopia": {
+      "colors": [
+        "#B86C69",
+        "#008787",
+        "#924A56",
+        "#467971",
+        "#70757F"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        53.961,
+        50.775,
+        40.706,
+        47.194,
+        49.13
+      ],
+      "contrast_to_background": [
+        3.898,
+        4.361,
+        6.295,
+        4.96,
+        4.626
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 13.794
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "delta_e76": 15.517
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 20.231
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 30.422
+        }
+      ]
+    },
+    "grayscale": {
+      "colors": [
+        "#828282",
+        "#767676",
+        "#606060",
+        "#717171",
+        "#737373"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        54.368,
+        49.637,
+        40.731,
+        47.641,
+        48.441
+      ],
+      "contrast_to_background": [
+        3.843,
+        4.542,
+        6.289,
+        4.881,
+        4.742
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 0.8
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 1.196
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 1.996
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "delta_e76": 4.731
+        }
+      ]
+    }
+  },
+  "name": "ochre-lagoon"
+}

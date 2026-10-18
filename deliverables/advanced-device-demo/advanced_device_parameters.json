@@ -1,0 +1,235 @@
+{
+  "evidence": "DEMO — original teaching geometry; no measured dimensions; not to scale",
+  "scientific_object": "generic top-contact interdigitated photoconductor",
+  "units": "arbitrary illustration units; no physical scale",
+  "layer_order_bottom_to_top": [
+    {
+      "id": "substrate",
+      "z_bottom": 0.0,
+      "thickness": 0.55,
+      "meaning": "mechanical support; material unspecified"
+    },
+    {
+      "id": "dielectric",
+      "z_bottom": 0.55,
+      "thickness": 0.18,
+      "meaning": "electrical isolation from support; material unspecified"
+    },
+    {
+      "id": "semiconductor",
+      "z_bottom": 0.73,
+      "thickness": 0.32,
+      "meaning": "continuous illustrative photoactive semiconductor"
+    }
+  ],
+  "footprint": {
+    "x_min": -5.0,
+    "x_max": 5.0,
+    "y_min": -3.0,
+    "y_max": 3.0
+  },
+  "cutaway": {
+    "x_min": 1.6,
+    "y_max": -2.12,
+    "meaning": "front-right notch removed through all layers; conceptual cut only"
+  },
+  "contacts": {
+    "z_bottom": 1.05,
+    "thickness": 0.11,
+    "finger_width": 0.22,
+    "A": {
+      "bus_x": [
+        -4.25,
+        -3.65
+      ],
+      "bus_y": [
+        -1.85,
+        2.45
+      ],
+      "finger_x": [
+        -3.95,
+        2.95
+      ],
+      "finger_y": [
+        -1.55,
+        -0.55,
+        0.45,
+        1.45
+      ],
+      "terminal_center": [
+        -3.95,
+        2.48
+      ],
+      "terminal_radius": 0.46
+    },
+    "B": {
+      "bus_x": [
+        3.65,
+        4.25
+      ],
+      "bus_y": [
+        -1.85,
+        2.45
+      ],
+      "finger_x": [
+        -2.95,
+        3.95
+      ],
+      "finger_y": [
+        -1.05,
+        -0.05,
+        0.95,
+        1.95
+      ],
+      "terminal_center": [
+        3.95,
+        2.48
+      ],
+      "terminal_radius": 0.46
+    },
+    "meaning": "two connected metal networks, separated from one another; same illustrative metal",
+    "physical_caveat": "no work functions, contact resistances, depletion regions or field solutions specified"
+  },
+  "views": {
+    "overview": {
+      "location": [
+        10,
+        -13,
+        13
+      ],
+      "target": [
+        0,
+        0.0,
+        0.64
+      ],
+      "ortho_scale": 13.25,
+      "resolution": [
+        1600,
+        1100
+      ]
+    },
+    "interface": {
+      "location": [
+        8.5,
+        -11.0,
+        5.7
+      ],
+      "target": [
+        3.25,
+        -2.15,
+        0.57
+      ],
+      "ortho_scale": 4.5,
+      "resolution": [
+        900,
+        900
+      ]
+    }
+  },
+  "presentation": {
+    "surface_colors": "part identity only; not chemistry, field magnitude or measured optical color",
+    "roughness": "illustration material setting, not a measurement",
+    "edge_rounding": "illustration readability only, not fabricated edge radius",
+    "denoising": "synthetic Cycles image only; never experimental pixels"
+  },
+  "geometry_checks": {
+    "A_fingers": 4,
+    "B_fingers": 4,
+    "minimum_between_row_gap_illustration_units": 0.28,
+    "opposite_bus_tip_gaps_illustration_units": [
+      0.7,
+      0.7
+    ],
+    "cutaway_intersects_contacts": false,
+    "physical_electrical_or_optical_model": "not evaluated"
+  },
+  "annotation_canvas": [
+    1600,
+    1040
+  ],
+  "render_placement": {
+    "overview": [
+      0,
+      170,
+      1080,
+      742.5
+    ],
+    "interface": [
+      1115,
+      312,
+      435,
+      435
+    ]
+  },
+  "annotation_anchors_canvas_pixels": {
+    "overview_A": [
+      408.05,
+      292.83
+    ],
+    "overview_B": [
+      918.44,
+      529.12
+    ],
+    "overview_film": [
+      157.58,
+      439.64
+    ],
+    "overview_interface": [
+      673.69,
+      728.49
+    ],
+    "interface_film": [
+      1250.84,
+      476.97
+    ],
+    "interface_dielectric": [
+      1304.88,
+      514.63
+    ],
+    "interface_substrate": [
+      1388.02,
+      567.78
+    ]
+  },
+  "annotation_anchors_world_illustration_units": {
+    "overview": {
+      "overview_A": [
+        -3.95,
+        2.48,
+        1.16
+      ],
+      "overview_B": [
+        3.95,
+        2.48,
+        1.16
+      ],
+      "overview_film": [
+        -4.65,
+        -1.65,
+        1.05
+      ],
+      "overview_interface": [
+        3.7,
+        -2.12,
+        0.73
+      ]
+    },
+    "interface": {
+      "interface_film": [
+        2.25,
+        -2.12,
+        0.91
+      ],
+      "interface_dielectric": [
+        2.9,
+        -2.12,
+        0.64
+      ],
+      "interface_substrate": [
+        3.9,
+        -2.12,
+        0.28
+      ]
+    }
+  }
+}

@@ -1,0 +1,645 @@
+{
+  "checks": {
+    "black_L_star": 0.0,
+    "white_L_star": 100.00000386666655,
+    "black_white_contrast": [
+      21.0,
+      1.0
+    ],
+    "neutral_CVD": {
+      "protanopia": "#808080",
+      "deuteranopia": "#808080",
+      "tritanopia": "#808080"
+    },
+    "invalid_hex_rejected": true,
+    "sRGB_roundtrip": true,
+    "palettes_audited": 12
+  },
+  "palettes": {
+    "indigo-copper": {
+      "original": {
+        "nearest": {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 29.675
+        },
+        "clipped_components": 0
+      },
+      "protanopia": {
+        "nearest": {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 16.202
+        },
+        "clipped_components": 1
+      },
+      "deuteranopia": {
+        "nearest": {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 15.837
+        },
+        "clipped_components": 1
+      },
+      "tritanopia": {
+        "nearest": {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 16.157
+        },
+        "clipped_components": 1
+      },
+      "grayscale": {
+        "nearest": {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 0.0
+        },
+        "clipped_components": 0
+      }
+    },
+    "plum-celadon": {
+      "original": {
+        "nearest": {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 23.675
+        },
+        "clipped_components": 0
+      },
+      "protanopia": {
+        "nearest": {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 5.824
+        },
+        "clipped_components": 1
+      },
+      "deuteranopia": {
+        "nearest": {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 10.562
+        },
+        "clipped_components": 1
+      },
+      "tritanopia": {
+        "nearest": {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 17.372
+        },
+        "clipped_components": 0
+      },
+      "grayscale": {
+        "nearest": {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 0.0
+        },
+        "clipped_components": 0
+      }
+    },
+    "forest-rose": {
+      "original": {
+        "nearest": {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 15.673
+        },
+        "clipped_components": 0
+      },
+      "protanopia": {
+        "nearest": {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 8.681
+        },
+        "clipped_components": 1
+      },
+      "deuteranopia": {
+        "nearest": {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 12.113
+        },
+        "clipped_components": 1
+      },
+      "tritanopia": {
+        "nearest": {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 11.91
+        },
+        "clipped_components": 0
+      },
+      "grayscale": {
+        "nearest": {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 0.0
+        },
+        "clipped_components": 0
+      }
+    },
+    "cobalt-vermillion": {
+      "original": {
+        "nearest": {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 29.428
+        },
+        "clipped_components": 0
+      },
+      "protanopia": {
+        "nearest": {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 6.938
+        },
+        "clipped_components": 1
+      },
+      "deuteranopia": {
+        "nearest": {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 11.587
+        },
+        "clipped_components": 1
+      },
+      "tritanopia": {
+        "nearest": {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 10.931
+        },
+        "clipped_components": 2
+      },
+      "grayscale": {
+        "nearest": {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 0.792
+        },
+        "clipped_components": 0
+      }
+    },
+    "ochre-lagoon": {
+      "original": {
+        "nearest": {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 26.453
+        },
+        "clipped_components": 0
+      },
+      "protanopia": {
+        "nearest": {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 10.259
+        },
+        "clipped_components": 1
+      },
+      "deuteranopia": {
+        "nearest": {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 2.488
+        },
+        "clipped_components": 1
+      },
+      "tritanopia": {
+        "nearest": {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 13.794
+        },
+        "clipped_components": 1
+      },
+      "grayscale": {
+        "nearest": {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 0.8
+        },
+        "clipped_components": 0
+      }
+    },
+    "berry-olive": {
+      "original": {
+        "nearest": {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 21.916
+        },
+        "clipped_components": 0
+      },
+      "protanopia": {
+        "nearest": {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 3.57
+        },
+        "clipped_components": 1
+      },
+      "deuteranopia": {
+        "nearest": {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 8.882
+        },
+        "clipped_components": 1
+      },
+      "tritanopia": {
+        "nearest": {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 14.563
+        },
+        "clipped_components": 0
+      },
+      "grayscale": {
+        "nearest": {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 0.791
+        },
+        "clipped_components": 0
+      }
+    },
+    "navy-mint": {
+      "original": {
+        "nearest": {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 27.997
+        },
+        "clipped_components": 0
+      },
+      "protanopia": {
+        "nearest": {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 9.475
+        },
+        "clipped_components": 1
+      },
+      "deuteranopia": {
+        "nearest": {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 5.717
+        },
+        "clipped_components": 1
+      },
+      "tritanopia": {
+        "nearest": {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 14.638
+        },
+        "clipped_components": 2
+      },
+      "grayscale": {
+        "nearest": {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 0.388
+        },
+        "clipped_components": 0
+      }
+    },
+    "terracotta-cyan": {
+      "original": {
+        "nearest": {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 25.819
+        },
+        "clipped_components": 0
+      },
+      "protanopia": {
+        "nearest": {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 11.095
+        },
+        "clipped_components": 1
+      },
+      "deuteranopia": {
+        "nearest": {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 8.519
+        },
+        "clipped_components": 1
+      },
+      "tritanopia": {
+        "nearest": {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 21.307
+        },
+        "clipped_components": 1
+      },
+      "grayscale": {
+        "nearest": {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 0.799
+        },
+        "clipped_components": 0
+      }
+    },
+    "violet-chartreuse": {
+      "original": {
+        "nearest": {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 27.772
+        },
+        "clipped_components": 0
+      },
+      "protanopia": {
+        "nearest": {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 8.521
+        },
+        "clipped_components": 1
+      },
+      "deuteranopia": {
+        "nearest": {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 16.425
+        },
+        "clipped_components": 1
+      },
+      "tritanopia": {
+        "nearest": {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 16.428
+        },
+        "clipped_components": 1
+      },
+      "grayscale": {
+        "nearest": {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 0.818
+        },
+        "clipped_components": 0
+      }
+    },
+    "graphite-saffron": {
+      "original": {
+        "nearest": {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 26.608
+        },
+        "clipped_components": 0
+      },
+      "protanopia": {
+        "nearest": {
+          "pair": [
+            1,
+            4
+          ],
+          "delta_e76": 12.268
+        },
+        "clipped_components": 1
+      },
+      "deuteranopia": {
+        "nearest": {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 2.855
+        },
+        "clipped_components": 1
+      },
+      "tritanopia": {
+        "nearest": {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 14.464
+        },
+        "clipped_components": 1
+      },
+      "grayscale": {
+        "nearest": {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 0.403
+        },
+        "clipped_components": 0
+      }
+    },
+    "marine-burgundy": {
+      "original": {
+        "nearest": {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 21.615
+        },
+        "clipped_components": 0
+      },
+      "protanopia": {
+        "nearest": {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 6.44
+        },
+        "clipped_components": 1
+      },
+      "deuteranopia": {
+        "nearest": {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 2.482
+        },
+        "clipped_components": 1
+      },
+      "tritanopia": {
+        "nearest": {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 19.423
+        },
+        "clipped_components": 1
+      },
+      "grayscale": {
+        "nearest": {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 0.0
+        },
+        "clipped_components": 0
+      }
+    },
+    "sage-iris": {
+      "original": {
+        "nearest": {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 25.612
+        },
+        "clipped_components": 0
+      },
+      "protanopia": {
+        "nearest": {
+          "pair": [
+            1,
+            3
+          ],
+          "delta_e76": 5.483
+        },
+        "clipped_components": 1
+      },
+      "deuteranopia": {
+        "nearest": {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 8.607
+        },
+        "clipped_components": 1
+      },
+      "tritanopia": {
+        "nearest": {
+          "pair": [
+            1,
+            2
+          ],
+          "delta_e76": 16.837
+        },
+        "clipped_components": 1
+      },
+      "grayscale": {
+        "nearest": {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 1.175
+        },
+        "clipped_components": 0
+      }
+    }
+  },
+  "scope": "Finite numeric diagnostics, not figure-level accessibility certification"
+}

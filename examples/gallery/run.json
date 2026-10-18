@@ -1,0 +1,136 @@
+{
+  "status": "USER_VISUAL_APPROVED",
+  "date": "2026-10-18",
+  "base_commit": "2b61de2ffc761c002f5a136379c0f649287d1aa6",
+  "execution_surface": "OpenAI dot cloud workspace",
+  "language_model_id": "not_exposed",
+  "reasoning_effort": "not_exposed",
+  "image_generation_model": null,
+  "other_scientific_drawing_skills_used": [],
+  "drawing_libraries": {
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "os": "Linux",
+  "seed": 20261018,
+  "source_kind": "synthetic numbers / conceptual geometry only",
+  "skills_and_references_read": [
+    {
+      "path": "skills/sci-figure-image/SKILL.md",
+      "sha256": "679e96e400ee828bfb666733c33687fda53bba679406f063672a7a0c2492db78"
+    },
+    {
+      "path": "skills/sci-figure-data/SKILL.md",
+      "sha256": "4bddb2ce104347605f710436746c2a49c2f6072fd5d36731e13428073294ee37"
+    },
+    {
+      "path": "skills/sci-figure-review/SKILL.md",
+      "sha256": "b5d77167e08f29533ed9240349fcf47d8167041263749be844d8fbd5b97cd37d"
+    },
+    {
+      "path": "skills/sci-figure-director/SKILL.md",
+      "sha256": "3de93290ecd7de05f13613a1f550e48228aeab76ee6bb449b7b06aaca6490582"
+    },
+    {
+      "path": "skills/sci-figure-device/SKILL.md",
+      "sha256": "0819a5162b180c307b1197f3d82559c5c6991ea1bd5382768c2aba13fa9b79f6"
+    },
+    {
+      "path": "skills/sci-figure-compose/SKILL.md",
+      "sha256": "37d488c54793a6e5cd61dd980ff6d0de5b39271b04cd4096ee1a2a3954fc90d4"
+    },
+    {
+      "path": "skills/sci-figure-process/SKILL.md",
+      "sha256": "16c2e585674bb70002793b95f478874a4f1d11262ab5849af8b99754574d4f57"
+    },
+    {
+      "path": "skills/sci-figure-color/SKILL.md",
+      "sha256": "a84f9e84d3fec3a6776dc40a939376775faa8a6d768d92eac4fd15168ff0dfec"
+    },
+    {
+      "path": "skills/sci-figure-mechanism/SKILL.md",
+      "sha256": "df0b0d2c316ee56133378db4d5176daf404981f17422d59ad0ff6a179e3cd0f1"
+    },
+    {
+      "path": "skills/sci-figure-data/references/task-cases.md",
+      "sha256": "212f80006e5ffc790124059f0f83e08e008c13365eb0fbb76d20baa62d8abfd1"
+    },
+    {
+      "path": "skills/sci-figure-data/references/scientific-checks.md",
+      "sha256": "38a844b4a57a7301d012dcb25ebe3f5ab87ef3d528a966d76871d6505680fe75"
+    },
+    {
+      "path": "skills/sci-figure-image/references/volume-fields-and-cases.md",
+      "sha256": "9b236459383e46bf2cf97802ff84f968bbd7f812f650d782039354e69b2f8382"
+    },
+    {
+      "path": "skills/sci-figure-compose/references/layout-strategies.md",
+      "sha256": "e88eef226c07f8a43ae422448a03a799299e103a2a8fa58e65af338ad34c9ddf"
+    },
+    {
+      "path": "skills/sci-figure-compose/references/editable-production.md",
+      "sha256": "fdc214a16ab56c005e11b6610f5f9c81a245ce4dfad86ee68c2841308668e688"
+    },
+    {
+      "path": "skills/sci-figure-color/references/color-semantics.md",
+      "sha256": "7d49c507e8f893ebde75ad56f8b04c74cb53be66d7a6e0081afe55923ba3e671"
+    },
+    {
+      "path": "skills/sci-figure-director/references/brief-contract.md",
+      "sha256": "da1043f75896aa4eb0bfa63143e95536916a2b16f3429d247defee1e5f82dbce"
+    },
+    {
+      "path": "skills/sci-figure-review/references/review-report.md",
+      "sha256": "cffdb843e1b8cb7592ee2c80cd9126bbbd672f0cd7811459fcd2937362db8b0c"
+    },
+    {
+      "path": "skills/sci-figure-device/references/geometry-and-export.md",
+      "sha256": "87a5de6a4efb0bf36b952fab58440c7e6d8bd72c244cd6430041a2f68a09c185"
+    },
+    {
+      "path": "skills/sci-figure-device/references/routes-and-evidence.md",
+      "sha256": "5905b759da79283566986cf636819607777e3843230608302d3f9d068e1bfbfe"
+    },
+    {
+      "path": "skills/sci-figure-process/references/semantics-and-delivery.md",
+      "sha256": "8b47caf21c88e70aeca0616b9331f27ffffea5509005a567041f07d73e6d022c"
+    },
+    {
+      "path": "skills/sci-figure-mechanism/references/physics-grammar.md",
+      "sha256": "45a5eb5006bf5176828acbe57ddd766842e256cdacc7ef3772f41550c291e66d"
+    },
+    {
+      "path": "skills/sci-figure-color/assets/palettes.json",
+      "sha256": "8d84c72d4b72a9950ba476b0f7dc139ee945e4e902afcf6f608cee53f6c5136b"
+    }
+  ],
+  "note": "data/image/compose entrypoints were extended after the initial reading; hashes here identify the candidate files. Original hashes remain in SKILL-MANIFEST.json. No named-model benchmark claim.",
+  "revision": "R5",
+  "rendering_backend": "NumPy/Matplotlib; optional Blender Cycles 128 samples, 2 CPU threads",
+  "conceptual_diagrams": "fixed-seed Voronoi growth geometry; six-layer LED display stack; invented energy levels",
+  "synthetic_sample_count": 90,
+  "source_reference_redistributed": false,
+  "blender_version": "4.3.2",
+  "skill_use_note": "All nine entrypoints read; relevant reference files actually read; user requested no other scientific-drawing skill. Current file hashes identify candidate updates.",
+  "example_05_mask": "none; complete synthetic array",
+  "example_06_scalar": "signed difference of analytic Gaussians; RdBu_r; vmin=-1 vmax=1 center=0",
+  "example_08_cmap": {
+    "colors": [
+      "#3e8093",
+      "#e6e2df",
+      "#c75d40"
+    ],
+    "quantity": "signed analytic Gaussian difference",
+    "range": [
+      -1,
+      1
+    ],
+    "center": 0,
+    "reference": "user-supplied palette example, approximate original color choices; no reference pixels redistributed"
+  },
+  "growth3d": "11 fixed-seed Voronoi footprints; conceptual faceted prisms; 3 states; Cycles 64 samples / 2 CPU threads",
+  "device_labels": "world_to_camera_view projected anchors stored in label_points.json",
+  "example_08_occlusion": "joint Poly3DCollection; both planes subdivided at intersection; 1800 opaque quads sorted together",
+  "visual_approval_date": "2026-10-18"
+}

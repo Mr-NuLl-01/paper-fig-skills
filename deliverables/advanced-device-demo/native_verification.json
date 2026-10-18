@@ -1,0 +1,50 @@
+{
+  "native_file_reopened": "/workspace/scratch/bff0697374b8/figure-atlas/deliverables/advanced-device-demo/advanced_device_demo.blend",
+  "blender_version": "4.5.0",
+  "reopened_render": "advanced_device_reopened_check.png",
+  "mesh_objects": {
+    "Layer_substrate__real_front_notch": {
+      "vertices": 12,
+      "edges": 18,
+      "polygons": 8,
+      "connected_components": 1,
+      "nonmanifold_edges": 0,
+      "volume_arbitrary_illustration_units": 31.354400477123257
+    },
+    "Layer_dielectric__real_front_notch": {
+      "vertices": 12,
+      "edges": 18,
+      "polygons": 8,
+      "connected_components": 1,
+      "nonmanifold_edges": 0,
+      "volume_arbitrary_illustration_units": 10.2614403414917
+    },
+    "Layer_semiconductor__real_front_notch": {
+      "vertices": 12,
+      "edges": 18,
+      "polygons": 8,
+      "connected_components": 1,
+      "nonmanifold_edges": 0,
+      "volume_arbitrary_illustration_units": 18.242556076507594
+    },
+    "Contact_A__continuous_network": {
+      "vertices": 278,
+      "edges": 396,
+      "polygons": 120,
+      "connected_components": 1,
+      "nonmanifold_edges": 0,
+      "volume_arbitrary_illustration_units": 0.9696815657446802
+    },
+    "Contact_B__continuous_network": {
+      "vertices": 289,
+      "edges": 416,
+      "polygons": 129,
+      "connected_components": 1,
+      "nonmanifold_edges": 0,
+      "volume_arbitrary_illustration_units": 0.969681563040119
+    }
+  },
+  "camera_count": 2,
+  "evidence": "DEMO — original teaching geometry; no measured dimensions; not to scale",
+  "scope": "geometry connectivity/manifold/native reopen checks only; no physical simulation"
+}

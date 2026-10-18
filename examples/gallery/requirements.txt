@@ -1,0 +1,4 @@
+# Versions actually used for this candidate are recorded in run.json.
+# These broad ranges are not a claim of testing every supported version.
+numpy>=1.24,<3
+matplotlib>=3.7,<4

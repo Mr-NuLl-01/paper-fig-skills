@@ -27,3 +27,7 @@ local-data/
 *.blend1
 *.blend2
 *.log
+
+# Local build/editor backups
+*.blend1
+examples/gallery/.regenerate*.py

@@ -1,0 +1,46 @@
+{
+  "source_rows": 30,
+  "unique_devices": 15,
+  "batch_device_counts": {
+    "B1": 5,
+    "B2": 5,
+    "B3": 5
+  },
+  "before_after_counts": {
+    "before": 15,
+    "after": 15
+  },
+  "all_values_within_axes": true,
+  "svg_live_text_count": 58,
+  "svg_group_count": 34,
+  "svg_embedded_or_linked_images": 0,
+  "mechanical_findings": [],
+  "mechanical_uncertainties": [],
+  "font_point_range": [
+    7.3701,
+    10.2047
+  ],
+  "rendered_text_outside_canvas": [],
+  "rendered_text_bbox_intersections": [],
+  "bbox_scope": "Inkscape-rendered object bounds; no scientific validation and no test of external editor font substitution",
+  "demo_performance_bandwidth.png": {
+    "pixels": [
+      2126,
+      1228
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ]
+  },
+  "size_review_180mm.png": {
+    "pixels": [
+      1200,
+      693
+    ],
+    "dpi": [
+      169.3164,
+      169.3164
+    ]
+  }
+}

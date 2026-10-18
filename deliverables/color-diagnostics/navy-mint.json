@@ -1,0 +1,283 @@
+{
+  "method": "sRGB D65, CIELAB delta-E76; Machado2009 severity=1, linear RGB; gamut clipped",
+  "scope": "Finite diagnostic only. Not a universal accessibility pass; inspect actual figures at final size. Grayscale alone need not distinguish all categories.",
+  "source": "https://doi.org/10.1109/TVCG.2009.113",
+  "cases": {
+    "original": {
+      "colors": [
+        "#263E66",
+        "#3A9589",
+        "#BC728F",
+        "#A88640",
+        "#817C9F"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        26.205,
+        56.286,
+        56.793,
+        57.796,
+        53.584
+      ],
+      "contrast_to_background": [
+        10.696,
+        3.596,
+        3.534,
+        3.415,
+        3.95
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 27.997
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 29.044
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 42.634
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "delta_e76": 47.797
+        }
+      ]
+    },
+    "protanopia": {
+      "colors": [
+        "#2D4168",
+        "#8E8D89",
+        "#7B8090",
+        "#958639",
+        "#7481A1"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        27.676,
+        58.609,
+        53.667,
+        55.823,
+        54.012
+      ],
+      "contrast_to_background": [
+        10.157,
+        3.322,
+        3.938,
+        3.654,
+        3.891
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 9.475
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 12.674
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 21.629
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 27.228
+        }
+      ]
+    },
+    "deuteranopia": {
+      "colors": [
+        "#253B65",
+        "#80838A",
+        "#8D8D8D",
+        "#9D8E42",
+        "#747F9E"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 1,
+      "L_star": [
+        25.139,
+        54.717,
+        58.635,
+        58.89,
+        53.341
+      ],
+      "contrast_to_background": [
+        11.098,
+        3.797,
+        3.319,
+        3.291,
+        3.983
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 5.717
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 14.132
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "delta_e76": 18.956
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 29.861
+        }
+      ]
+    },
+    "tritanopia": {
+      "colors": [
+        "#00474D",
+        "#009891",
+        "#C76F7C",
+        "#B57B76",
+        "#7B8288"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 2,
+      "L_star": [
+        26.854,
+        56.584,
+        57.045,
+        57.366,
+        53.978
+      ],
+      "contrast_to_background": [
+        10.456,
+        3.559,
+        3.504,
+        3.466,
+        3.896
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 14.638
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "delta_e76": 28.467
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "delta_e76": 31.699
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 33.693
+        }
+      ]
+    },
+    "grayscale": {
+      "colors": [
+        "#3E3E3E",
+        "#878787",
+        "#888888",
+        "#8B8B8B",
+        "#808080"
+      ],
+      "background": "#FFFFFF",
+      "clipped_components": 0,
+      "L_star": [
+        26.207,
+        56.315,
+        56.703,
+        57.864,
+        53.585
+      ],
+      "contrast_to_background": [
+        10.696,
+        3.592,
+        3.545,
+        3.407,
+        3.949
+      ],
+      "nearest_pairs": [
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "delta_e76": 0.388
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "delta_e76": 1.161
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "delta_e76": 1.549
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "delta_e76": 2.73
+        }
+      ]
+    }
+  },
+  "name": "navy-mint"
+}
